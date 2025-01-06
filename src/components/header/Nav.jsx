@@ -3,9 +3,11 @@ import { navmenu } from "../../mockdata/data";
 const Nav = () => {
   return (
     <nav>
-      <div className="bg-amber-100  gap-x-28 flex justify-between mt-3 ml-3 mr-3 rounded-xl shadow-lg hover:shadow-orange-200">
+      <div className="bg-amber-100  gap-x-28 flex justify-between shadow-lg hover:shadow-orange-200">
         <div className=" gap-x-28 flex justify-start">
-          <div className=" ml-24 p-5">logo</div>
+          <div className=" ml-24 p-5">
+            <img src="./img/logo.png" alt="" srcset="" />
+          </div>
 
           <div className="  flex items-center justify-center">
             <ul className="flex space-x-6 p-5">
@@ -22,6 +24,9 @@ const Nav = () => {
                 );
               })}
             </ul>
+          </div>
+          <div className="p-5">
+              {/* search box */}
           </div>
         </div>
         <div className="  space-x-10 p-5">
