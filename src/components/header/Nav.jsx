@@ -4,13 +4,14 @@ const Nav = () => {
   return (
     <nav>
       <div className="bg-amber-100  gap-x-28 flex justify-between shadow-lg hover:shadow-orange-200">
-        <div className=" gap-x-28 flex justify-start">
-          <div className=" ml-24 p-5">
-            <img src="./img/logo.png" alt="" srcset="" />
+        <div className="gap-x-28 flex justify-start">
+          <div className="flex items-center justify-cente relative">
+            <img src="./image/logo.png" alt="" srcset="" className="size-20 absolute left-0 top-[6px]" />
+            <p className="ml-14 text-xl font-semibold">Cookie UI</p>
           </div>
 
           <div className="  flex items-center justify-center">
-            <ul className="flex space-x-6 p-5">
+            <ul className="flex space-x-6">
               {navmenu.map((item) => {
                 return (
                   <li key={item.id} className="transition-transform duration-300 hover:scale-110">
