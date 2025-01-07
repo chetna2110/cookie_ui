@@ -10,7 +10,7 @@ const Nav = () => {
             <p className="ml-14 text-xl italic font-semibold">Cookie UI</p>
           </div>
 
-          <div className="  flex items-center justify-center">
+          <div className="  flex items-center justify-center ">
             <ul className="flex space-x-6">
               {navmenu.map((item) => {
                 return (
@@ -22,14 +22,14 @@ const Nav = () => {
                       {item.title}
                     </a>
                   </li>
-                );
+                );lg:h-14 
               })}
             </ul>
           </div>
-          <div className="p-5">
-              <input type="search" name="" id="" className="h-10 w-96 border border-amber-600 rounded-lg focus:outline-none pl-2  ::-webkit-search-cancel-button " />
+          <div className="  p-5 ">
+              <input type="search" name="" id=""  placeholder="Search..."className="h-10 w-96  border border-amber-500 rounded-lg focus:outline-none pl-2 focus:border-amber-800 focus:shadow-md " />
           </div>
-        <div className="  space-x-10 p-5">
+        <div className="space-x-10 p-5">
           <button class="bg-amber-600 rounded-lg p-2 font-semibold ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce">
             Sign in
           </button>
