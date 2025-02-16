@@ -6,9 +6,7 @@ export default function App() {
     <div>
       <Nav/>
       <Hero/>
-      <Footer/> 
-     
-
+      <Footer/>
     </div>
   )
 }
