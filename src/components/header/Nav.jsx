@@ -51,10 +51,10 @@ const Nav = () => {
 
         {/* Buttons */}
         <div className="flex gap-4">
-          <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
+          <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
             Sign in
           </button>
-          <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
+          <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
             Sign up
           </button>
         </div>
