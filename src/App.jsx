@@ -1,13 +1,15 @@
 import Nav from "./components/header/Nav";
 import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
-import Card from "./components/cards/Card";
+import Grid from "./components/grid/Grid";
+import Grid2 from "./components/grid/Grid2";
 export default function App() {
   return (
     <div>
       <Nav/>
       <Hero/>
-      <Card/>
+      <Grid/>
+      <Grid2/>
       <Footer/> 
      
 
