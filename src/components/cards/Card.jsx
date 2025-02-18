@@ -3,7 +3,7 @@ const Card = ({item}) => {
   return (
     <div className="bg-amber-100 mt-12 grid grid-cols-1 w-96 rounded-md shadow-lg overflow-hidden ml-4">
       <img
-        src="./image/forms.webp"
+        src={item.path}
         alt="image"
         className="w-full h-48 object-cover"
       />
