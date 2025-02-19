@@ -16,11 +16,12 @@ const Signin = () => {
           <div className="flex justify-center mt-2 ">
             <img className=" w-28 h-28 " src="./image/logo.png" alt="" />
           </div>
-            <p className="text-xl text-center text-black">Welcome back!</p>
-          
+          <p className="text-xl text-center text-black">Welcome back!</p>
+
           <a
             href="#"
-            className="flex it ems-center justify-center mt-4 text-black transition-colors duration-300 transform border rounded-lg"
+            className="flex it ems-center justify-center mt-4 text-black
+             rounded-lg bg-amber-400 "
           >
             <div className="px-4 py-2 ">
               <svg className="w-6 h-6 " viewBox="0 0 40 40">
