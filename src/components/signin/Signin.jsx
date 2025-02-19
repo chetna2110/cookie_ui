@@ -95,8 +95,8 @@ const Signin = () => {
             />
           </div>
 
-          <div className="mt-6">
-            <button className="w-full px-6 py-3 text-sm font-medium tracking-wide text-black capitalize transition-colors duration-300 transform rounded-lg focus:outline-none focus:ring focus:ring-gray-300 focus:ring-opacity-50">
+          <div className="mt-6 bg-amber-400 rounded-lg">
+            <button className="w-full px-6 py-3 text-sm font-medium tracking-wide text-black capitalize transition-colors duration-300 transform rounded-lg focus:outline-none focus:ring focus:border-amber-400 focus:ring-amber-300 focus:ring-opacity-40">
               Sign In
             </button>
           </div>
