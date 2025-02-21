@@ -7,10 +7,11 @@ import Hero from "./components/hero/Hero.jsx"
 import Grid from "./components/grid/Grid.jsx"
 import Grid2 from "./components/grid/Grid2.jsx"
 import BlogHero from './components/blog/BlogHero.jsx'
-import { ClerkProvider } from '@clerk/clerk-react'
+import { ClerkProvider, SignIn, SignUp } from '@clerk/clerk-react'
 import Sign from './components/signin/Sign.jsx'
 import Register from './components/signup/register.jsx'
-import GridComponent from './components/grid/GridComponent.jsx'
+import Bloggrid from './components/blog/bloggrid.jsx'
+import Docs from './components/docs/Docs.jsx'
 
 const clerk_key=import.meta.env.VITE_CLERK_KEY;
 
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        index: true, // Use `index` for the default child route
+        path: "",
         element: (
           <>
             <Hero />
@@ -36,13 +37,16 @@ const router = createBrowserRouter([
             <Grid2 />
           </>
         ),
-        children: [
-          
-        ],
       },
       {
         path: "signin",
         element: <Sign />,
+        children: [
+          {
+            path: "signup",
+            element: <Register />,
+          },
+        ],
       },
       {
         path: "signup",
@@ -50,12 +54,17 @@ const router = createBrowserRouter([
       },
       {
         path: "blog",
-        element: <BlogHero />,
+        element: 
+          <>
+            <BlogHero />
+            <Bloggrid/>
+          </>
+        
       },
       {
-        path: "/categories/:categoryId",
-        element: <GridComponent />,
-      },
+        path:"docs",
+        element:<Docs/>
+      }
     ],
   },
 ]);
