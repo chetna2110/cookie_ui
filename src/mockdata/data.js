@@ -7,17 +7,17 @@ export const navmenu=[
     {
         id:2,
         title:"Categories",
-        link:'#'
+        link:"categories"
     },
     {
         id:3,
         title:"Blog",
-        link:'#'
+        link:'blog'
 
     },
     {
         id:4,
         title:"Docs",
-        link:'#'
+        link:'docs'
     }
 ]

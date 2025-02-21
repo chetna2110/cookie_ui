@@ -1,5 +1,6 @@
 import React from "react";
 import { navmenu } from "../../mockdata/data";
+import { Link, Links } from "react-router-dom";
 
 const Nav = () => {
   return (
@@ -22,17 +23,17 @@ const Nav = () => {
         <div className="flex items-center">
           <ul className="flex gap-2 sm:gap-4 lg:gap-6">
             {navmenu.map((item) => (
-              <li
-                key={item.id}
-                className="transition-transform duration-300 hover:scale-110"
-              >
-                <a
-                  href={item.link}
-                  className="font-semibold hover:bg-amber-700 hover:text-white px-3 py-2 rounded-lg transition-transform duration-300 text-sm sm:text-base"
+                <li
+                  key={item.id}
+                  className="transition-transform duration-300 hover:scale-110"
                 >
-                  {item.title}
-                </a>
-              </li>
+                  <Link
+                    to={item.link}
+                    className="font-semibold hover:bg-amber-700 hover:text-white px-3 py-2 rounded-lg transition-transform duration-300 text-sm sm:text-base"
+                  >
+                    {item.title}
+                  </Link>
+                </li>
             ))}
           </ul>
         </div>
@@ -51,12 +52,16 @@ const Nav = () => {
 
         {/* Buttons */}
         <div className="flex gap-4">
-          <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
-            Sign in
-          </button>
-          <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
-            Sign up
-          </button>
+          <Link to="/signin">
+            <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
+              Sign in
+            </button>
+          </Link>
+          <Link to="/signup">
+            <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
+              Sign up
+            </button>
+          </Link>
         </div>
       </div>
     </nav>

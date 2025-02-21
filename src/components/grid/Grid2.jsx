@@ -9,8 +9,8 @@ const Grid2 = () => {
         Marketing UI
       </p>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 ml-8 ">
-        {data2.map((item) => (
-          <Card item={item} />
+        {data2.map((item,index) => (
+          <Card key={index} item={item} />
         ))}
       </div>
     </div>

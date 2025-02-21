@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Signin = () => {
   return (
@@ -106,12 +107,12 @@ const Signin = () => {
           <div className="flex items-center justify-between mt-4">
             <span className="w-1/5 border-b md:w-1/4"></span>
 
-            <a
-              href="#"
+            <Link
+              to="/signup"
               className="text-xs text-black uppercase hover:underline"
             >
               or sign up
-            </a>
+            </Link>
 
             <span className="w-1/5 border-b md:w-1/4"></span>
           </div>
