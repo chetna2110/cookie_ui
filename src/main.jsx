@@ -12,6 +12,8 @@ import BlogHero from './components/blog/BlogHero.jsx'
 import { ClerkProvider, SignIn, SignUp } from '@clerk/clerk-react'
 import Sign from './components/signin/Sign.jsx'
 import Register from './components/signup/register.jsx'
+import Bloggrid from './components/blog/bloggrid.jsx'
+import Docs from './components/docs/Docs.jsx'
 
 const clerk_key=import.meta.env.VITE_CLERK_KEY;
 
@@ -22,31 +24,48 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <><Hero/>
-        <Grid/>
-        </>
+        element: (
+          <>
+            <Hero />
+            <Grid />
+          </>
+        ),
       },
       {
-        path:"categories",
-        element:<><Grid/><Grid2/></>
+        path: "categories",
+        element: (
+          <>
+            <Grid />
+            <Grid2 />
+          </>
+        ),
       },
       {
-        path:"signin",
-        element:<Sign/>,
-        children:[
+        path: "signin",
+        element: <Sign />,
+        children: [
           {
-            path:"signup",
-            element:<Register/>
-          }
-        ]
+            path: "signup",
+            element: <Register />,
+          },
+        ],
       },
       {
-        path:"signup",
-        element:<Register/>
+        path: "signup",
+        element: <Register />,
       },
       {
-        path:"blog",
-        element:<BlogHero/>
+        path: "blog",
+        element: 
+          <>
+            <BlogHero />
+            <Bloggrid/>
+          </>
+        
+      },
+      {
+        path:"docs",
+        element:<Docs/>
       }
     ],
   },

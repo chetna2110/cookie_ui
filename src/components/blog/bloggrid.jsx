@@ -1,15 +1,18 @@
 import React from 'react'
+import Blogcard from '../cards/Blogcard';
+import { datablog } from '../../mockdata/blogData';
 
-const bloggrid = () => {
+const Bloggrid = () => {
   return (
     <div>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 ml-8 ">
-        {data.map((item) => (
-          <Card item={item} />
+        {datablog.map((item, index) => (
+          < Blogcard  key={index}item={item} />
         ))}
+        
       </div>
     </div>
   );
 }
 
-export default bloggrid
+export default Bloggrid
