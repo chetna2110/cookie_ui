@@ -65,9 +65,9 @@ const CodePreview = ({item}) => {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto flex flex-col gap-4 p-4 border rounded-lg bg-white dark:bg-gray-900 shadow-md">
+    <div className="w-full max-w-7xl mx-auto flex flex-col gap-4 p-4 border rounded-lg bg-amber-50 shadow-md mt-10">
       {/* Control Buttons */}
-      <div className="flex justify-between items-center px-4 py-3 bg-gray-200 dark:bg-gray-800 rounded-md">
+      <div className="flex justify-between items-center px-4 py-3 bg-amber-50 rounded-md">
         {/* Component Name */}
         <div className="text-xl font-bold ">{item.name}</div>
 
@@ -78,8 +78,8 @@ const CodePreview = ({item}) => {
               key={type}
               className={`p-2 rounded-md transition-all ${
                 view === type
-                  ? "bg-gray-400 dark:bg-gray-700"
-                  : "hover:bg-gray-300 dark:hover:bg-gray-600"
+                  ? "bg-amber-200 dark:bg-amber-400"
+                  : "hover:bg-amber-300 dark:hover:bg-amber-100"
               }`}
               onClick={() => setView(type)}
             >
@@ -101,12 +101,12 @@ const CodePreview = ({item}) => {
               setDarkMode(!darkMode);
               updateIframe();
             }}
-            className="p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600"
+            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
           >
             {darkMode ? (
-              <MdLightMode size={22} className="text-yellow-400" />
+              <MdLightMode size={22} className="text-gray-800" />
             ) : (
-              <MdDarkMode size={22} className="text-gray-800 dark:text-white" />
+              <MdDarkMode size={22} className="text-gray-800 dark:text-gray-800" />
             )}
           </button>
 
@@ -116,7 +116,7 @@ const CodePreview = ({item}) => {
               setIsRTL(!isRTL);
               updateIframe();
             }}
-            className="p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600"
+            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
           >
             {isRTL ? <FaAlignLeft size={20} /> : <FaAlignRight size={20} />}
           </button>
@@ -124,7 +124,7 @@ const CodePreview = ({item}) => {
           {/* Show Code Button */}
           <button
             onClick={() => setShowCode(!showCode)}
-            className="p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600"
+            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
           >
             <BsCode size={20} />
           </button>
@@ -132,7 +132,7 @@ const CodePreview = ({item}) => {
           {/* Copy Code Button */}
           <button
             onClick={copyToClipboard}
-            className="p-2 rounded-md hover:bg-gray-300 dark:hover:bg-gray-600"
+            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
           >
             <FiCopy size={20} />
           </button>
@@ -154,7 +154,7 @@ const CodePreview = ({item}) => {
 
       {/* Show Code Section (Only Body Content) */}
       {showCode && (
-        <pre className="p-3 bg-gray-100 dark:bg-gray-800 text-sm rounded-md overflow-x-auto">
+        <pre className="p-3 bg-amber-100 text-sm rounded-md overflow-x-auto">
           <code>{bodyContent.trim()}</code>
         </pre>
       )}
