@@ -3,8 +3,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Signin from './components/signin/Signin.jsx'
-import Signup from './components/signup/SignUp.jsx'
 import Hero from "./components/hero/Hero.jsx"
 import Grid from "./components/grid/Grid.jsx"
 import Grid2 from "./components/grid/Grid2.jsx"
