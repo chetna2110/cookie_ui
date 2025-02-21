@@ -5,6 +5,7 @@ export const data = [
     componentCount: "9 components",
     uiName: "Application UI",
     path: "./image/alerts.webp",
+    link: "/categories/alerts", // Dynamic category path
   },
   {
     key: 2,
@@ -12,6 +13,7 @@ export const data = [
     componentCount: "10 components",
     uiName: "Application UI",
     path: "./image/avatars.webp",
+    link: "/categories/avatars",
   },
   {
     key: 3,
@@ -19,14 +21,15 @@ export const data = [
     componentCount: "5 components",
     uiName: "Application UI",
     path: "./image/breadcrumbs.webp",
+    link: "/categories/breadcrumbs",
   },
-
   {
     key: 4,
     componentName: "Buttons",
     componentCount: "10 components",
     uiName: "Application UI",
     path: "./image/buttons.webp",
+    link: "/categories/buttons",
   },
   {
     key: 5,
@@ -34,6 +37,7 @@ export const data = [
     componentCount: "9 components",
     uiName: "Application UI",
     path: "./image/cards.webp",
+    link: "/categories/cards",
   },
   {
     key: 6,
@@ -41,6 +45,7 @@ export const data = [
     componentCount: "6 components",
     uiName: "Application UI",
     path: "./image/cookies.webp",
+    link: "/categories/cookies",
   },
   {
     key: 7,
@@ -48,6 +53,7 @@ export const data = [
     componentCount: "6 components",
     uiName: "Application UI",
     path: "./image/dropdowns.webp",
+    link: "/categories/dropdowns",
   },
   {
     key: 8,
@@ -55,6 +61,7 @@ export const data = [
     componentCount: "4 components",
     uiName: "Application UI",
     path: "./image/forms.webp",
+    link: "/categories/forms",
   },
   {
     key: 9,
@@ -62,6 +69,7 @@ export const data = [
     componentCount: "13 components",
     uiName: "Application UI",
     path: "./image/inputs.webp",
+    link: "/categories/inputs",
   },
   {
     key: 10,
@@ -69,6 +77,7 @@ export const data = [
     componentCount: "5 components",
     uiName: "Application UI",
     path: "./image/modals.webp",
+    link: "/categories/modals",
   },
   {
     key: 11,
@@ -76,5 +85,6 @@ export const data = [
     componentCount: "6 components",
     uiName: "Application UI",
     path: "./image/navbars.webp",
+    link: "/categories/navbars",
   },
 ];
