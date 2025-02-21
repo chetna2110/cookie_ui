@@ -154,7 +154,7 @@ const CodePreview = ({item}) => {
 
       {/* Show Code Section (Only Body Content) */}
       {showCode && (
-        <pre className="p-3 bg-amber-50 dark:bg-amber-500 text-sm rounded-md overflow-x-auto">
+        <pre className="p-3 bg-amber-100 text-sm rounded-md overflow-x-auto">
           <code>{bodyContent.trim()}</code>
         </pre>
       )}
