@@ -65,100 +65,106 @@ const CodePreview = ({item}) => {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto flex flex-col gap-4 p-4 border rounded-lg bg-amber-50 shadow-md mt-10">
-      {/* Control Buttons */}
-      <div className="flex justify-between items-center px-4 py-3 bg-amber-50 rounded-md">
-        {/* Component Name */}
-        <div className="text-xl font-bold ">{item.name}</div>
+    
+      
+      <div className="w-full max-w-7xl mx-auto flex flex-col gap-4 p-4 border rounded-lg bg-amber-50 shadow-md mt-10">
+        {/* Control Buttons */}
+        <div className="flex justify-between items-center px-4 py-3 bg-amber-50 rounded-md">
+          {/* Component Name */}
+          <div className="text-xl  text-amber-900  hover:scale-90 bg-amber-200 p-2 rounded-xl font-bold ">{item.name}</div>
 
-        {/* Device View Buttons */}
-        <div className="flex items-center gap-2">
-          {Object.keys(deviceOptions).map((type) => (
+          {/* Device View Buttons */}
+          <div className="flex items-center gap-2">
+            {Object.keys(deviceOptions).map((type) => (
+              <button
+                key={type}
+                className={`p-2 rounded-md transition-all ${
+                  view === type
+                    ? "bg-amber-200 dark:bg-amber-400"
+                    : "hover:bg-amber-300 dark:hover:bg-amber-100"
+                }`}
+                onClick={() => setView(type)}
+              >
+                {type === "mobile" ? (
+                  <BiSolidPhone className="text-amber-800" />
+                ) : type === "tablet" ? (
+                  <IoTabletPortrait className="text-amber-800" />
+                ) : (
+                  <BiDesktop className="text-amber-800" />
+                )}
+              </button>
+            ))}
+          </div>
+
+          <div>
+            {/* Dark Mode Toggle */}
             <button
-              key={type}
-              className={`p-2 rounded-md transition-all ${
-                view === type
-                  ? "bg-amber-200 dark:bg-amber-400"
-                  : "hover:bg-amber-300 dark:hover:bg-amber-100"
-              }`}
-              onClick={() => setView(type)}
+              onClick={() => {
+                setDarkMode(!darkMode);
+                updateIframe();
+              }}
+              className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
             >
-              {type === "mobile" ? (
-                <BiSolidPhone />
-              ) : type === "tablet" ? (
-                <IoTabletPortrait />
+              {darkMode ? (
+                <MdLightMode size={22} className="text-amber-800" />
               ) : (
-                <BiDesktop />
+                <MdDarkMode
+                  size={22}
+                  className="text-amber-800 dark:text-amber-800"
+                />
               )}
             </button>
-          ))}
+
+            {/* RTL / LTR Toggle */}
+            <button
+              onClick={() => {
+                setIsRTL(!isRTL);
+                updateIframe();
+              }}
+              className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
+            >
+              {isRTL ? <FaAlignLeft className="text-amber-800" size={20} /> : <FaAlignRight className="text-amber-800" size={20} />}
+            </button>
+
+            {/* Show Code Button */}
+            <button
+              onClick={() => setShowCode(!showCode)}
+              className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
+            >
+              <BsCode  className="text-amber-800" size={20} />
+            </button>
+
+            {/* Copy Code Button */}
+            <button
+              onClick={copyToClipboard}
+              className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
+            >
+              <FiCopy className="text-amber-800" size={20} />
+            </button>
+          </div>
         </div>
 
-        <div>
-          {/* Dark Mode Toggle */}
-          <button
-            onClick={() => {
-              setDarkMode(!darkMode);
-              updateIframe();
-            }}
-            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
+        {/* Code Preview Container (Centered & Wider) */}
+        <div className="w-full flex justify-center">
+          <div
+            className={`border rounded-md overflow-hidden w-full ${deviceOptions[view]}`}
           >
-            {darkMode ? (
-              <MdLightMode size={22} className="text-gray-800" />
-            ) : (
-              <MdDarkMode size={22} className="text-gray-800 dark:text-gray-800" />
-            )}
-          </button>
-
-          {/* RTL / LTR Toggle */}
-          <button
-            onClick={() => {
-              setIsRTL(!isRTL);
-              updateIframe();
-            }}
-            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
-          >
-            {isRTL ? <FaAlignLeft size={20} /> : <FaAlignRight size={20} />}
-          </button>
-
-          {/* Show Code Button */}
-          <button
-            onClick={() => setShowCode(!showCode)}
-            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
-          >
-            <BsCode size={20} />
-          </button>
-
-          {/* Copy Code Button */}
-          <button
-            onClick={copyToClipboard}
-            className="p-2 rounded-md hover:bg-amber-300 dark:hover:bg-amber-400"
-          >
-            <FiCopy size={20} />
-          </button>
+            <iframe
+              ref={iframeRef}
+              srcDoc={generateHTML()}
+              className="w-full h-[400px] border-none"
+            ></iframe>
+          </div>
         </div>
+
+        {/* Show Code Section (Only Body Content) */}
+        {showCode && (
+          <pre className="p-3 bg-amber-100 text-sm rounded-md overflow-x-auto">
+            <code>{bodyContent.trim()}</code>
+          </pre>
+        )}
       </div>
-
-      {/* Code Preview Container (Centered & Wider) */}
-      <div className="w-full flex justify-center">
-        <div
-          className={`border rounded-md overflow-hidden w-full ${deviceOptions[view]}`}
-        >
-          <iframe
-            ref={iframeRef}
-            srcDoc={generateHTML()}
-            className="w-full h-[400px] border-none"
-          ></iframe>
-        </div>
-      </div>
-
-      {/* Show Code Section (Only Body Content) */}
-      {showCode && (
-        <pre className="p-3 bg-amber-100 text-sm rounded-md overflow-x-auto">
-          <code>{bodyContent.trim()}</code>
-        </pre>
-      )}
-    </div>
+   
   );
 };
 
