@@ -313,4 +313,176 @@ theme: {
       },
     ],
   },
+  6: {
+    title: "Revisited some common Flex and Grid Classes ",
+
+    arr: [
+      {
+        name: "subtitle",
+        place: "Flexbox Classes ",
+      },
+      {
+        name: "subtitle2",
+        place: "Flex Direction",
+      },
+      {
+        name: "summary2",
+        place: `Utilities for controlling the direction of flex items.
+->flex-row          
+->flex-row-reverse 
+->flex-col         
+->flex-col-reverse `,
+      },
+      {
+        name: "subtitle2",
+        place: "Flex Wrap",
+      },
+      {
+        name: "summary2",
+        place: `Utilities for controlling how flex items wrap.
+        ->flex-wrap	
+->flex-wrap-reverse	
+->flex-nowrap`,
+      },
+      {
+        name: "subtitle",
+        place: "Grid Classes",
+      },
+      {
+        name: "subtitle2",
+        place: "Grid Template Columns",
+      },
+      {
+        name: "summary2",
+        place: `Utilities for specifying the columns in a grid layout.
+
+        Use the grid-cols-{n} utilities to create grids with n equally sized columns.
+
+        Example given below
+->grid-cols-1	
+->grid-cols-2	
+->grid-cols-3	
+->grid-cols-4	
+->grid-cols-5	`,
+      },
+      {
+        name: "subtitle2",
+        place: "Grid Template Rows",
+      },
+      {
+        name: "summary2",
+        place: `Utilities for specifying the rows in a grid layout.
+        
+        Use the grid-rows-{n} utilities to create grids with n equally sized rows.
+
+        Example given below
+        ->grid-rows-1	
+->grid-rows-2	
+->grid-rows-3
+->grid-rows-4`,
+      },
+    ],
+  },
+  7: {
+    title: "Interaction with some Tailwind classes for responsive design",
+    arr: [
+      {
+        name: "subtitle",
+        place: "Responsive Design",
+      },
+      {
+        name: "summary",
+        place: `Using responsive utility variants to build adaptive user interfaces.
+        
+        Every utility class in Tailwind can be applied conditionally at different breakpoints, which makes it a piece of cake to build complex responsive interfaces without ever leaving your HTML.
+
+There are five breakpoints by default, inspired by common device resolutions:
+Breakpoint prefix	  
+->sm	               
+->md	                 
+->lg	                      
+->xl	                 
+->2xl
+
+To add a utility but only have it take effect at a certain breakpoint, all you need to do is prefix the utility with the breakpoint name, followed by the : character:
+
+<!-- Width of 16 by default, 32 on medium screens, and 48 on large screens -->
+<img class="w-16 md:w-32 lg:w-48" src="...">
+
+This works for every utility class in the framework, which means you can change literally anything at a given breakpoint — even things like letter spacing or cursor styles.                      `,
+      },
+    ],
+  },
+  8: {
+    title: "How to Create Custom Gradients in Tailwind CSS",
+    arr: [
+      {
+        name: "subtitle",
+        place: "Introduction",
+      },
+      {
+        name: "summary",
+        place:
+          "Gradients add a beautiful visual effect to websites, enhancing design aesthetics. Tailwind CSS provides built-in gradient utilities, but you can also create custom gradients tailored to your needs. In this blog, we’ll explore how to use Tailwind’s default gradients, customize gradients, and even apply them to text.",
+      },
+      {
+        name: "subtitle2",
+        place: "Using Tailwind’s Default Gradient Utilities",
+      },
+      {
+        name: "summary2",
+        place: `Tailwind offers simple utilities for linear gradients with different directions. Here’s a basic example:
+
+        <div class="bg-gradient-to-r from-blue-500 to-green-500 h-40 w-80"></div>
+        
+        ->bg-gradient-to-r → Creates a gradient from left to right.
+
+->from-blue-500 → The gradient starts with blue.
+
+->to-green-500 → The gradient ends with green.`,
+      },
+      {
+        name: "subtitle2",
+        place: "Available Gradient Directions:",
+      },
+      {
+        name: "summary2",
+        place: `Class and Direction
+
+1.bg-gradient-to-r
+
+--->Left → Right
+
+2.bg-gradient-to-l
+
+--->Right → Left
+
+3.bg-gradient-to-t
+
+--->Bottom → Top
+
+4.bg-gradient-to-b
+
+--->Top → Bottom
+
+5.bg-gradient-to-tr
+
+--->Bottom-left → Top-right
+
+6.bg-gradient-to-tl
+
+--->Bottom-right → Top-left
+
+7.bg-gradient-to-br
+
+--->Top-left → Bottom-right
+
+8.bg-gradient-to-bl
+
+--->Top-right → Bottom-left
+
+`,
+      },
+    ],
+  },
 };

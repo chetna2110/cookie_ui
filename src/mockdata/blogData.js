@@ -33,27 +33,21 @@ export const datablog = [
   },
   {
     key:6,
-    title: "Tips & Tricks for Writing Better",
+    title: "Revisited some Flex and Grid Classes ",
     emojis: "🧐",
     link: "/blog/6"
   },
   {
     key: 7,
-    title: "How to Add Text Shadow Support",
-    emojis: "👤",
+    title: "Interaction with some Tailwind classes for responsive design",
+    emojis:"🔦" ,
     link: "/blog/7"
   },
   {
     key: 8,
-    title: "How to Create Custom Gradients",
+    title: "How to Create Custom Gradients in Tailwind CSS",
     emojis:"🎨",
     link: "/blog/8"
   },
   
-  {
-    key: 9,
-    title: "What is JIT in Tailwind CSS?",
-    emojis:"🤩",
-    link: "/blog/9"
-  },
 ];
