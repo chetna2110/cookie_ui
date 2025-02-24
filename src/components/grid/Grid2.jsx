@@ -1,6 +1,7 @@
 import React from 'react'
 import { data2 } from '../../mockdata/cardData2';
 import Card from '../cards/Card';
+import { Link } from 'react-router-dom';
 
 const Grid2 = () => {
   return (
@@ -10,7 +11,9 @@ const Grid2 = () => {
       </p>
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 ml-8 ">
         {data2.map((item,index) => (
-          <Card key={index} item={item} />
+          <Link to={item.link} key={index}>
+            <Card key={index} item={item} />
+          </Link>
         ))}
       </div>
     </div>
