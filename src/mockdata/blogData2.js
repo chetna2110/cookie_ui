@@ -119,19 +119,197 @@ For new component pull requests, I will review the work three times. If feedback
     ],
   },
   3: {
-    title: "Pixelated Image Lazy Loading with Tailwind CSS (v3)",
+    title: "One Simple Trick to Cleaning Up Tailwind CSS Code (v3)",
     arr: [
       {
         name: "summary",
-        place: `A few years ago, I was tasked with building a pixelated image lazy loader, which I thought would be a significant challenge. However, the solution turned out to be relatively straightforward.
+        place: `Tailwind CSS can make your markup messy. However, we can prevent this by delegating classes to the parent element.
 
-Set the image src to a tiny version of the image.
-Apply the CSS image-rendering: pixelated to the image.
-Implement your lazy loading logic.
-Once loaded, replace the image src and switch the CSS to image-rendering: auto.
-To illustrate this effect, here's a CodePen I made a few years ago - Pixelated Lazy Loading.
+Let's take the following example.
+<ul>
+  <li class="text-sm font-medium text-gray-900">...</li>
+  <li class="text-sm font-medium text-gray-900">...</li>
+  <li class="bg-gray-100 text-sm font-medium text-gray-900">...</li>
+</ul>
 
-But how does this translate to Tailwind CSS? The process is exactly the same.`,
+We have three repeating classes on the <li> elements.
+
+->text-sm
+->font-medium
+->text-gray-900
+
+We can clean this up by moving these classes to the parent <ul> element and letting the CSS cascade down.
+
+<ul class="text-sm font-medium text-gray-900">
+  <li>...</li>
+  <li>...</li>
+  <li class="bg-gray-100">...</li>
+</ul>
+
+But what if we are using classes that cannot be delegated to the parent? Classes like whitespace-nowrap, px-8, rotate-3 and many more cannot be applied to child elements through cascading. Thankfully, there's a solution..`,
+      },
+    ],
+  },
+  4: {
+    title: `How to Create an Animated Border Gradient with Tailwind CSS (v3)`,
+    arr: [
+      {
+        name: "subtitle",
+        place: "Faking the Border",
+      },
+      {
+        name: "summary",
+        place: `First, we need our interactive element. For this example, I'll use an <a> tag. We create an illusion of a border by using a background color and padding.
+
+<a href="#" class="inline-block bg-white p-0.5">
+  <span class="block bg-gray-900 px-5 py-3 text-white"> Get Started </span>
+</a>
+
+Inside this, we add a <span> element that contains the text content of the element, along with the desired padding for our button or link.`,
+      },
+      {
+        name: "subtitle",
+        place: "Adding the Gradient",
+      },
+      {
+        name: "summary",
+        place: `Next, we add the gradient.
+
+I'll use a pre-made Tailwind CSS gradient from Hypercolor.
+
+We apply the gradient to the interactive element with the faux border.
+
+<a href="#" class="inline-block bg-white from-pink-500 via-red-500 to-yellow-500 p-0.5">
+  <span class="block bg-gray-900 px-5 py-3 text-white"> Get Started </span>
+</a>
+
+You might worry that the gradient classes added will overwrite the bg-white, but it won't. For that to happen, we need to add the gradient direction class, which is done on hover.`,
+      },
+      {
+        name: "subtitle",
+        place: "Applying the Hover Effect",
+      },
+      {
+        name: "summary",
+        place: `We can enhance what we've done by adding two more classes: one is a default Tailwind CSS class applied on hover, and the other is always applied, requiring some JIT (Just-In-Time) magic.
+
+<a
+  href="#"
+  class="inline-block bg-white from-pink-500 via-red-500 to-yellow-500 bg-[length:_400%_400%] p-0.5 hover:bg-gradient-to-r"
+>
+  <span class="block bg-gray-900 px-5 py-3 text-white"> Get Started </span>
+</a>
+Let's break these down.
+
+hover:bg-gradient-to-r
+
+This applies the gradient direction class only on hover, which will display the gradient instead of bg-white.
+
+bg-[length:400%_400%]
+
+This enlarges the gradient, enabling us to animate it. Without this class, the gradient will appear static and won't animate.`,
+      },
+      {
+        name: "subtitle",
+        place: "Animating the Gradient",
+      },
+      {
+        name: "summary",
+        place: `Now, let's animate.
+
+First, we need to make some additions to our Tailwind CSS config.
+
+theme: {
+  extend: {
+    animation: {
+      border: 'background ease infinite',
+    },
+    keyframes: {
+      background: {
+        '0%, 100%': { backgroundPosition: '0% 50%' },
+        '50%': { backgroundPosition: '100% 50%' },
+      },
+    },
+  },
+}
+
+Here, we're creating an animation with the class animate-background using the background keyframes. This moves the gradient.
+
+Finally, we add the animate-background class to the interactive element with the gradient classes.
+
+You can use hover:animate-background if preferred, but note that the animation will reset when you're no longer hovering, which can cause it to look a bit jumpy.
+
+The full example looks like this.
+
+<a
+  href="#"
+  class="animate-background inline-block bg-white from-pink-500 via-red-500 to-yellow-500 bg-[length:_400%_400%] p-0.5 [animation-duration:_6s] hover:bg-gradient-to-r"
+>
+  <span class="block bg-gray-900 px-5 py-3 text-white"> Get Started </span>
+</a>
+We're using the arbitrary properties syntax to write [animation-duration:_6s] so we can alter the animation-duration for each use of the effect.
+
+Here's how it looks. I've added some extra classes to enhance the <a>.`,
+      },
+    ],
+  },
+  5: {
+    title: "How to Write Better Containers in Tailwind CSS (v3)",
+    arr: [
+      {
+        name: "summary",
+        place: `You might be wondering...
+
+Why not use the .container class?
+
+Great question.
+
+Let's examine the .container class documentation on the Tailwind CSS website.
+
+It provides max-width sizes at different breakpoints, which results in the content within the container adjusting to that size as the breakpoint is reached.
+
+Container Example
+
+If you shrink or expand the preview, you will see the content within the container snapping.`,
+      },
+      {
+        name: "subtitle",
+        place: `A More Fluid Container`,
+      },
+      {
+        name: "summary",
+        place: `Here's the same preview, but using the classes I mentioned at the start of this blog post.
+
+Fluid Example
+
+As you can see, it's more fluid. You reach the breakpoint where max-w-screen-xl is no longer applied, and then the padding is used to contain the content. To create a fully fluid container, you can remove the max-w-screen-xl class.
+
+Let's compare the two.
+
+Container vs Fluid Example
+
+One argument for the .container approach is that the content is wider on larger screens. However, to address this, you can use max-w-screen-2xl instead of max-w-screen-xl.`,
+      },
+      {
+        name: "subtitle",
+        place: "Edit the Config and Write Less Code",
+      },
+      {
+        name: "summary",
+        place: `One final note: if you are using the .container approach and find yourself writing container mx-auto often, you can do the following.
+
+theme: {
+  container: {
+    center: true,
+
+    // Optional
+    padding: {
+      DEFAULT: '1rem',
+      sm: '1.5rem',
+      lg: '2rem'
+    }
+  },
+}`,
       },
     ],
   },
