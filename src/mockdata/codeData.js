@@ -6382,7 +6382,2263 @@ const codeData = {
 </div>`
         }        
     ],
+    pages404: [
+        {
+            name: "Simple",
+            code: `<section class="bg-white dark:bg-gray-900 ">
+    <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
+        <div>
+            <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
+            <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">We can’t find that page</h1>
+            <p class="mt-4 text-gray-500 dark:text-gray-400">Sorry, the page you are looking for doesn't exist or has been moved.</p>
+
+            <div class="flex items-center mt-6 gap-x-3">
+                <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                    </svg>
+
+                    <span>Go back</span>
+                </button>
+
+                <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                    Take me home
+                </button>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Links",
+            code: `<section class="bg-white dark:bg-gray-900 ">
+    <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
+        <div>
+            <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
+            <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Page not found</h1>
+            <p class="mt-4 text-gray-500 dark:text-gray-400">Sorry, the page you are looking for doesn't exist.</p>
+
+            <div class="flex items-center mt-6 gap-x-3">
+                <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                    </svg>
+
+
+                    <span>Go back</span>
+                </button>
+
+                <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                    Take me home
+                </button>
+            </div>
+
+            <div class="mt-10 space-y-6">
+                <div>
+                    <a href="#" class="inline-flex items-center text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Documentation</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Dive in to learn all about our product.</p>
+                </div>
+
+                <div>
+                    <a href="#" class="inline-flex items-center text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Our blog</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Read the latest posts on our blog.</p>
+                </div>
+
+                <div>
+                    <a href="#" class="inline-flex items-center text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Chat to support</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Centered",
+            code: `<section class="bg-white dark:bg-gray-900 ">
+    <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
+        <div class="flex flex-col items-center max-w-sm mx-auto text-center">
+            <p class="p-3 text-sm font-medium text-blue-500 rounded-full bg-blue-50 dark:bg-gray-800">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+                </svg>
+            </p>
+            <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Page not found</h1>
+            <p class="mt-4 text-gray-500 dark:text-gray-400">The page you are looking for doesn't exist. Here are some helpful links:</p>
+
+            <div class="flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
+                <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                    </svg>
+
+
+                    <span>Go back</span>
+                </button>
+
+                <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                    Take me home
+                </button>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Centered with Links",
+            code: `<section class="bg-white dark:bg-gray-900 ">
+    <div class="container flex items-center justify-center min-h-screen px-6 py-12 mx-auto">
+        <div class="w-full ">
+            <div class="flex flex-col items-center max-w-lg mx-auto text-center">
+                <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
+                <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">We lost this page</h1>
+                <p class="mt-4 text-gray-500 dark:text-gray-400">We searched high and low, but couldn’t find what you’re looking for.Let’s find a better place for you to go.</p>
+
+                <div class="flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
+                    <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg dark:text-gray-200 gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:border-gray-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                        </svg>
+
+
+                        <span>Go back</span>
+                    </button>
+
+                    <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                        Take me home
+                    </button>
+                </div>
+            </div>
+
+            <div class="grid w-full max-w-6xl grid-cols-1 gap-8 mx-auto mt-8 sm:grid-cols-2 lg:grid-cols-3">
+                <div class="p-6 rounded-lg bg-blue-50 dark:bg-gray-800">
+                    <span class="text-gray-500 dark:text-gray-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z" />
+                        </svg>
+                    </span>
+                    
+                    <h3 class="mt-6 font-medium text-gray-700 dark:text-gray-200 ">Documentation</h3>
+
+                    <p class="mt-2 text-gray-500 dark:text-gray-400 ">Dive in to learn all about our product.</p>
+
+                    <a href="#" class="inline-flex items-center mt-4 text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Start learning</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="p-6 rounded-lg bg-blue-50 dark:bg-gray-800">
+                    <span class="text-gray-500 dark:text-gray-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                        </svg>
+                    </span>
+                    
+                    <h3 class="mt-6 font-medium text-gray-700 dark:text-gray-200 ">Our blog</h3>
+
+                    <p class="mt-2 text-gray-500 dark:text-gray-400 ">Read the latest posts on our blog.</p>
+
+                    <a href="#" class="inline-flex items-center mt-4 text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>View lastest posts</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+                </div>
+
+                <div class="p-6 rounded-lg bg-blue-50 dark:bg-gray-800">
+                    <span class="text-gray-500 dark:text-gray-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 01-.923 1.785A5.969 5.969 0 006 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337z" />
+                        </svg>
+                    </span>
+                    
+                    <h3 class="mt-6 font-medium text-gray-700 dark:text-gray-200 ">Chat to us</h3>
+
+                    <p class="mt-2 text-gray-500 dark:text-gray-400 ">Can’t find what you’re looking for?</p>
+
+                    <a href="#" class="inline-flex items-center mt-4 text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Chat to our team</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Image",
+            code: `<section class="bg-white dark:bg-gray-900 ">
+    <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
+        <div class="wf-ull lg:w-1/2">
+            <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
+            <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Page not found</h1>
+            <p class="mt-4 text-gray-500 dark:text-gray-400">Sorry, the page you are looking for doesn't exist.Here are some helpful links:</p>
+
+            <div class="flex items-center mt-6 gap-x-3">
+                <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                    </svg>
+
+
+                    <span>Go back</span>
+                </button>
+
+                <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                    Take me home
+                </button>
+            </div>
+        </div>
+
+        <div class="relative w-full mt-8 lg:w-1/2 lg:mt-0">
+            <img class=" w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover " src="https://images.unsplash.com/photo-1613310023042-ad79320c00ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Image with Links",
+            code: `<section class="bg-white dark:bg-gray-900 ">
+    <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
+        <div class="wf-ull lg:w-1/2">
+            <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
+            <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">We lost this page</h1>
+            <p class="mt-4 text-gray-500 dark:text-gray-400">Sorry, the page you are looking for doesn't exist.</p>
+
+            <div class="flex items-center mt-6 gap-x-3">
+                <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                    </svg>
+
+
+                    <span>Go back</span>
+                </button>
+
+                <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                    Take me home
+                </button>
+            </div>
+
+            <div class="mt-10 space-y-6">
+                <div>
+                    <a href="#" class="inline-flex items-center text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Documentation</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Dive in to learn all about our product.</p>
+                </div>
+
+                <div>
+                    <a href="#" class="inline-flex items-center text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Our blog</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Read the latest posts on our blog.</p>
+                </div>
+
+                <div>
+                    <a href="#" class="inline-flex items-center text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">
+                        <span>Chat to support</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                        </svg>
+                    </a>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative w-full mt-8 lg:w-1/2 lg:mt-0">
+            <img class=" w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover " src="https://images.unsplash.com/photo-1508881598441-324f3974994b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Illustration",
+            code: `<section class="bg-white dark:bg-gray-900 ">
+    <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
+        <div class="wf-ull lg:w-1/2">
+            <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
+            <h1 class="mt-3 text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">Page not found</h1>
+            <p class="mt-4 text-gray-500 dark:text-gray-400">Sorry, the page you are looking for doesn't exist.Here are some helpful links:</p>
+
+            <div class="flex items-center mt-6 gap-x-3">
+                <button class="flex items-center justify-center w-1/2 px-5 py-2 text-sm text-gray-700 transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto dark:hover:bg-gray-800 dark:bg-gray-900 hover:bg-gray-100 dark:text-gray-200 dark:border-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75M3 12h18" />
+                    </svg>
+
+
+                    <span>Go back</span>
+                </button>
+
+                <button class="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+                    Take me home
+                </button>
+            </div>
+        </div>
+
+        <div class="relative w-full mt-12 lg:w-1/2 lg:mt-0">
+            <img class="w-full max-w-lg lg:mx-auto" src="/images/components/illustration.svg" alt="">
+        </div>
+    </div>
+</section>`
+        }
+    ],
+    blog: [
+        {
+            name: "Single Post",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
+
+        <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
+            <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96" src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"alt="">
+
+            <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
+                <p class="text-sm text-blue-500 uppercase">category</p>
+
+                <a href="#" class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white">
+                    All the features you want to know
+                </a>
+
+                <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
+                    laudantium quia tempore delect
+                </p>
+
+                <a href="#" class="inline-block mt-2 text-blue-500 underline hover:text-blue-400">Read more</a>
+
+                <div class="flex items-center mt-6">
+                    <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+
+                    <div class="mx-4">
+                        <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia. Anderson</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Single Post with Recent",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <div class="lg:flex lg:-mx-6">
+            <div class="lg:w-3/4 lg:px-6">
+                <img class="object-cover object-center w-full h-80 xl:h-[28rem] rounded-xl" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                <div>
+                    <p class="mt-6 text-sm text-blue-500 uppercase">Want to know</p>
+
+                    <h1 class="max-w-lg mt-4 text-2xl font-semibold leading-tight text-gray-800 dark:text-white">
+                        What do you want to know about UI
+                    </h1>
+
+                    <div class="flex items-center mt-6">
+                        <img class="object-cover object-center w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+
+                        <div class="mx-4">
+                            <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia. Anderson</h1>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 lg:w-1/4 lg:mt-0 lg:px-6">
+                <div>
+                    <h3 class="text-blue-500 capitalize">Design instument</h3>
+
+                    <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
+                        How to raise $100k+ by using blox ui kit on your design
+                    </a>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                <div>
+                    <h3 class="text-blue-500 capitalize">UI Resource</h3>
+
+                    <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
+                        Should you creat UI Product by using Blox?
+                    </a>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                <div>
+                    <h3 class="text-blue-500 capitalize">Premium Collection</h3>
+
+                    <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
+                        Top 10 Blocks you can get on Blox's collection.
+                    </a>
+                </div>
+
+                <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+                <div>
+                    <h3 class="text-blue-500 capitalize">Premium kits</h3>
+
+                    <a href="#" class="block mt-2 font-medium text-gray-700 hover:underline hover:text-gray-500 dark:text-gray-400 ">
+                        Top 10 Ui kit you can get on Blox's collection.
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Cards",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <div class="text-center">
+            <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
+
+            <p class="max-w-lg mx-auto mt-4 text-gray-500">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt, laudantium
+                quia tempore delect
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 lg:grid-cols-2">
+            <div>
+                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1644018335954-ab54c83e007f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+                    <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                        All the features you want to know
+                    </a>
+
+                    <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
+                        laudantium quia tempore delect
+                    </p>
+
+                    <p class="mt-3 text-sm text-blue-500">21 October 2019</p>
+                </div>
+            </div>
+
+            <div>
+                <img class="relative z-10 object-cover w-full rounded-md h-96" src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                <div class="relative z-20 max-w-lg p-6 mx-auto -mt-20 bg-white rounded-md shadow dark:bg-gray-900">
+                    <a href="#" class="font-semibold text-gray-800 hover:underline dark:text-white md:text-xl">
+                        How to use sticky note for problem solving
+                    </a>
+
+                    <p class="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis sint autem nesciunt,
+                        laudantium quia tempore delect
+                    </p>
+
+                    <p class="mt-3 text-sm text-blue-500">20 October 2019</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Recent Posts",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <div class="flex items-center justify-between">
+            <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">recent posts </h1>
+
+            <button class="focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-600 transition-colors duration-300 transform dark:text-gray-400 hover:text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+            </button>
+        </div>
+
+        <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
+            <div>
+                <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                <div class="mt-8">
+                    <span class="text-blue-500 uppercase">category</span>
+
+                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                        What do you want to know about UI
+                    </h1>
+
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est asperiores vel, ab animi
+                        recusandae nulla veritatis id tempore sapiente
+                    </p>
+
+                    <div class="flex items-center justify-between mt-4">
+                        <div>
+                            <a href="#" class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-500">
+                                John snow
+                            </a>
+
+                            <p class="text-sm text-gray-500 dark:text-gray-400">February 1, 2022</p>
+                        </div>
+
+                        <a href="#" class="inline-block text-blue-500 underline hover:text-blue-400">Read more</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                <div class="mt-8">
+                    <span class="text-blue-500 uppercase">category</span>
+
+                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                        All the features you want to know</h1>
+
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est asperiores vel, ab animi
+                        recusandae nulla veritatis id tempore sapiente
+                    </p>
+
+                    <div class="flex items-center justify-between mt-4">
+                        <div>
+                            <a href="#" class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-500">
+                                Arthur Melo
+                            </a>
+
+                            <p class="text-sm text-gray-500 dark:text-gray-400">February 6, 2022</p>
+                        </div>
+
+                        <a href="#" class="inline-block text-blue-500 underline hover:text-blue-400">Read more</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="https://images.unsplash.com/photo-1597534458220-9fb4969f2df5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="">
+
+                <div class="mt-8">
+                    <span class="text-blue-500 uppercase">category</span>
+
+                    <h1 class="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
+                        Which services you get from Meraki UI
+                    </h1>
+
+                    <p class="mt-2 text-gray-500 dark:text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam est asperiores vel, ab animi
+                        recusandae nulla veritatis id tempore sapiente
+                    </p>
+
+                    <div class="flex items-center justify-between mt-4">
+                        <div>
+                            <a href="#" class="text-lg font-medium text-gray-700 dark:text-gray-300 hover:underline hover:text-gray-500">
+                                Tom Hank
+                            </a>
+
+                            <p class="text-sm text-gray-500 dark:text-gray-400">February 19, 2022</p>
+                        </div>
+
+                        <a href="#" class="inline-block text-blue-500 underline hover:text-blue-400">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        }
+    ],
+    cta: [
+        {
+            name: "Simple",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
+        <h2 class="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
+            Bring your Business to the <span class="text-blue-500">next level.</span>
+        </h2>
+
+        <p class="max-w-4xl mt-6 text-center text-gray-500 dark:text-gray-300">
+            Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Cum quidem officiis reprehenderit, aperiam veritatis non, quod veniam fuga possimus hic
+            explicabo laboriosam nam. A tempore totam ipsa nemo adipisci iusto!
+        </p>
+
+        <div class="inline-flex w-full mt-6 sm:w-auto">
+            <a href="#" class="inline-flex items-center justify-center w-full px-6 py-2 text-white duration-300 bg-blue-600 rounded-lg hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                Sign Up
+            </a>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Card",
+            code: `<section class="bg-gray-100 dark:bg-gray-800 lg:py-12 lg:flex lg:justify-center">
+    <div
+        class="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
+        <div class="lg:w-1/2">
+            <div class="h-64 bg-cover lg:h-full" style="background-image:url('https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')"></div>
+        </div>
+
+        <div class="max-w-xl px-6 py-12 lg:max-w-5xl lg:w-1/2">
+            <h2 class="text-2xl font-semibold text-gray-800 dark:text-white md:text-3xl">
+                Build Your New <span class="text-blue-500">Idea</span>
+            </h2>
+
+            <p class="mt-4 text-gray-500 dark:text-gray-300">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam
+                mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.
+            </p>
+
+            <div class="inline-flex w-full mt-6 sm:w-auto">
+                <a href="#" class="inline-flex items-center justify-center w-full px-6 py-2 text-sm text-white duration-300 bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                    Start Now
+                </a>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Centered",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
+        <h2 class="text-2xl font-bold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
+            Try something really different right now.
+        </h2>
+
+        <p class="block max-w-4xl mt-4 text-gray-500 dark:text-gray-300">
+            Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Esse iure tenetur commodi ipsam error voluptate magni. Adipisci repudiandae ullam commodi
+            iusto reprehenderit suscipit facere voluptatem, eaque maiores minima. Neque, officiis.
+        </p>
+
+        <div class="mt-6">
+            <a href="#" class="inline-flex items-center justify-center w-full px-4 py-2.5 overflow-hidden text-sm text-white transition-colors duration-300 bg-gray-900 rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                <svg class="w-5 h-5 mx-2 fill-current" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M407,0H105C47.103,0,0,47.103,0,105v302c0,57.897,47.103,105,105,105h302c57.897,0,105-47.103,105-105V105C512,47.103,464.897,0,407,0z M482,407c0,41.355-33.645,75-75,75H105c-41.355,0-75-33.645-75-75V105c0-41.355,33.645-75,75-75h302c41.355,0,75,33.645,75,75V407z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M305.646,123.531c-1.729-6.45-5.865-11.842-11.648-15.18c-11.936-6.892-27.256-2.789-34.15,9.151L256,124.166l-3.848-6.665c-6.893-11.937-22.212-16.042-34.15-9.151h-0.001c-11.938,6.893-16.042,22.212-9.15,34.151l18.281,31.664L159.678,291H110.5c-13.785,0-25,11.215-25,25c0,13.785,11.215,25,25,25h189.86l-28.868-50h-54.079l85.735-148.498C306.487,136.719,307.375,129.981,305.646,123.531z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M401.5,291h-49.178l-55.907-96.834l-28.867,50l86.804,150.348c3.339,5.784,8.729,9.921,15.181,11.65c2.154,0.577,4.339,0.863,6.511,0.863c4.332,0,8.608-1.136,12.461-3.361c11.938-6.893,16.042-22.213,9.149-34.15L381.189,341H401.5c13.785,0,25-11.215,25-25C426.5,302.215,415.285,291,401.5,291z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M119.264,361l-4.917,8.516c-6.892,11.938-2.787,27.258,9.151,34.15c3.927,2.267,8.219,3.345,12.458,3.344c8.646,0,17.067-4.484,21.693-12.495L176.999,361H119.264z"></path>
+                        </g>
+                    </g>
+                </svg>
+
+                <span class="mx-2">
+                    Get it on the App Store
+                </span>
+            </a>
+
+            <a href="#"
+                class="inline-flex items-center justify-center w-full px-4 py-2.5 mt-4 overflow-hidden text-sm text-white transition-colors duration-300 bg-blue-600 rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                <svg class="w-5 h-5 mx-2 fill-current" viewBox="-28 0 512 512.00075" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m432.320312 215.121094-361.515624-208.722656c-14.777344-8.53125-32.421876-8.53125-47.203126 0-.121093.070312-.230468.148437-.351562.21875-.210938.125-.421875.253906-.628906.390624-14.175782 8.636719-22.621094 23.59375-22.621094 40.269532v417.445312c0 17.066406 8.824219 32.347656 23.601562 40.878906 7.390626 4.265626 15.496094 6.398438 23.601563 6.398438s16.214844-2.132812 23.601563-6.398438l361.519531-208.722656c14.777343-8.53125 23.601562-23.8125 23.601562-40.878906s-8.824219-32.347656-23.605469-40.878906zm-401.941406 253.152344c-.21875-1.097657-.351562-2.273438-.351562-3.550782v-417.445312c0-2.246094.378906-4.203125.984375-5.90625l204.324219 213.121094zm43.824219-425.242188 234.21875 135.226562-52.285156 54.539063zm-6.480469 429.679688 188.410156-196.527344 54.152344 56.484375zm349.585938-201.835938-80.25 46.332031-60.125-62.714843 58.261718-60.773438 82.113282 47.40625c7.75 4.476562 8.589844 11.894531 8.589844 14.875s-.839844 10.398438-8.589844 14.875zm0 0">
+                    </path>
+                </svg>
+
+                <span class="mx-2">
+                    Get it on Google Play
+                </span>
+            </a>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Grid",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container grid grid-cols-1 gap-8 px-4 py-12 mx-auto lg:grid-cols-2">
+        <div class="flex flex-col items-center max-w-lg mx-auto text-center">
+            <h2 class="text-3xl font-semibold tracking-tight text-gray-800 dark:text-white">
+                Web development
+            </h2>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex cupiditate corrupti aliquam eum vel consequuntur hic culpa unde natus officia enim est impedit consequatur aut, voluptatem minima repellat non!</p>
+
+            <a href="#" class="inline-flex items-center justify-center w-full px-5 py-2 mt-6 text-white transition-colors duration-300 bg-blue-600 rounded-lg sm:w-auto hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                Start now
+            </a>
+        </div>
+
+        <div class="flex flex-col items-center max-w-lg mx-auto text-center">
+            <h2 class="text-3xl font-semibold tracking-tight text-gray-800 dark:text-white">
+                App development
+            </h2>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ex cupiditate corrupti aliquam eum vel consequuntur hic culpa unde natus officia enim est impedit consequatur aut, voluptatem minima repellat non!</p>
+
+            <a href="#" class="inline-flex items-center justify-center w-full px-5 py-2 mt-6 text-gray-700 transition-colors duration-300 transform bg-white border border-gray-200 rounded-lg dark:bg-gray-900 dark:border-gray-700 hover:bg-gray-100 dark:text-white sm:w-auto dark:hover:bg-gray-800 dark:ring-gray-700 focus:ring focus:ring-gray-200 focus:ring-opacity-80">
+                Start now
+            </a>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Form",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-4 py-16 mx-auto lg:flex lg:items-center lg:justify-between">
+        <h2 class="text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
+            Join us and get the update from anywhere
+        </h2>
+
+        <div class="mt-8 lg:mt-0">
+            <div class="flex flex-col space-y-3 sm:space-y-0 sm:flex-row sm:-mx-2">
+                <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-white border border-gray-200 rounded-lg sm:mx-2 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Email Address">
+
+                <button class="px-6 py-2 text-sm tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg focus:ring focus:ring-blue-300 focus:ring-opacity-80 fo sm:mx-2 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                    Get Started
+                </button>
+            </div>
+
+            <p class="mt-3 text-sm text-gray-500 dark:text-gray-300">Attention! Offer expires in 30 days. Make sure not to miss this opportunity</p>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Image",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
+        <div class="flex justify-center xl:w-1/2">
+            <img class="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-full" src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="">
+        </div>
+
+        <div class="flex flex-col items-center mt-6 xl:items-start xl:w-1/2 xl:mt-0">
+            <h2 class="text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
+                Download our free mobile app
+            </h2>
+
+            <p class="block max-w-2xl mt-4 text-gray-500 dark:text-gray-300">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut corporis esse dolorum, illum, consectetur earum provident alias dolore omnis quis tempore voluptatum excepturi ea numquam? Aperiam fugiat consequuntur nostrum odio. </p>
+
+            <div class="mt-6 sm:-mx-2">
+                <a href="#" class="inline-flex items-center justify-center w-full px-4 text-sm py-2.5 overflow-hidden text-white transition-colors duration-300 bg-gray-900 rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                    <svg class="w-5 h-5 mx-2 fill-current" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                        <g>
+                            <g>
+                                <path d="M407,0H105C47.103,0,0,47.103,0,105v302c0,57.897,47.103,105,105,105h302c57.897,0,105-47.103,105-105V105C512,47.103,464.897,0,407,0z M482,407c0,41.355-33.645,75-75,75H105c-41.355,0-75-33.645-75-75V105c0-41.355,33.645-75,75-75h302c41.355,0,75,33.645,75,75V407z"></path>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M305.646,123.531c-1.729-6.45-5.865-11.842-11.648-15.18c-11.936-6.892-27.256-2.789-34.15,9.151L256,124.166l-3.848-6.665c-6.893-11.937-22.212-16.042-34.15-9.151h-0.001c-11.938,6.893-16.042,22.212-9.15,34.151l18.281,31.664L159.678,291H110.5c-13.785,0-25,11.215-25,25c0,13.785,11.215,25,25,25h189.86l-28.868-50h-54.079l85.735-148.498C306.487,136.719,307.375,129.981,305.646,123.531z"></path>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M401.5,291h-49.178l-55.907-96.834l-28.867,50l86.804,150.348c3.339,5.784,8.729,9.921,15.181,11.65c2.154,0.577,4.339,0.863,6.511,0.863c4.332,0,8.608-1.136,12.461-3.361c11.938-6.893,16.042-22.213,9.149-34.15L381.189,341H401.5c13.785,0,25-11.215,25-25C426.5,302.215,415.285,291,401.5,291z"></path>
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M119.264,361l-4.917,8.516c-6.892,11.938-2.787,27.258,9.151,34.15c3.927,2.267,8.219,3.345,12.458,3.344c8.646,0,17.067-4.484,21.693-12.495L176.999,361H119.264z"></path>
+                            </g>
+                        </g>
+                    </svg>
+
+                    <span class="mx-2">
+                        Get it on the App Store
+                    </span>
+                </a>
+
+                <a href="#"
+                    class="inline-flex items-center justify-center w-full px-4 text-sm py-2.5 mt-4 overflow-hidden text-white transition-colors duration-300 bg-blue-600 rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                    <svg class="w-5 h-5 mx-2 fill-current" viewBox="-28 0 512 512.00075" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m432.320312 215.121094-361.515624-208.722656c-14.777344-8.53125-32.421876-8.53125-47.203126 0-.121093.070312-.230468.148437-.351562.21875-.210938.125-.421875.253906-.628906.390624-14.175782 8.636719-22.621094 23.59375-22.621094 40.269532v417.445312c0 17.066406 8.824219 32.347656 23.601562 40.878906 7.390626 4.265626 15.496094 6.398438 23.601563 6.398438s16.214844-2.132812 23.601563-6.398438l361.519531-208.722656c14.777343-8.53125 23.601562-23.8125 23.601562-40.878906s-8.824219-32.347656-23.605469-40.878906zm-401.941406 253.152344c-.21875-1.097657-.351562-2.273438-.351562-3.550782v-417.445312c0-2.246094.378906-4.203125.984375-5.90625l204.324219 213.121094zm43.824219-425.242188 234.21875 135.226562-52.285156 54.539063zm-6.480469 429.679688 188.410156-196.527344 54.152344 56.484375zm349.585938-201.835938-80.25 46.332031-60.125-62.714843 58.261718-60.773438 82.113282 47.40625c7.75 4.476562 8.589844 11.894531 8.589844 14.875s-.839844 10.398438-8.589844 14.875zm0 0">
+                        </path>
+                    </svg>
+
+                    <span class="mx-2">
+                        Get it on Google Play
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>`
+        }
+    ],
+    contact: [
+        {
+            name: "Simple",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div>
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+            <div>
+                <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+            </div>
+
+            <div>
+                <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Office</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+            </div>
+
+            <div>
+                <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Phone</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Centered",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="text-center">
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 mt-10 md:grid-cols-2 lg:grid-cols-3">
+            <div class="flex flex-col items-center justify-center text-center">
+                <span class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center text-center">
+                <span class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Office</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+            </div>
+
+            <div class="flex flex-col items-center justify-center text-center">
+                <span class="p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-lg font-medium text-gray-800 dark:text-white">Phone</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                <p class="mt-2 text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Two Column",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container grid grid-cols-1 gap-10 px-6 py-12 mx-auto lg:grid-cols-3">
+        <div>
+            <p class="font-medium text-blue-500 dark:text-blue-400">Our locations</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Visit our stores</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Find us at these locations.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2">
+            <div>
+                <h2 class="font-medium text-gray-800 dark:text-white">Melbourne</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">100 Flinders Street <br> Melbourne VIC 3000 AU</p>
+            </div>
+
+            <div>
+                <h2 class="font-medium text-gray-800 dark:text-white">London</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">100 Oxford Street <br> London W1D 1LL UK</p>
+            </div>
+
+            <div>
+                <h2 class="font-medium text-gray-800 dark:text-white">Sydney</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">100 Flinders Street <br> Melbourne VIC 3000 AU</p>
+            </div>
+
+            <div>
+                <h2 class="font-medium text-gray-800 dark:text-white">San Francisco</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">100 Flinders Street <br> Melbourne VIC 3000 AU</p>
+            </div>
+
+            <div>
+                <h2 class="font-medium text-gray-800 dark:text-white">Byron Bay</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">100 Flinders Street <br> Melbourne VIC 3000 AU</p>
+            </div>
+
+            <div>
+                <h2 class="font-medium text-gray-700 dark:text-gray-200">Sweden</h2>
+                <p class="mt-2 text-gray-500 dark:text-gray-400">100 Flinders Street <br> Melbourne VIC 3000 AU</p>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Form",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div>
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Chat to our friendly team</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">We’d love to hear from you. Please fill out this form or shoot us an email.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
+            <div class="grid grid-cols-1 gap-12 md:grid-cols-2">
+                <div>
+                    <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                    </span>
+
+                    <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                </div>
+
+                <div>
+                    <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Live chat</h2>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">Start new chat</p>
+                </div>
+
+                <div>
+                    <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+                </div>
+
+                <div>
+                    <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                </div>
+            </div>
+
+            <div class="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+                <form>
+                    <div class="-mx-2 md:items-center md:flex">
+                        <div class="flex-1 px-2">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">First Name</label>
+                            <input type="text" placeholder="John " class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+
+                        <div class="flex-1 px-2 mt-4 md:mt-0">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Last Name</label>
+                            <input type="text" placeholder="Doe" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+                    </div>
+
+                    <div class="mt-4">
+                        <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                        <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                    </div>
+
+                    <div class="w-full mt-4">
+                        <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                        <textarea class="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                    </div>
+
+                    <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                        Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Map",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div>
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">Get in touch</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team would love to hear from you.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-1">
+                <div>
+                    <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                    </span>
+
+                    <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Email</h2>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+                </div>
+
+                <div>
+                    <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Office</h2>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+                </div>
+
+                <div>
+                    <span class="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                    </span>
+                    
+                    <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Phone</h2>
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                    <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+                </div>
+            </div>
+
+            <div class="overflow-hidden rounded-lg lg:col-span-2 h-96 lg:h-auto">
+                <iframe width="100%" height="100%" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0zmir+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"></iframe>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Grid",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div>
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">We’d love to hear from you</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 mt-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Chat to sales</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Speak to our friendly team.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Chat to support</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">We’re here to help.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">Start new chat</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Visit us</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Visit our office HQ..</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Call us</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Grid 2x2",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container grid gap-8 px-6 py-12 mx-auto lg:grid-cols-3">
+        <div>
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">We’d love to hear from you</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Our friendly team is always here to chat.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-12 lg:col-span-2 sm:grid-cols-2 ">
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Chat to sales</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Speak to our friendly team.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Chat to support</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">We’re here to help.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">Start new chat</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Visit us</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Visit our office HQ..</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Call us</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Grid with Image",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="text-center ">
+            <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
+
+            <h1 class="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">We’d love to hear from you</h1>
+
+            <p class="mt-3 text-gray-500 dark:text-gray-400">Chat to our friendly team.</p>
+        </div>
+
+        <img class="object-cover w-full h-64 mt-10 rounded-lg lg:h-96" src="https://images.unsplash.com/photo-1568992688065-536aad8a12f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=100" alt="">
+        
+        <div class="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-3 sm:grid-cols-2 ">
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                    </svg>
+                </span>
+
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Chat to sales</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Speak to our friendly team.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Visit us</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Visit our office HQ..</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+            </div>
+
+            <div class="p-4 rounded-lg bg-blue-50 md:p-6 dark:bg-gray-800">
+                <span class="inline-block p-3 text-blue-500 rounded-lg bg-blue-100/80 dark:bg-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                    </svg>
+                </span>
+                
+                <h2 class="mt-4 text-base font-medium text-gray-800 dark:text-white">Call us</h2>
+                <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">Mon-Fri from 8am to 5pm.</p>
+                <p class="mt-2 text-sm text-blue-500 dark:text-blue-400">+1 (555) 000-0000</p>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Card",
+            code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <div class="lg:flex lg:items-center lg:-mx-6">
+            <div class="lg:w-1/2 lg:mx-6">
+                <h1 class="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">
+                    Contact us for <br> more info
+                </h1>
+
+                <div class="mt-6 space-y-8 md:mt-8">
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                            Cecilia Chapman 711-2880 Nulla
+                            St. Mankato Mississippi 96522
+                        </span>
+                    </p>
+
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">(257) 563-7401</span>
+                    </p>
+
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">acb@example.com</span>
+                    </p>
+                </div>
+
+                <div class="mt-6 w-80 md:mt-8">
+                    <h3 class="text-gray-600 dark:text-gray-300 ">Follow us</h3>
+
+                    <div class="flex mt-4 -mx-1.5 ">
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
+                                <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
+                                <path d="M5.6 7.2C6.48366 7.2 7.2 6.48366 7.2 5.6C7.2 4.71634 6.48366 4 5.6 4C4.71634 4 4 4.71634 4 5.6C4 6.48366 4.71634 7.2 5.6 7.2Z" fill="currentColor" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 lg:w-1/2 lg:mx-6">
+                <div
+                    class="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+                    <h1 class="text-lg font-medium text-gray-700">What do you want to ask</h1>
+
+                    <form class="mt-6">
+                        <div class="flex-1">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                            <input type="text" placeholder="John Doe" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+
+                        <div class="flex-1 mt-6">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                            <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+
+                        <div class="w-full mt-6">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                            <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                        </div>
+
+                        <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                            get in touch
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Image",
+            code: `<section class="min-h-screen bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <div class="lg:flex lg:items-center lg:-mx-10">
+            <div class="lg:w-1/2 lg:mx-10">
+                <h1 class="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">Let’s talk</h1>
+
+                <p class="mt-4 text-gray-500 dark:text-gray-400">
+                    Ask us everything and we would love
+                    to hear from you
+                </p>
+
+                <form class="mt-12">
+                    <div class="-mx-2 md:items-center md:flex">
+                        <div class="flex-1 px-2">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                            <input type="text" placeholder="John Doe" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+
+                        <div class="flex-1 px-2 mt-4 md:mt-0">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                            <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        </div>
+                    </div>
+
+                    <div class="w-full mt-4">
+                        <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                        <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+                    </div>
+
+                    <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                        get in touch
+                    </button>
+                </form>
+            </div>
+
+            <div class="mt-12 lg:flex lg:mt-0 lg:flex-col lg:items-center lg:w-1/2 lg:mx-10">
+                <img class="hidden object-cover mx-auto rounded-full lg:block shrink-0 w-96 h-96" src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                <div class="mt-6 space-y-8 md:mt-8">
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">
+                            Cecilia Chapman 711-2880 Nulla
+                            St. Mankato Mississippi 96522
+                        </span>
+                    </p>
+
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">(257) 563-7401</span>
+                    </p>
+
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+
+                        <span class="mx-2 text-gray-700 truncate w-72 dark:text-gray-400">acb@example.com</span>
+                    </p>
+                </div>
+
+                <div class="mt-6 w-80 md:mt-8">
+                    <h3 class="text-gray-600 dark:text-gray-300 ">Follow us</h3>
+
+                    <div class="flex mt-4 -mx-1.5 ">
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
+                                <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
+                                <path d="M5.6 7.2C6.48366 7.2 7.2 6.48366 7.2 5.6C7.2 4.71634 6.48366 4 5.6 4C4.71634 4 4 4.71634 4 5.6C4 6.48366 4.71634 7.2 5.6 7.2Z" fill="currentColor" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Background Image",
+            code: `<section class="min-h-screen bg-cover " style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')">
+    <div class="flex flex-col min-h-screen bg-black/60">
+        <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
+            <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
+                <div class="text-white lg:w-1/2 lg:mx-6">
+                    <h1 class="text-2xl font-semibold capitalize lg:text-3xl">Ultimate design solution</h1>
+
+                    <p class="max-w-xl mt-6">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quo
+                        aliquid molestiae hic incidunt beatae placeat accusantium! Alias ex quisquam ab tempora. Ratione
+                        autem doloremque ducimus numquam doloribus, error sed.
+                    </p>
+
+                    <button class="px-8 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                        get in touch
+                    </button>
+
+                    <div class="mt-6 md:mt-8">
+                        <h3 class="text-gray-300 ">Follow us</h3>
+
+                        <div class="flex mt-4 -mx-1.5 ">
+                            <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                                <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
+                                </svg>
+                            </a>
+
+                            <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
+                                    <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
+                                    <path d="M5.6 7.2C6.48366 7.2 7.2 6.48366 7.2 5.6C7.2 4.71634 6.48366 4 5.6 4C4.71634 4 4 4.71634 4 5.6C4 6.48366 4.71634 7.2 5.6 7.2Z" fill="currentColor" />
+                                </svg>
+                            </a>
+
+                            <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
+                                </svg>
+                            </a>
+
+                            <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                                <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 lg:w-1/2 lg:mx-6">
+                    <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                        <h1 class="text-xl font-medium text-gray-700 dark:text-gray-200">Contact form</h1>
+
+                        <p class="mt-2 text-gray-500 dark:text-gray-400">
+                            Ask us everything and we would love
+                            to hear from you
+                        </p>
+
+                        <form class="mt-6">
+                            <div class="flex-1">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                                <input type="text" placeholder="John Doe" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                            </div>
+
+                            <div class="flex-1 mt-6">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                                <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                            </div>
+
+                            <div class="w-full mt-6">
+                                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                                <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" placeholder="Message"></textarea>
+                            </div>
+
+                            <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                                get in touch
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Background Gradient",
+            code: `<section class="min-h-screen bg-gradient-to-r from-blue-600 via-blue-800 to-blue-900 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 ">
+    <div class="container flex flex-col min-h-screen px-6 py-12 mx-auto">
+        <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
+            <div class="text-white lg:w-1/2 lg:mx-6">
+                <h1 class="text-2xl font-semibold capitalize lg:text-3xl">Get a quote</h1>
+
+                <p class="max-w-xl mt-6">Ask us everything and we would love to hear from you</p>
+
+                <div class="mt-6 space-y-8 md:mt-8">
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+
+                        <span class="mx-2 text-white truncate w-72">
+                            Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
+                        </span>
+                    </p>
+
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+
+                        <span class="mx-2 text-white truncate w-72">(257) 563-7401</span>
+                    </p>
+
+                    <p class="flex items-start -mx-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+
+                        <span class="mx-2 text-white truncate w-72">acb@example.com</span>
+                    </p>
+                </div>
+
+                <div class="mt-6 md:mt-8">
+                    <h3 class="text-gray-300 ">Follow us</h3>
+
+                    <div class="flex mt-4 -mx-1.5 ">
+                        <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
+                                <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
+                                <path d="M5.6 7.2C6.48366 7.2 7.2 6.48366 7.2 5.6C7.2 4.71634 6.48366 4 5.6 4C4.71634 4 4 4.71634 4 5.6C4 6.48366 4.71634 7.2 5.6 7.2Z" fill="currentColor" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
+                            </svg>
+                        </a>
+
+                        <a class="mx-1.5 text-white transition-colors duration-300 transform hover:text-blue-500" href="#">
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 lg:w-1/2 lg:mx-6">
+                <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white shadow-2xl rounded-xl dark:bg-gray-900 lg:max-w-xl">
+                    <h1 class="text-xl font-medium text-gray-700 dark:text-gray-200">Contact form</h1>
+
+                    <form class="mt-4">
+                        <div class="flex-1">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                            <input type="text" placeholder="John Doe" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                        </div>
+
+                        <div class="flex-1 mt-6">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                            <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" />
+                        </div>
+
+                        <div class="w-full mt-6">
+                            <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                            <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring" placeholder="Message"></textarea>
+                        </div>
+
+                        <button class="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-400 focus:ring-opacity-50">
+                            get in touch
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`
+        },
+        {
+            name: "Page Side by Side",
+            code: `<section class="min-h-screen bg-white dark:bg-gray-900 lg:flex">
+    <div class="flex flex-col justify-center w-full p-8 lg:bg-gray-100 lg:dark:bg-gray-800 lg:px-12 xl:px-32 lg:w-1/2">
+        <h1 class="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">hire us.</h1>
+
+        <p class="mt-4 text-gray-500 dark:text-gray-400">
+            Ask us everything and we would love
+            to hear from you
+        </p>
+
+        <div class="mt-6 md:mt-8">
+            <h3 class="font-medium text-gray-600 dark:text-gray-300 ">Follow us</h3>
+
+            <div class="flex mt-4 -mx-1.5 ">
+                <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                    <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.6668 6.67334C18.0002 7.00001 17.3468 7.13268 16.6668 7.33334C15.9195 6.49001 14.8115 6.44334 13.7468 6.84201C12.6822 7.24068 11.9848 8.21534 12.0002 9.33334V10C9.83683 10.0553 7.91016 9.07001 6.66683 7.33334C6.66683 7.33334 3.87883 12.2887 9.3335 14.6667C8.0855 15.498 6.84083 16.0587 5.3335 16C7.53883 17.202 9.94216 17.6153 12.0228 17.0113C14.4095 16.318 16.3708 14.5293 17.1235 11.85C17.348 11.0351 17.4595 10.1932 17.4548 9.34801C17.4535 9.18201 18.4615 7.50001 18.6668 6.67268V6.67334Z" />
+                    </svg>
+                </a>
+
+                <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                    <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.2 8.80005C16.4731 8.80005 17.694 9.30576 18.5941 10.2059C19.4943 11.1061 20 12.327 20 13.6V19.2H16.8V13.6C16.8 13.1757 16.6315 12.7687 16.3314 12.4687C16.0313 12.1686 15.6244 12 15.2 12C14.7757 12 14.3687 12.1686 14.0687 12.4687C13.7686 12.7687 13.6 13.1757 13.6 13.6V19.2H10.4V13.6C10.4 12.327 10.9057 11.1061 11.8059 10.2059C12.7061 9.30576 13.927 8.80005 15.2 8.80005Z" fill="currentColor" />
+                        <path d="M7.2 9.6001H4V19.2001H7.2V9.6001Z" fill="currentColor" />
+                        <path d="M5.6 7.2C6.48366 7.2 7.2 6.48366 7.2 5.6C7.2 4.71634 6.48366 4 5.6 4C4.71634 4 4 4.71634 4 5.6C4 6.48366 4.71634 7.2 5.6 7.2Z" fill="currentColor" />
+                    </svg>
+                </a>
+
+                <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                    <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 10.2222V13.7778H9.66667V20H13.2222V13.7778H15.8889L16.7778 10.2222H13.2222V8.44444C13.2222 8.2087 13.3159 7.9826 13.4826 7.81591C13.6493 7.64921 13.8754 7.55556 14.1111 7.55556H16.7778V4H14.1111C12.9324 4 11.8019 4.46825 10.9684 5.30175C10.1349 6.13524 9.66667 7.2657 9.66667 8.44444V10.2222H7Z" fill="currentColor" />
+                    </svg>
+                </a>
+
+                <a class="mx-1.5 dark:hover:text-blue-400 text-gray-400 transition-colors duration-300 transform hover:text-blue-500" href="#">
+                    <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.9294 7.72275C9.65868 7.72275 7.82715 9.55428 7.82715 11.825C7.82715 14.0956 9.65868 15.9271 11.9294 15.9271C14.2 15.9271 16.0316 14.0956 16.0316 11.825C16.0316 9.55428 14.2 7.72275 11.9294 7.72275ZM11.9294 14.4919C10.462 14.4919 9.26239 13.2959 9.26239 11.825C9.26239 10.354 10.4584 9.15799 11.9294 9.15799C13.4003 9.15799 14.5963 10.354 14.5963 11.825C14.5963 13.2959 13.3967 14.4919 11.9294 14.4919ZM17.1562 7.55495C17.1562 8.08692 16.7277 8.51178 16.1994 8.51178C15.6674 8.51178 15.2425 8.08335 15.2425 7.55495C15.2425 7.02656 15.671 6.59813 16.1994 6.59813C16.7277 6.59813 17.1562 7.02656 17.1562 7.55495ZM19.8731 8.52606C19.8124 7.24434 19.5197 6.10901 18.5807 5.17361C17.6453 4.23821 16.51 3.94545 15.2282 3.88118C13.9073 3.80621 9.94787 3.80621 8.62689 3.88118C7.34874 3.94188 6.21341 4.23464 5.27444 5.17004C4.33547 6.10544 4.04628 7.24077 3.98201 8.52249C3.90704 9.84347 3.90704 13.8029 3.98201 15.1238C4.04271 16.4056 4.33547 17.5409 5.27444 18.4763C6.21341 19.4117 7.34517 19.7045 8.62689 19.7687C9.94787 19.8437 13.9073 19.8437 15.2282 19.7687C16.51 19.708 17.6453 19.4153 18.5807 18.4763C19.5161 17.5409 19.8089 16.4056 19.8731 15.1238C19.9481 13.8029 19.9481 9.84704 19.8731 8.52606ZM18.1665 16.5412C17.8881 17.241 17.349 17.7801 16.6456 18.0621C15.5924 18.4799 13.0932 18.3835 11.9294 18.3835C10.7655 18.3835 8.26272 18.4763 7.21307 18.0621C6.51331 17.7837 5.9742 17.2446 5.69215 16.5412C5.27444 15.488 5.37083 12.9888 5.37083 11.825C5.37083 10.6611 5.27801 8.15832 5.69215 7.10867C5.97063 6.40891 6.50974 5.8698 7.21307 5.58775C8.26629 5.17004 10.7655 5.26643 11.9294 5.26643C13.0932 5.26643 15.596 5.17361 16.6456 5.58775C17.3454 5.86623 17.8845 6.40534 18.1665 7.10867C18.5843 8.16189 18.4879 10.6611 18.4879 11.825C18.4879 12.9888 18.5843 15.4916 18.1665 16.5412Z" fill="currentColor" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24 ">
+        <form>
+            <div class="-mx-2 md:items-center md:flex">
+                <div class="flex-1 px-2">
+                    <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+                    <input type="text" placeholder="John Doe" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                </div>
+
+                <div class="flex-1 px-2 mt-4 md:mt-0">
+                    <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+                    <input type="email" placeholder="johndoe@example.com" class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                </div>
+            </div>
+
+            <div class="w-full mt-4">
+                <label class="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+                <textarea class="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" placeholder="Message"></textarea>
+            </div>
+
+            <button class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                get in touch
+            </button>
+        </form>
+    </div>
+</section>`
+        }
+    ],
+    emailtemplates: [
+        {
+            name: "Invite",
+            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+    <header>
+        <a href="#">
+            <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
+        </a>
+    </header>
+
+    <main class="mt-8">
+        <h2 class="text-gray-700 dark:text-gray-200">Hi Olivia,</h2>
+
+        <p class="mt-2 leading-loose text-gray-600 dark:text-gray-300">
+            Alicia has invited you to join the team on <span class="font-semibold ">Meraki UI</span>.
+        </p>
+        
+        <button class="px-6 py-2 mt-4 text-sm font-medium tracking-wider text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            Accept the invite
+        </button>
+        
+        <p class="mt-8 text-gray-600 dark:text-gray-300">
+            Thanks, <br>
+            Meraki UI team
+        </p>
+    </main>
     
+
+    <footer class="mt-8">
+        <p class="text-gray-500 dark:text-gray-400">
+            This email was sent to <a href="#" class="text-blue-600 hover:underline dark:text-blue-400" target="_blank">contact@merakiui.com</a>. 
+            If you'd rather not receive this kind of email, you can <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">unsubscribe</a> or <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">manage your email preferences</a>.
+        </p>
+
+        <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
+    </footer>
+</section>`
+        },
+        {
+            name: "Verification",
+            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+    <header>
+        <a href="#">
+            <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
+        </a>
+    </header>
+
+    <main class="mt-8">
+        <h2 class="text-gray-700 dark:text-gray-200">Hi Olivia,</h2>
+
+        <p class="mt-2 leading-loose text-gray-600 dark:text-gray-300">
+            This is your verification code:
+        </p>
+
+        <div class="flex items-center mt-4 gap-x-4">
+            <p class="flex items-center justify-center w-10 h-10 text-2xl font-medium text-blue-500 border border-blue-500 rounded-md dark:border-blue-400 dark:text-blue-400 ">6</p>
+            <p class="flex items-center justify-center w-10 h-10 text-2xl font-medium text-blue-500 border border-blue-500 rounded-md dark:border-blue-400 dark:text-blue-400 ">2</p>
+            <p class="flex items-center justify-center w-10 h-10 text-2xl font-medium text-blue-500 border border-blue-500 rounded-md dark:border-blue-400 dark:text-blue-400 ">8</p>
+            <p class="flex items-center justify-center w-10 h-10 text-2xl font-medium text-blue-500 border border-blue-500 rounded-md dark:border-blue-400 dark:text-blue-400 ">9</p>
+        </div>
+
+        <p class="mt-4 leading-loose text-gray-600 dark:text-gray-300">
+            This code will only be valid for the next 5 minutes. If the code does not work, you can use this login verification link:
+        </p>
+        
+        <button class="px-6 py-2 mt-6 text-sm font-medium tracking-wider text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            Verify email
+        </button>
+        
+        <p class="mt-8 text-gray-600 dark:text-gray-300">
+            Thanks, <br>
+            Meraki UI team
+        </p>
+    </main>
+    
+
+    <footer class="mt-8">
+        <p class="text-gray-500 dark:text-gray-400">
+            This email was sent to <a href="#" class="text-blue-600 hover:underline dark:text-blue-400" target="_blank">contact@merakiui.com</a>. 
+            If you'd rather not receive this kind of email, you can <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">unsubscribe</a> or <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">manage your email preferences</a>.
+        </p>
+
+        <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
+    </footer>
+</section>`
+        },
+        {
+            name: "Welcome",
+            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+    <header>
+        <a href="#">
+            <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
+        </a>
+    </header>
+
+    <main class="mt-8">
+        <p class="text-xl text-gray-700 dark:text-gray-200">Welcome to Company</p>
+        
+        <p class="mt-4 leading-loose text-gray-600 dark:text-gray-300">
+            We’re excited to welcome you to Untitled and we’re even more excited about what we’ve got planned. You’re already on your way to creating beautiful visual products.
+            Whether you’re here for your brand, for a cause, or just for fun — welcome! If there’s anything you need, we’ll be here every step of the way.
+        </p>
+
+        <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+        <div>
+            <div>
+                <a href="#" class="inline-flex items-center text-blue-600 underline dark:text-blue-400 gap-x-2 underline-offset-4">
+                    <span>Meraki UI changelog</span>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                    </svg>
+                </a>
+
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Weekly new updates and improvements to Meraki UI.</p>
+            </div>
+
+            <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+            <div>
+                <a href="#" class="inline-flex items-center text-blue-600 underline dark:text-blue-400 gap-x-2 underline-offset-4">
+                    <span>Follow us on Twitter</span>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                    </svg>
+                </a>
+
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Stay up-to-date with the latest announcements and jobs.</p>
+            </div>
+
+            <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+            <div>
+                <a href="#" class="inline-flex items-center text-blue-600 underline dark:text-blue-400 gap-x-2 underline-offset-4">
+                    <span>Why we’re building Merki UI</span>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                    </svg>
+                </a>
+
+                <p class="mt-2 text-gray-500 dark:text-gray-400">Meraki UI is a new standard of design system and UI kit.</p>
+            </div>
+
+            <hr class="my-6 border-gray-200 dark:border-gray-700">
+        </div>
+
+        <p class="mt-2 text-gray-500 dark:text-gray-400">
+            Thanks for signing up. If you have any questions, send us a message <br /> at
+            <a href="#" class="font-medium text-blue-600 hover:text-blue-500">hi@merakiui.com</a>
+            or on <a href="#" class="font-medium text-blue-600 hover:text-blue-500">Twitter</a>. We’d love to hear from you.<br/>
+            — The team
+        </p>
+        
+        <button class="px-6 py-2 mt-6 text-sm font-medium tracking-wider text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            Get started
+        </button>
+    </main>
+    
+
+    <footer class="mt-8">
+        <p class="text-gray-500 dark:text-gray-400">
+            This email was sent to <a href="#" class="text-blue-600 hover:underline dark:text-blue-400" target="_blank">contact@merakiui.com</a>. 
+            If you'd rather not receive this kind of email, you can <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">unsubscribe</a> or <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">manage your email preferences</a>.
+        </p>
+
+        <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
+    </footer>
+</section>`
+        },
+        {
+            name: "Welcome with Video",
+            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+    <header>
+        <a href="#">
+            <img class="w-auto mx-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
+        </a>
+    </header>
+
+    <main class="mt-8">
+        <h2 class="mt-6 text-gray-700 dark:text-gray-200">Hi Olivia,</h2>
+
+        <p class="mt-2 leading-loose text-gray-600 dark:text-gray-300">
+            Welcome to Meraki UI! You’re already on your way to creating beautiful visual products.
+            We’ve created a quick intro video to get you up and running as soon as possible. 
+            If you have any questions, <a href="#" class="underline transition-colors duration-200 hover:text-blue-600 dark:hover:text-blue-400">please get in touch</a>.
+        </p>
+
+        <iframe class="w-full h-64 my-10 rounded-lg md:h-80" src="https://www.youtube.com/embed/L6Jwa7al8os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Thanks, <br>
+            Meraki UI team
+        </p>
+    </main>
+    
+
+    <footer class="mt-8 text-center">
+        <h3 class="font-medium text-gray-800 dark:text-white">Download the app</h3>
+        <p class="mt-2 text-gray-500 dark:text-gray-400">Get the most of Meraki UI by installing our new mobile app.</p>
+
+        <div class="mt-6">
+            <a href="#" class="inline-flex items-center justify-center w-full px-4 py-2.5 text-sm overflow-hidden text-white transition-colors duration-300 bg-gray-900 rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                <svg class="w-5 h-5 mx-2 fill-current" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M407,0H105C47.103,0,0,47.103,0,105v302c0,57.897,47.103,105,105,105h302c57.897,0,105-47.103,105-105V105C512,47.103,464.897,0,407,0z M482,407c0,41.355-33.645,75-75,75H105c-41.355,0-75-33.645-75-75V105c0-41.355,33.645-75,75-75h302c41.355,0,75,33.645,75,75V407z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M305.646,123.531c-1.729-6.45-5.865-11.842-11.648-15.18c-11.936-6.892-27.256-2.789-34.15,9.151L256,124.166l-3.848-6.665c-6.893-11.937-22.212-16.042-34.15-9.151h-0.001c-11.938,6.893-16.042,22.212-9.15,34.151l18.281,31.664L159.678,291H110.5c-13.785,0-25,11.215-25,25c0,13.785,11.215,25,25,25h189.86l-28.868-50h-54.079l85.735-148.498C306.487,136.719,307.375,129.981,305.646,123.531z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M401.5,291h-49.178l-55.907-96.834l-28.867,50l86.804,150.348c3.339,5.784,8.729,9.921,15.181,11.65c2.154,0.577,4.339,0.863,6.511,0.863c4.332,0,8.608-1.136,12.461-3.361c11.938-6.893,16.042-22.213,9.149-34.15L381.189,341H401.5c13.785,0,25-11.215,25-25C426.5,302.215,415.285,291,401.5,291z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M119.264,361l-4.917,8.516c-6.892,11.938-2.787,27.258,9.151,34.15c3.927,2.267,8.219,3.345,12.458,3.344c8.646,0,17.067-4.484,21.693-12.495L176.999,361H119.264z"></path>
+                        </g>
+                    </g>
+                </svg>
+
+                <span class="mx-2">
+                    Get it on the App Store
+                </span>
+            </a>
+
+            <a href="#" class="inline-flex items-center justify-center w-full px-4 py-2.5 mt-4 text-sm overflow-hidden text-white transition-colors duration-300 bg-blue-600 rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                <svg class="w-5 h-5 mx-2 fill-current" viewBox="-28 0 512 512.00075" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m432.320312 215.121094-361.515624-208.722656c-14.777344-8.53125-32.421876-8.53125-47.203126 0-.121093.070312-.230468.148437-.351562.21875-.210938.125-.421875.253906-.628906.390624-14.175782 8.636719-22.621094 23.59375-22.621094 40.269532v417.445312c0 17.066406 8.824219 32.347656 23.601562 40.878906 7.390626 4.265626 15.496094 6.398438 23.601563 6.398438s16.214844-2.132812 23.601563-6.398438l361.519531-208.722656c14.777343-8.53125 23.601562-23.8125 23.601562-40.878906s-8.824219-32.347656-23.605469-40.878906zm-401.941406 253.152344c-.21875-1.097657-.351562-2.273438-.351562-3.550782v-417.445312c0-2.246094.378906-4.203125.984375-5.90625l204.324219 213.121094zm43.824219-425.242188 234.21875 135.226562-52.285156 54.539063zm-6.480469 429.679688 188.410156-196.527344 54.152344 56.484375zm349.585938-201.835938-80.25 46.332031-60.125-62.714843 58.261718-60.773438 82.113282 47.40625c7.75 4.476562 8.589844 11.894531 8.589844 14.875s-.839844 10.398438-8.589844 14.875zm0 0">
+                    </path>
+                </svg>
+
+                <span class="mx-2">
+                    Get it on Google Play
+                </span>
+            </a>
+        </div>
+
+        <p class="mt-6 text-gray-500 dark:text-gray-400">
+            This email was sent to <a href="#" class="text-blue-600 hover:underline dark:text-blue-400" target="_blank">contact@merakiui.com</a>. 
+            If you'd rather not receive this kind of email, you can <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">unsubscribe</a> or <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">manage your email preferences</a>.
+        </p>
+
+        <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
+    </footer>
+</section>`
+        },
+        {
+            name: "Notification",
+            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+    <header>
+        <a href="#">
+            <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
+        </a>
+        
+        <nav class="flex items-center mt-6 gap-x-6 sm:gap-x-8">
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Home </a>            
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Blog </a>        
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Tutorials </a>
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Support </a>
+        </nav>
+    </header>
+
+    <main class="mt-8">
+        <h2 class="text-gray-700 dark:text-gray-200">Hi Olivia,</h2>
+
+        <p class="mt-2 leading-loose text-gray-600 dark:text-gray-300">
+            We’re glad to have you onboard! You’re already on your way to 
+            creating beautiful visual products.
+            Whether you’re here for your brand, for a cause, or just for fun — 
+            welcome! If there’s anything you need, we’ll be here every step of the way.
+        </p>
+        
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Thanks, <br>
+            Meraki UI team
+        </p>
+        
+        <button class="px-6 py-2 mt-8 text-sm font-medium tracking-wider text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            Login
+        </button>
+    </main>
+    
+
+    <footer class="mt-8">
+        <p class="text-gray-500 dark:text-gray-400">
+            This email was sent to <a href="#" class="text-blue-600 hover:underline dark:text-blue-400" target="_blank">contact@merakiui.com</a>. 
+            If you'd rather not receive this kind of email, you can <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">unsubscribe</a> or <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">manage your email preferences</a>.
+        </p>
+
+        <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
+    </footer>
+</section>`
+        },
+        {
+            name: "Notification with Image",
+            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+    <header>
+        <a href="#">
+            <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
+        </a>
+        
+        <nav class="flex items-center mt-6 gap-x-6 sm:gap-x-8">
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Home </a>            
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Blog </a>        
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Tutorials </a>
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400" aria-label="Reddit"> Support </a>
+        </nav>
+    </header>
+
+    <main class="mt-8">
+        <img class="object-cover w-full h-56 rounded-lg md:h-72" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+        
+        <h2 class="mt-6 text-gray-700 dark:text-gray-200">Hi Olivia,</h2>
+
+        <p class="mt-2 leading-loose text-gray-600 dark:text-gray-300">
+            We’re glad to have you onboard! You’re already on your way to 
+            creating beautiful visual products.
+            Whether you’re here for your brand, for a cause, or just for fun — 
+            welcome! If there’s anything you need, we’ll be here every step of the way.
+        </p>
+        
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Thanks, <br>
+            Meraki UI team
+        </p>
+        
+        <button class="px-6 py-2 mt-8 text-sm font-medium tracking-wider text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            Login
+        </button>
+    </main>
+    
+
+    <footer class="mt-8">
+        <p class="text-gray-500 dark:text-gray-400">
+            This email was sent to <a href="#" class="text-blue-600 hover:underline dark:text-blue-400" target="_blank">contact@merakiui.com</a>. 
+            If you'd rather not receive this kind of email, you can <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">unsubscribe</a> or <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">manage your email preferences</a>.
+        </p>
+
+        <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
+    </footer>
+</section>`
+        },
+        {
+            name: "News",
+            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+    <header class="flex items-center justify-between ">
+        <a href="#">
+            <img class="w-auto h-6 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
+        </a>
+        
+        <div class="flex items-center gap-x-4">
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400">Login</a>
+            <a href="#" class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500 dark:text-gray-300 dark:hover:text-blue-400">Register</a>
+        </div>
+    </header>
+
+    <main class="mt-8">
+        <img class="object-cover w-full h-56 rounded-lg shadow-md md:h-72" src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="">
+        
+        <h2 class="mt-6 text-2xl font-medium text-blue-600 dark:text-blue-400">Meet Version 3.0: a clean, modern UI kit for beautiful interfaces</h2>
+
+        <p class="mt-2 leading-loose text-gray-600 dark:text-gray-300">
+            We’re glad to have you onboard! You’re already on your way to creating beautiful visual products.
+            <br>
+            Whether you’re here for your brand, for a cause, or just for fun — welcome! If there’s anything you need, we’ll be here every step of the way
+        </p>
+        
+        <p class="mt-2 text-gray-600 dark:text-gray-300">
+            Thanks, <br>
+            Meraki UI team
+        </p>
+        
+        <a href="#" class="inline-flex items-center px-6 py-2 mt-6 text-sm font-medium tracking-wider text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg gap-x-2 hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+            <span>Download 3.0</span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 rtl:rotate-180">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+            </svg>
+        </a>
+    </main>
+    
+
+    <footer class="mt-8">
+        <h3 class="font-medium text-gray-800 dark:text-white">Download the app</h3>
+        <p class="mt-2 text-gray-500 dark:text-gray-400">Get the most of Meraki UI by installing our new mobile app.</p>
+
+        <div class="mt-4 -mx-2">
+            <a href="#" class="inline-flex items-center justify-center w-full px-4 py-2.5 text-sm overflow-hidden text-white transition-colors duration-300 bg-gray-900 rounded-lg shadow sm:w-auto sm:mx-2 hover:bg-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+                <svg class="w-5 h-5 mx-2 fill-current" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
+                    <g>
+                        <g>
+                            <path d="M407,0H105C47.103,0,0,47.103,0,105v302c0,57.897,47.103,105,105,105h302c57.897,0,105-47.103,105-105V105C512,47.103,464.897,0,407,0z M482,407c0,41.355-33.645,75-75,75H105c-41.355,0-75-33.645-75-75V105c0-41.355,33.645-75,75-75h302c41.355,0,75,33.645,75,75V407z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M305.646,123.531c-1.729-6.45-5.865-11.842-11.648-15.18c-11.936-6.892-27.256-2.789-34.15,9.151L256,124.166l-3.848-6.665c-6.893-11.937-22.212-16.042-34.15-9.151h-0.001c-11.938,6.893-16.042,22.212-9.15,34.151l18.281,31.664L159.678,291H110.5c-13.785,0-25,11.215-25,25c0,13.785,11.215,25,25,25h189.86l-28.868-50h-54.079l85.735-148.498C306.487,136.719,307.375,129.981,305.646,123.531z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M401.5,291h-49.178l-55.907-96.834l-28.867,50l86.804,150.348c3.339,5.784,8.729,9.921,15.181,11.65c2.154,0.577,4.339,0.863,6.511,0.863c4.332,0,8.608-1.136,12.461-3.361c11.938-6.893,16.042-22.213,9.149-34.15L381.189,341H401.5c13.785,0,25-11.215,25-25C426.5,302.215,415.285,291,401.5,291z"></path>
+                        </g>
+                    </g>
+                    <g>
+                        <g>
+                            <path d="M119.264,361l-4.917,8.516c-6.892,11.938-2.787,27.258,9.151,34.15c3.927,2.267,8.219,3.345,12.458,3.344c8.646,0,17.067-4.484,21.693-12.495L176.999,361H119.264z"></path>
+                        </g>
+                    </g>
+                </svg>
+
+                <span class="mx-2">
+                    Get it on the App Store
+                </span>
+            </a>
+
+            <a href="#" class="inline-flex items-center justify-center w-full px-4 py-2.5 mt-4 text-sm overflow-hidden text-white transition-colors duration-300 bg-blue-600 rounded-lg shadow sm:w-auto sm:mx-2 sm:mt-0 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+                <svg class="w-5 h-5 mx-2 fill-current" viewBox="-28 0 512 512.00075" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m432.320312 215.121094-361.515624-208.722656c-14.777344-8.53125-32.421876-8.53125-47.203126 0-.121093.070312-.230468.148437-.351562.21875-.210938.125-.421875.253906-.628906.390624-14.175782 8.636719-22.621094 23.59375-22.621094 40.269532v417.445312c0 17.066406 8.824219 32.347656 23.601562 40.878906 7.390626 4.265626 15.496094 6.398438 23.601563 6.398438s16.214844-2.132812 23.601563-6.398438l361.519531-208.722656c14.777343-8.53125 23.601562-23.8125 23.601562-40.878906s-8.824219-32.347656-23.605469-40.878906zm-401.941406 253.152344c-.21875-1.097657-.351562-2.273438-.351562-3.550782v-417.445312c0-2.246094.378906-4.203125.984375-5.90625l204.324219 213.121094zm43.824219-425.242188 234.21875 135.226562-52.285156 54.539063zm-6.480469 429.679688 188.410156-196.527344 54.152344 56.484375zm349.585938-201.835938-80.25 46.332031-60.125-62.714843 58.261718-60.773438 82.113282 47.40625c7.75 4.476562 8.589844 11.894531 8.589844 14.875s-.839844 10.398438-8.589844 14.875zm0 0">
+                    </path>
+                </svg>
+
+                <span class="mx-2">
+                    Get it on Google Play
+                </span>
+            </a>
+        </div>
+
+        <p class="mt-6 text-gray-500 dark:text-gray-400">
+            This email was sent to <a href="#" class="text-blue-600 hover:underline dark:text-blue-400" target="_blank">contact@merakiui.com</a>. 
+            If you'd rather not receive this kind of email, you can <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">unsubscribe</a> or <a href="#" class="text-blue-600 hover:underline dark:text-blue-400">manage your email preferences</a>.
+        </p>
+
+        <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
+    </footer>
+</section>`
+        }
+    ]
 };
 
 export default codeData;
