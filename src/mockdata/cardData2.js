@@ -5,6 +5,7 @@ export const data2 = [
     componentCount: "6 components",
     uiName: "Marketing UI",
     path: "./image/blog.webp",
+    link: "/categories/blog"
   },
   {
     key: 2,
@@ -12,6 +13,7 @@ export const data2 = [
     componentCount: "6 components",
     uiName: "Marketing UI",
     path: "./image/cta.webp",
+    link: "/categories/cta"
   },
   {
     key: 3,
@@ -19,6 +21,7 @@ export const data2 = [
     componentCount: "13 components",
     uiName: "Marketing UI",
     path: "./image/contact.webp",
+    link: "/categories/contact"
   },
   {
     key: 4,
@@ -26,6 +29,7 @@ export const data2 = [
     componentCount: "7 components",
     uiName: "Marketing UI",
     path: "./image/email-templates.webp",
+    link: "/categories/email-templates"
   },
   {
     key: 5,
@@ -33,6 +37,7 @@ export const data2 = [
     componentCount: "5 components",
     uiName: "Marketing UI",
     path: "./image/faq.webp",
+    link: "/categories/faq"
   },
   {
     key: 6,
@@ -40,6 +45,7 @@ export const data2 = [
     componentCount: "10 components",
     uiName: "Marketing UI",
     path: "./image/footers.webp",
+    link: "/categories/footers"
   },
   {
     key: 7,
@@ -47,6 +53,7 @@ export const data2 = [
     componentCount: "5 components",
     uiName: "Marketing UI",
     path: "./image/portfolio.webp",
+    link: "/categories/portfolio"
   },
   {
     key: 8,
@@ -54,6 +61,7 @@ export const data2 = [
     componentCount: "7 components",
     uiName: "Marketing UI",
     path: "./image/pricing.webp",
+    link: "/categories/pricing"
   },
   {
     key: 9,
@@ -61,5 +69,6 @@ export const data2 = [
     componentCount: "11 components",
     uiName: "Marketing UI",
     path: "./image/heros.webp",
+    link: "/categories/heros"
   },
 ];

@@ -6381,7 +6381,8 @@ const codeData = {
     </p>
 </div>`
         }        
-    ]
+    ],
+    
 };
 
 export default codeData;
