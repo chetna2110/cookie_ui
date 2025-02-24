@@ -29,7 +29,7 @@ export const data2 = [
     componentCount: "7 components",
     uiName: "Marketing UI",
     path: "./image/email-templates.webp",
-    link: "/categories/email-templates"
+    link: "/categories/emailtemplates"
   },
   {
     key: 5,
@@ -71,4 +71,36 @@ export const data2 = [
     path: "./image/heros.webp",
     link: "/categories/heros"
   },
+  {
+    key: 10,
+    componentName: "404 Pages",
+    componentCount: "7 components",
+    uiName: "Marketing UI",
+    path: "./image/404-pages.webp",
+    link: "/categories/pages404"
+  },
+  {
+    key: 11,
+    componentName: "Teams",
+    componentCount: "7 components",
+    uiName: "Marketing UI",
+    path: "./image/teams.webp",
+    link: "/categories/teams"
+  },
+  {
+    key: 12,
+    componentName: "Testimonials",
+    componentCount: "8 components",
+    uiName: "Marketing UI",
+    path: "./image/testimonials.webp",
+    link: "/categories/testimonials"
+  },
+  {
+    key: 13,
+    componentName: "Features",
+    componentCount: "7 components",
+    uiName: "Marketing UI",
+    path: "./image/features.webp",
+    link: "/categories/fearures"
+  }
 ];
