@@ -1,37 +1,50 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { useSignIn } from "@clerk/clerk-react";
 
 const Signin = () => {
-    const { signIn, isLoaded } = useSignIn();
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
-    const [error, setError] = useState("");
-    const handleSignIn = async () => {
-      if (!isLoaded) return;
+  const { signIn, isLoaded } = useSignIn();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const handleSignIn = async () => {
+    if (!isLoaded) return;
 
-      try {
-        const signInAttempt = await signIn.create({
-          identifier: email,
-          password,
-        });
+    try {
+      const signInAttempt = await signIn.create({
+        identifier: email,
+        password,
+      });
 
-        const result = await signInAttempt.attemptFirstFactor({
-          strategy: "password",
-          password,
-        });
+      const result = await signInAttempt.attemptFirstFactor({
+        strategy: "password",
+        password,
+      });
 
-        if (result.status === "complete") {
-          window.location.href = "/"; // Redirect after successful login
-        } else {
-          setError("Authentication failed. Please try again.");
-        }
-      } catch (err) {
-        setError(
-          err.errors ? err.errors[0].message : "Invalid email or password."
-        );
+      if (result.status === "complete") {
+        window.location.href = "/"; // Redirect after successful login
+      } else {
+        setError("Authentication failed. Please try again.");
       }
-    };
+    } catch (err) {
+      setError(
+        err.errors ? err.errors[0].message : "Invalid email or password."
+      );
+    }
+  };
+
+  // Custom Google Sign-Up Function
+  const handleGoogleSignIn = async () => {
+    try {
+      await signIn.authenticateWithRedirect({
+        strategy: "oauth_google",
+        redirectUrl: "/", // Redirect to the dashboard or another page
+      });
+    } catch (err) {
+      console.error("Google Sign-In Error:", err);
+      setError("Failed to sign in with Google.");
+    }
+  };
 
   return (
     <div>
@@ -59,7 +72,8 @@ const Signin = () => {
           </p>
 
           <div
-            className="flex items-center justify-center mt-5 text-black rounded-lg bg-amber-400 py-2 px-4"
+            onClick={handleGoogleSignIn}
+            className="flex items-center justify-center mt-5 text-black rounded-lg bg-amber-400 py-2 px-4 cursor-pointer"
           >
             <div className="px-4 py-2">
               <svg className="w-6 h-6" viewBox="0 0 40 40">
@@ -163,6 +177,6 @@ const Signin = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Signin
+export default Signin;
