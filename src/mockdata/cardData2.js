@@ -101,6 +101,6 @@ export const data2 = [
     componentCount: "7 components",
     uiName: "Marketing UI",
     path: "./image/features.webp",
-    link: "/categories/fearures"
+    link: "/categories/features"
   }
 ];
