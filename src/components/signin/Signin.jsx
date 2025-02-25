@@ -11,16 +11,28 @@ const Signin = () => {
       if (!isLoaded) return;
 
       try {
-        await signIn.create({
+        const signInAttempt = await signIn.create({
           identifier: email,
           password,
         });
 
-        window.location.href = "/"; // Redirect after sign-in
+        const result = await signInAttempt.attemptFirstFactor({
+          strategy: "password",
+          password,
+        });
+
+        if (result.status === "complete") {
+          window.location.href = "/"; // Redirect after successful login
+        } else {
+          setError("Authentication failed. Please try again.");
+        }
       } catch (err) {
-        setError("Invalid email or password.");
+        setError(
+          err.errors ? err.errors[0].message : "Invalid email or password."
+        );
       }
     };
+
   return (
     <div>
       <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg  lg:max-w-4xl mt-20">

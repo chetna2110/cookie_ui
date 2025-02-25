@@ -79,7 +79,7 @@ const Nav = () => {
           {isSignedIn ? (
           <div className="flex flex-row gap-6">
             <div className="bg-amber-400 border border-amber-600 rounded-full p-2">
-              CS
+              {user.username}
             </div>  
             <div>
                 <Logout/>

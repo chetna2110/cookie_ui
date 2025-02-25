@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { useAuth, useUser } from "@clerk/clerk-react"; // Use useAuth instead
 import { useNavigate } from "react-router-dom";
 const Logout = () => {
@@ -31,13 +30,13 @@ const Logout = () => {
     <div className='flex flex-row gap-4'>
       <button
         onClick={handleLogout}
-        className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-700"
+        className="px-4 py-2 font-semibold bg-amber-500 text-black rounded-lg hover:bg-amber-700 hover:text-white"
       >
         Logout
       </button>
       <button
         onClick={handleDeleteAccount}
-        className="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600"
+        className="px-4 py-2 bg-amber-500 font-semibold text-black rounded-lg hover:bg-amber-700 hover:text-white"
       >
         Delete Account
       </button>
