@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import { navmenu } from "../../mockdata/data";
 import { Link, useNavigate } from "react-router-dom";
-import {useRef} from "react";
+import { useRef } from "react";
 import { data } from "../../mockdata/cardData";
 import { useUser } from "@clerk/clerk-react";
 import Logout from "../logout/Logout";
 
 const Nav = () => {
-  const inputRef=useRef(null);
-  const navigate=useNavigate();
+  const inputRef = useRef(null);
+  const navigate = useNavigate();
   const { user, isSignedIn } = useUser();
-  const [isClicked, setIsClicked]=useState(false);
+  const [isClicked, setIsClicked] = useState(false);
   const handleSearch = (e) => {
     if (e.key === "Enter") {
       const name = inputRef.current.value.toLowerCase();
@@ -78,15 +78,23 @@ const Nav = () => {
         {/* Buttons */}
         <div>
           {isSignedIn ? (
-          <div className="flex flex-row gap-6">
-            <div onClick={()=>setIsClicked(!isClicked)} className="bg-amber-400 border border-amber-600 rounded-full p-2 cursor-pointer">
-              {user.username}
-            </div>  
-            {
-              isClicked ? <Logout isClicked={isClicked} setIsClicked={setIsClicked}/> : null
-            }
+            <div className="flex flex-row gap-6">
+              <div
+                onClick={() => setIsClicked(!isClicked)}
+                role="button"
+                aria-label="Toggle menu"
+                className="bg-amber-400 border border-amber-600 rounded-full p-2 cursor-pointer transition duration-300 hover:bg-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-600"
+              >
+                {user?.primaryEmailAddress?.emailAddress
+                  ?.charAt(0)
+                  .toUpperCase()+user?.primaryEmailAddress?.emailAddress
+                  ?.charAt(1)
+                  .toUpperCase()}
+              </div>
+              {isClicked ? (
+                <Logout isClicked={isClicked} setIsClicked={setIsClicked} />
+              ) : null}
             </div>
-            
           ) : (
             <div className="flex gap-4">
               <Link to="/signin">
