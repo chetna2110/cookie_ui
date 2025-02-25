@@ -7,8 +7,6 @@ const Signup = () => {
   const { signUp, isLoaded } = useSignUp();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [firstName, setFirstName] = useState(""); // First Name State
-  const [lastName, setLastName] = useState(""); // Last Name State
   const [confirmPassword, setConfirmPassword] = useState("");
   const [verificationCode, setVerificationCode] = useState("");
   const [pendingVerification, setPendingVerification] = useState(false);
@@ -31,21 +29,8 @@ const Signup = () => {
 
       await signUp.prepareEmailAddressVerification();
       setPendingVerification(true);
-      setUserName(firstName, lastName); // Set custom user name
     } catch (err) {
       setError("Error creating account.");
-    }
-  };
-
-  const setUserName = async (firstName, lastName) => {
-    try {
-      await user.update({
-        firstName: firstName,  // Set custom first name
-        lastName: lastName     // Set custom last name
-      });
-      console.log("User name updated successfully!");
-    } catch (error) {
-      console.error("Error updating user name:", error);
     }
   };
 
