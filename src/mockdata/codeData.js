@@ -10020,3 +10020,5 @@ const codeData = {
     },
   ],
 };
+
+export default codeData;
