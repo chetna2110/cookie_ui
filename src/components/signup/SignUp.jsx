@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSignUp } from "@clerk/clerk-react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const { signUp, isLoaded } = useSignUp();
@@ -10,6 +10,7 @@ const Signup = () => {
   const [verificationCode, setVerificationCode] = useState(""); // New state for verification
   const [pendingVerification, setPendingVerification] = useState(false); // Track verification step
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   const handleSignUp = async () => {
     if (!isLoaded) return;
@@ -39,6 +40,7 @@ const Signup = () => {
       });
 
       alert("Email verified successfully! You can now sign in.");
+      navigate("/");
     } catch (err) {
       setError("Invalid verification code. Please try again.");
     }
