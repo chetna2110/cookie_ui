@@ -1,7 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import { useSignIn } from "@clerk/clerk-react";
 
 const Signin = () => {
+    const { signIn, isLoaded } = useSignIn();
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [error, setError] = useState("");
+    const handleSignIn = async () => {
+      if (!isLoaded) return;
+
+      try {
+        await signIn.create({
+          identifier: email,
+          password,
+        });
+
+        window.location.href = "/"; // Redirect after sign-in
+      } catch (err) {
+        setError("Invalid email or password.");
+      }
+    };
   return (
     <div>
       <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg  lg:max-w-4xl mt-20">
@@ -15,11 +34,17 @@ const Signin = () => {
         </div>
         <div className="w-full px-6 py-8 md:px-8 lg:w-1/2 bg-amber-50">
           <div className="flex justify-center h-16">
-            <div className='h-full w-full flex justify-center items-center relative mt-[13px]'>
-              <img className="w-40 h-40 absolute" src="./image/logo.png" alt="" />
+            <div className="h-full w-full flex justify-center items-center relative mt-[13px]">
+              <img
+                className="w-40 h-40 absolute"
+                src="./image/logo.png"
+                alt=""
+              />
             </div>
           </div>
-          <p className="text-xl text-center font-semibold text-black">Welcome back!</p>
+          <p className="text-xl text-center font-semibold text-black">
+            Welcome back!
+          </p>
 
           <a
             href="#"
@@ -46,9 +71,7 @@ const Signin = () => {
               </svg>
             </div>
 
-            <span className="font-bold">
-              Sign in with Google
-            </span>
+            <span className="font-bold">Sign in with Google</span>
           </a>
 
           <div className="flex items-center justify-between mt-4">
@@ -73,6 +96,8 @@ const Signin = () => {
             </label>
             <input
               id="LoggingEmailAddress"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="block w-full px-4 py-2 text-black bg-white border rounded-lg  focus:border-amber-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-amber-300"
               type="email"
             />
@@ -93,13 +118,20 @@ const Signin = () => {
 
             <input
               id="loggingPassword"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               className="block w-full px-4 py-2 text-black bg-white border rounded-lg  focus:border-amber-400 focus:ring-opacity-40 focus:outline-none focus:ring focus:ring-amber-300"
               type="password"
             />
           </div>
 
+          {error && <p className="text-red-500">{error}</p>}
+
           <div className="mt-6 bg-amber-400 rounded-lg">
-            <button className="w-full px-6 py-3 text-sm font-medium tracking-wide text-black capitalize transition-colors duration-300 transform rounded-lg focus:outline-none focus:ring focus:border-amber-400 focus:ring-amber-300 focus:ring-opacity-40">
+            <button
+              onClick={handleSignIn}
+              className="w-full px-6 py-3 text-sm font-medium tracking-wide text-black capitalize transition-colors duration-300 transform rounded-lg focus:outline-none focus:ring focus:border-amber-400 focus:ring-amber-300 focus:ring-opacity-40"
+            >
               Sign In
             </button>
           </div>

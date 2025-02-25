@@ -14,6 +14,7 @@ import Bloggrid from './components/blog/bloggrid.jsx'
 import Docs from './components/docs/Docs.jsx'
 import GridComponent from './components/grid/GridComponent.jsx'
 import Blogdetails from './components/blog/Blogdetails.jsx'
+import Signin from './components/signin/Signin.jsx'
 
 const clerk_key=import.meta.env.VITE_CLERK_KEY;
 
@@ -42,7 +43,7 @@ const router = createBrowserRouter([
       },
       {
         path: "signin",
-        element: <Sign />,
+        element: <Signin />,
         children: [
           {
             path: "signup",
