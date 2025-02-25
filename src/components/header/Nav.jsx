@@ -77,7 +77,7 @@ const Nav = () => {
         <div>
           {isSignedIn ? (
             <div className="bg-amber-400 border border-amber-600 rounded-full p-2">
-              {(user.firstName[0] + user.lastName[0]).toUpperCase()}
+              {console.log(user.firstName)}
             </div>
           ) : (
             <div className="flex gap-4">

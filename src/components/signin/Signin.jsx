@@ -46,8 +46,7 @@ const Signin = () => {
             Welcome back!
           </p>
 
-          <a
-            href="#"
+          <div
             className="flex items-center justify-center mt-5 text-black rounded-lg bg-amber-400 py-2 px-4"
           >
             <div className="px-4 py-2">
@@ -72,17 +71,17 @@ const Signin = () => {
             </div>
 
             <span className="font-bold">Sign in with Google</span>
-          </a>
+          </div>
 
           <div className="flex items-center justify-between mt-4">
             <span className="w-1/5 border-b lg:w-1/4"></span>
 
-            <a
-              href="#"
+            <Link
+              to="/signin"
               className="text-xs text-center text-black uppercase hover:underline"
             >
               or login with email
-            </a>
+            </Link>
 
             <span className="w-1/5 border-b lg:w-1/4"></span>
           </div>
@@ -111,9 +110,9 @@ const Signin = () => {
               >
                 Password
               </label>
-              <a href="#" className="text-xs text-black hover:underline">
+              <div className="text-xs text-black hover:underline">
                 Forget Password?
-              </a>
+              </div>
             </div>
 
             <input
