@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import {useRef} from "react";
 import { data } from "../../mockdata/cardData";
 import { useUser } from "@clerk/clerk-react";
+import Logout from "../logout/Logout";
 
 const Nav = () => {
   const inputRef=useRef(null);
@@ -76,9 +77,15 @@ const Nav = () => {
         {/* Buttons */}
         <div>
           {isSignedIn ? (
+          <div className="flex flex-row gap-6">
             <div className="bg-amber-400 border border-amber-600 rounded-full p-2">
-              {console.log(user.firstName)}
+              CS
+            </div>  
+            <div>
+                <Logout/>
             </div>
+            </div>
+            
           ) : (
             <div className="flex gap-4">
               <Link to="/signin">
