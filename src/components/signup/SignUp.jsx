@@ -1,6 +1,33 @@
 import React from "react";
-
+import { useSignUp } from "@clerk/clerk-react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 const Signup = () => {
+  const { signUp, isLoaded } = useSignUp();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState("");
+  const handleSignUp = async () => {
+    if (!isLoaded) return;
+    // Check if passwords match
+    if (password !== confirmPassword) {
+      setError("Passwords do not match!");
+      return;
+    }
+
+    try {
+      await signUp.create({
+        emailAddress: email,
+        password,
+      });
+
+      await signUp.prepareEmailAddressVerification(); // Send verification email
+      alert("Verification email sent!");
+    } catch (err) {
+      setError("Error creating account.");
+    }
+  };
   return (
     <div className="flex items-center justify-center min-h-screen">
       <div className="w-full max-w-2xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
@@ -18,7 +45,11 @@ const Signup = () => {
           {/* Right Side Form */}
           <div className="w-full p-8 lg:w-1/2 bg-amber-50">
             <div className="flex items-center justify-center mt-10 relative">
-              <img className="w-40 h-40 absolute insert-2" src="./image/logo.png" alt="Logo" />
+              <img
+                className="w-40 h-40 absolute insert-2"
+                src="./image/logo.png"
+                alt="Logo"
+              />
             </div>
             <p className="text-xl font-semibold text-center text-black mt-5">
               Create an account
@@ -62,31 +93,59 @@ const Signup = () => {
             </div>
 
             {/* Input Fields */}
-            {["Email Address", "Password", "Confirm Password"].map(
-              (label, i) => (
-                <div key={i} className="mt-4">
-                  <label className="block text-sm font-medium text-black">
-                    {label}
-                  </label>
-                  <input
-                    className="w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:ring focus:outline-none"
-                    type={label.includes("Password") ? "password" : "email"}
-                    placeholder={`Enter ${label.toLowerCase()}`}
-                  />
-                </div>
-              )
-            )}
+            <div className="mt-4">
+              <label className="block text-sm font-medium text-black">
+                Email Address
+              </label>
+              <input
+                className="w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:ring focus:outline-none"
+                type="email"
+                placeholder="Enter email address"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+            </div>
+
+            <div className="mt-4">
+              <label className="block text-sm font-medium text-black">
+                Password
+              </label>
+              <input
+                className="w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:ring focus:outline-none"
+                type="password"
+                placeholder="Enter password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+              />
+            </div>
+
+            <div className="mt-4">
+              <label className="block text-sm font-medium text-black">
+                Confirm Password
+              </label>
+              <input
+                className="w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:ring focus:outline-none"
+                type="password"
+                placeholder="Enter confirm password"
+                value={confirmPassword}
+                onChange={(e) => setConfirmPassword(e.target.value)}
+              />
+            </div>
+            {error && <p className="text-red-500">{error}</p>}
 
             {/* Sign Up Button */}
-            <button className="w-full mt-5 py-2 text-sm font-medium text-black bg-amber-400 rounded-lg focus:ring">
+            <button
+              onClick={handleSignUp}
+              className="w-full mt-5 py-2 text-sm font-medium text-black bg-amber-400 rounded-lg focus:ring"
+            >
               Sign Up
             </button>
 
             {/* Already Have an Account */}
             <div className="text-center mt-4">
-              <a href="#" className="text-xs text-black hover:underline">
+              <Link to="/signin" className="text-xs text-black hover:underline">
                 Already have an account? Sign in
-              </a>
+              </Link>
             </div>
           </div>
         </div>
