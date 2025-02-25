@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -12,10 +13,10 @@ const Footer = () => {
     Powering the Web, <p> One <span className="font-bold">Component</span> at a Time</p>
   </div>
    <div className="inline-block">
-  <a href="https://github.com" target="_blank" className="mt-4 flex items-center gap-3 bg-amber-600 text-white  px-2 py-2 rounded-lg font-semibold shadow-md transition-transform duration-300 hover:scale-110 hover:bg-amber-700">
+  <Link to="https://github.com" target="_blank" className="mt-4 flex items-center gap-3 bg-amber-600 text-white  px-2 py-2 rounded-lg font-semibold shadow-md transition-transform duration-300 hover:scale-110 hover:bg-amber-700">
     <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" className="w-4 h-4"/>
     Follow on GitHub
-  </a>
+  </Link>
   </div>
 </div>
 
