@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
 import { useAuth, useUser } from "@clerk/clerk-react"; // Use useAuth instead
 import { useNavigate } from "react-router-dom";
-const Logout = () => {
+import { MdOutlineClose } from "react-icons/md";
+const Logout = ({isClicked, setIsClicked}) => {
   const { signOut } = useAuth();
   const { user } = useUser(); // For deleting account
   const navigate = useNavigate();
@@ -27,7 +28,17 @@ const Logout = () => {
   };
 
   return (
-    <div className='flex flex-row gap-4'>
+    <div className="flex flex-col gap-4 absolute right-4 top-4 bg-white p-4 rounded-lg shadow-lg">
+      <div className="flex items-center justify-between p-3 border-b border-gray-300">
+        <h2 className="text-lg font-semibold text-gray-800">Account Options</h2>
+        <button
+          aria-label="Close"
+          onClick={() => setIsClicked(!isClicked)}
+          className="p-1 ml-4 rounded-full border border-amber-600 hover:bg-amber-100 transition"
+        >
+          <MdOutlineClose className="size-5 text-amber-600" />
+        </button>
+      </div>
       <button
         onClick={handleLogout}
         className="px-4 py-2 font-semibold bg-amber-500 text-black rounded-lg hover:bg-amber-700 hover:text-white"
@@ -42,6 +53,6 @@ const Logout = () => {
       </button>
     </div>
   );
-}
+};
 
-export default Logout
+export default Logout;

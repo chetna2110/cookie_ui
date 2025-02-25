@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { navmenu } from "../../mockdata/data";
 import { Link, useNavigate } from "react-router-dom";
 import {useRef} from "react";
@@ -10,6 +10,7 @@ const Nav = () => {
   const inputRef=useRef(null);
   const navigate=useNavigate();
   const { user, isSignedIn } = useUser();
+  const [isClicked, setIsClicked]=useState(false);
   const handleSearch = (e) => {
     if (e.key === "Enter") {
       const name = inputRef.current.value.toLowerCase();
@@ -78,12 +79,12 @@ const Nav = () => {
         <div>
           {isSignedIn ? (
           <div className="flex flex-row gap-6">
-            <div className="bg-amber-400 border border-amber-600 rounded-full p-2">
+            <div onClick={()=>setIsClicked(!isClicked)} className="bg-amber-400 border border-amber-600 rounded-full p-2 cursor-pointer">
               {user.username}
             </div>  
-            <div>
-                <Logout/>
-            </div>
+            {
+              isClicked ? <Logout isClicked={isClicked} setIsClicked={setIsClicked}/> : null
+            }
             </div>
             
           ) : (
