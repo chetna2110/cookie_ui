@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { useSignUp } from "@clerk/clerk-react";
-import { Link } from "react-router-dom";
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
   const { signUp, isLoaded } = useSignUp();
@@ -8,6 +9,8 @@ const Signup = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const [error, setError] = useState("");
+  const [successMessage, setSuccessMessage] = useState(""); // New state for success message
+  const navigate = useNavigate(); // Use navigate to redirect user
 
   const handleSignUp = async () => {
     if (!isLoaded) return;
@@ -19,58 +22,62 @@ const Signup = () => {
     }
 
     try {
-      const signUpAttempt = await signUp.create({
+      await signUp.create({
         emailAddress: email,
         password,
       });
 
-      console.log("Sign-up Response:", signUpAttempt); // Debugging
-
       await signUp.prepareEmailAddressVerification(); // Send verification email
-      alert("Verification email sent! Please check your inbox.");
+
+      setSuccessMessage("Verification email sent! Please check your inbox."); // Show success message
     } catch (err) {
-      console.error("Signup Error:", err); // Log full error for debugging
-      setError(err.errors?.[0]?.message || "Error creating account."); // Show specific error
+      setError("Error creating account.");
     }
   };
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <div className="w-full max-w-2xl mx-auto bg-white rounded-lg shadow-lg">
+      <div className="w-full max-w-2xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg">
         <div className="flex flex-col lg:flex-row">
           {/* Left Side Image */}
-          <div className="hidden lg:block lg:w-1/2">
+          <div className="hidden bg-cover lg:block lg:w-1/2">
             <img
               src="./image/footerlogo.png"
-              className="h-full object-cover"
-              alt="Signup"
+              className=" h-full object-cover overflow-clip"
+              alt=""
             />
           </div>
 
           {/* Right Side Form */}
           <div className="w-full p-8 lg:w-1/2 bg-amber-50">
-            <div className="flex items-center justify-center mt-10">
-              <img className="w-40 h-40" src="./image/logo.png" alt="Logo" />
+            <div className="flex items-center justify-center mt-10 relative">
+              <img
+                className="w-40 h-40 absolute insert-2"
+                src="./image/logo.png"
+                alt="Logo"
+              />
             </div>
             <p className="text-xl font-semibold text-center text-black mt-5">
               Create an account
             </p>
 
             {/* Google Signup */}
-            <button className="flex items-center justify-center mt-5 bg-amber-400 text-black rounded-lg py-2 px-4 w-full">
-              <svg className="w-6 h-6 mr-2" viewBox="0 0 40 40">
-                <path
-                  d="M36.3425 16.7358H35V16.6667H20V23.3333H29.4192C28.045 27.2142 24.3525 30 20 30C14.4775 30 10 25.5225 10 20C10 14.4775 14.4775 9.99999 20 9.99999C22.5492 9.99999 24.8683 10.9617 26.6342 12.5325L31.3483 7.81833C28.3717 5.04416 24.39 3.33333 20 3.33333C10.7958 3.33333 3.33335 10.7958 3.33335 20C3.33335 29.2042 10.7958 36.6667 20 36.6667C29.2042 36.6667 36.6667 29.2042 36.6667 20C36.6667 18.8825 36.5517 17.7917 36.3425 16.7358Z"
-                  fill="#FFC107"
-                />
-              </svg>
-              Sign up with Google
-            </button>
+            <a
+              href="#"
+              className="flex items-center justify-center mt-5 text-black rounded-lg bg-amber-400 py-2 px-4"
+            >
+              <div className="px-4 py-2 ">
+                <svg className="w-6 h-6 " viewBox="0 0 40 40">
+                  {/* Add SVG code for Google icon */}
+                </svg>
+              </div>
+              <span className="font-semibold">Sign up with Google</span>
+            </a>
 
             {/* Separator */}
             <div className="flex items-center justify-between my-5">
               <span className="w-1/4 border-b"></span>
-              <span className="text-xs text-black uppercase">
+              <span className="text-xs text-center text-black uppercase">
                 or sign up with email
               </span>
               <span className="w-1/4 border-b"></span>
@@ -115,7 +122,12 @@ const Signup = () => {
                 onChange={(e) => setConfirmPassword(e.target.value)}
               />
             </div>
+
+            {/* Show error or success message */}
             {error && <p className="text-red-500">{error}</p>}
+            {successMessage && (
+              <p className="text-green-500">{successMessage}</p>
+            )}
 
             {/* Sign Up Button */}
             <button
