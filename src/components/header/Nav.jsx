@@ -9,7 +9,6 @@ const Nav = () => {
   const inputRef=useRef(null);
   const navigate=useNavigate();
   const { user, isSignedIn } = useUser();
-  const userName=user.firstName[0]+user.lastName[0];
   const handleSearch = (e) => {
     if (e.key === "Enter") {
       const name = inputRef.current.value.toLowerCase();
@@ -45,17 +44,17 @@ const Nav = () => {
         <div className="flex items-center">
           <ul className="flex gap-2 sm:gap-4 lg:gap-6">
             {navmenu.map((item) => (
-                <li
-                  key={item.id}
-                  className="transition-transform duration-300 hover:scale-110"
+              <li
+                key={item.id}
+                className="transition-transform duration-300 hover:scale-110"
+              >
+                <Link
+                  to={item.link}
+                  className="font-semibold hover:bg-amber-700 hover:text-white px-3 py-2 rounded-lg transition-transform duration-300 text-sm sm:text-base"
                 >
-                  <Link
-                    to={item.link}
-                    className="font-semibold hover:bg-amber-700 hover:text-white px-3 py-2 rounded-lg transition-transform duration-300 text-sm sm:text-base"
-                  >
-                    {item.title}
-                  </Link>
-                </li>
+                  {item.title}
+                </Link>
+              </li>
             ))}
           </ul>
         </div>
@@ -76,26 +75,24 @@ const Nav = () => {
 
         {/* Buttons */}
         <div>
-          {
-            isSignedIn ?(
-              <div className="bg-amber-400 border border-amber-600 rounded-full p-2"  >
-                {userName.toUpperCase()}
-              </div>
-            ):(
-              <div className="flex gap-4">
-          <Link to="/signin">
-            <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
-              Sign in
-            </button>
-          </Link>
-          <Link to="/signup">
-            <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
-              Sign up
-            </button>
-          </Link>
-        </div>
-            )
-          }
+          {isSignedIn ? (
+            <div className="bg-amber-400 border border-amber-600 rounded-full p-2">
+              {(user.firstName[0] + user.lastName[0]).toUpperCase()}
+            </div>
+          ) : (
+            <div className="flex gap-4">
+              <Link to="/signin">
+                <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
+                  Sign in
+                </button>
+              </Link>
+              <Link to="/signup">
+                <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
+                  Sign up
+                </button>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </nav>
