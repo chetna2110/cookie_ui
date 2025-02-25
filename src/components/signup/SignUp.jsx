@@ -114,36 +114,6 @@ const Signup = () => {
                   <p className="flex items-center justify-center text-sm font-medium text-gray-500 my-3">
                     ─ OR sign up with email ─
                   </p>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {/* First Name Field */}
-                    <div>
-                      <label className="block text-sm font-medium text-black mb-1">
-                        First Name
-                      </label>
-                      <input
-                        className="w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:ring focus:outline-none focus:ring-amber-300 focus:ring-opacity-40"
-                        type="text"
-                        placeholder="Eg. manu"
-                        value={firstName}
-                        onChange={(e) => setFirstName(e.target.value)}
-                      />
-                    </div>
-
-                    {/* Last Name Field */}
-                    <div>
-                      <label className="block text-sm font-medium text-black mb-1">
-                        Last Name
-                      </label>
-                      <input
-                        className="w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:ring focus:outline-none focus:ring-amber-300 focus:ring-opacity-40"
-                        type="text"
-                        placeholder="Eg. Agarwal"
-                        value={lastName}
-                        onChange={(e) => setLastName(e.target.value)}
-                      />
-                    </div>
-                  </div>
                 </div>
 
                 <div className="mt-4">
