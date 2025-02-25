@@ -1,8 +1,8 @@
 const codeData = {
-    cards: [
-        {
-            name: 'Article',
-            code: `<div class="max-w-2xl px-8 py-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
+  cards: [
+    {
+      name: "Article",
+      code: `<div class="max-w-2xl px-8 py-4 bg-white rounded-lg shadow-md dark:bg-gray-800">
                         <div class="flex items-center justify-between">
                             <span class="text-sm font-light text-gray-600 dark:text-gray-400">Mar 10, 2019</span>
                             <a class="px-3 py-1 text-sm font-bold text-gray-100 transition-colors duration-300 transform bg-gray-600 rounded cursor-pointer hover:bg-gray-500" tabindex="0" role="button">Design</a>
@@ -21,11 +21,11 @@ const codeData = {
                                 <a class="font-bold text-gray-700 cursor-pointer dark:text-gray-200" tabindex="0" role="link">Khatab wedaa</a>
                             </div>
                         </div>
-                    </div>`
-        },
-        {
-            name: 'Article With SM icons',
-            code: `<div class="w-full max-w-sm px-4 py-3 bg-white rounded-md shadow-md dark:bg-gray-800">
+                    </div>`,
+    },
+    {
+      name: "Article With SM icons",
+      code: `<div class="w-full max-w-sm px-4 py-3 bg-white rounded-md shadow-md dark:bg-gray-800">
         <div class="flex items-center justify-between">
             <span class="text-sm font-light text-gray-800 dark:text-gray-400">Courses and MOOCs</span>
             <span class="px-3 py-1 text-xs text-blue-800 uppercase bg-blue-200 rounded-full dark:bg-blue-300 dark:text-blue-900">psychology</span>
@@ -60,11 +60,11 @@ const codeData = {
                 </a>
             </div>
         </div>
-    </div>`
-        },
-        {
-            name: 'Article With Image',
-            code: `<div class="max-w-2xl overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+    </div>`,
+    },
+    {
+      name: "Article With Image",
+      code: `<div class="max-w-2xl overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
         <img class="object-cover w-full h-64" src="https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Article">
     
         <div class="p-6">
@@ -84,11 +84,11 @@ const codeData = {
                 </div>
             </div>
         </div>
-    </div>`
-        },
-        {
-            name: 'Product',
-            code: `<div class="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    </div>`,
+    },
+    {
+      name: "Product",
+      code: `<div class="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <div class="px-4 py-2">
             <h1 class="text-xl font-bold text-gray-800 uppercase dark:text-white">NIKE AIR</h1>
             <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
@@ -100,11 +100,11 @@ const codeData = {
             <h1 class="text-lg font-bold text-white">$129</h1>
             <button class="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
         </div>
-    </div>`
-        },
-        {
-            name: 'Product #2',
-            code: `<div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
+    </div>`,
+    },
+    {
+      name: "Product #2",
+      code: `<div class="flex flex-col items-center justify-center w-full max-w-sm mx-auto">
         <div class="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md" style="background-image: url(https://images.unsplash.com/photo-1521903062400-b80f2cb8cb9d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80)"></div>
     
         <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
@@ -115,11 +115,11 @@ const codeData = {
                 <button class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">Add to cart</button>
             </div>
         </div>
-    </div>`
-        },
-        {
-            name: 'Product With Evaluation',
-            code: `<div class="flex max-w-md overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    </div>`,
+    },
+    {
+      name: "Product With Evaluation",
+      code: `<div class="flex max-w-md overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <div class="w-1/3 bg-cover" style="background-image: url('https://images.unsplash.com/photo-1494726161322-5360d4d0eeae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80')"></div>
     
         <div class="w-2/3 p-4 md:p-4">
@@ -154,11 +154,11 @@ const codeData = {
                 <button class="px-2 py-1 text-xs font-bold text-white uppercase transition-colors duration-300 transform bg-gray-800 rounded dark:bg-gray-700 hover:bg-gray-700 dark:hover:bg-gray-600 focus:outline-none focus:bg-gray-700 dark:focus:bg-gray-600">Add to Cart</button>
             </div>
         </div>
-    </div>`
-        },
-        {
-            name: 'Testimonial',
-            code: `<div class="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    </div>`,
+    },
+    {
+      name: "Testimonial",
+      code: `<div class="w-full max-w-md px-8 py-4 mt-16 bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <div class="flex justify-center -mt-16 md:justify-end">
             <img class="object-cover w-20 h-20 border-2 border-blue-500 rounded-full dark:border-blue-400" alt="Testimonial avatar" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=76&q=80">
         </div>
@@ -170,22 +170,22 @@ const codeData = {
         <div class="flex justify-end mt-4">
             <a href="#" class="text-lg font-medium text-blue-600 dark:text-blue-300" tabindex="0" role="link">John Doe</a>
         </div>
-    </div>`
-        },
-        {
-            name: 'User',
-            code: `<div class="w-full max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    </div>`,
+    },
+    {
+      name: "User",
+      code: `<div class="w-full max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <img class="object-cover w-full h-56" src="https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="avatar">
     
         <div class="py-5 text-center">
             <a href="#" class="block text-xl font-bold text-gray-800 dark:text-white" tabindex="0" role="link">John Doe</a>
             <span class="text-sm text-gray-700 dark:text-gray-200">Software Engineer</span>
         </div>
-    </div>`
-        },
-        {
-            name: 'User With Details',
-            code: `<div class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    </div>`,
+    },
+    {
+      name: "User With Details",
+      code: `<div class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
         <img class="object-cover object-center w-full h-56" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar">
     
         <div class="flex items-center px-6 py-3 bg-gray-900">
@@ -225,13 +225,13 @@ const codeData = {
                 <h1 class="px-2 text-sm">patterson@example.com</h1>
             </div>
         </div>
-    </div>`
-        }
-    ],
-    alerts: [
-        {
-            name: 'Success Pop',
-            code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+    </div>`,
+    },
+  ],
+  alerts: [
+    {
+      name: "Success Pop",
+      code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
     <div class="flex items-center justify-center w-12 bg-emerald-500">
         <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM16.6667 28.3333L8.33337 20L10.6834 17.65L16.6667 23.6166L29.3167 10.9666L31.6667 13.3333L16.6667 28.3333Z" />
@@ -244,11 +244,11 @@ const codeData = {
             <p class="text-sm text-gray-600 dark:text-gray-200">Your account was registered!</p>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Info Pop',
-            code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Info Pop",
+      code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
     <div class="flex items-center justify-center w-12 bg-blue-500">
         <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM21.6667 28.3333H18.3334V25H21.6667V28.3333ZM21.6667 21.6666H18.3334V11.6666H21.6667V21.6666Z" />
@@ -261,11 +261,11 @@ const codeData = {
             <p class="text-sm text-gray-600 dark:text-gray-200">This channel archived by the owner!</p>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Warning Pop',
-            code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Warning Pop",
+      code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
     <div class="flex items-center justify-center w-12 bg-yellow-400">
         <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 3.33331C10.8 3.33331 3.33337 10.8 3.33337 20C3.33337 29.2 10.8 36.6666 20 36.6666C29.2 36.6666 36.6667 29.2 36.6667 20C36.6667 10.8 29.2 3.33331 20 3.33331ZM21.6667 28.3333H18.3334V25H21.6667V28.3333ZM21.6667 21.6666H18.3334V11.6666H21.6667V21.6666Z" />
@@ -280,11 +280,11 @@ const codeData = {
             </p>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Error Pop',
-            code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Error Pop",
+      code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
     <div class="flex items-center justify-center w-12 bg-red-500">
         <svg class="w-6 h-6 text-white fill-current" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
             <path d="M20 3.36667C10.8167 3.36667 3.3667 10.8167 3.3667 20C3.3667 29.1833 10.8167 36.6333 20 36.6333C29.1834 36.6333 36.6334 29.1833 36.6334 20C36.6334 10.8167 29.1834 3.36667 20 3.36667ZM19.1334 33.3333V22.9H13.3334L21.6667 6.66667V17.1H27.25L19.1334 33.3333Z" />
@@ -299,11 +299,11 @@ const codeData = {
             </p>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Notification Pop',
-            code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Notification Pop",
+      code: `<div class="flex w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
     <div class="w-2 bg-gray-800 dark:bg-gray-900"></div>
 
     <div class="flex items-center px-2 py-3">
@@ -313,11 +313,11 @@ const codeData = {
             <p class="text-gray-600 dark:text-gray-200">Sara has replied on the <a class="text-blue-500 dark:text-blue-300 hover:text-blue-400 hover:underline">uploaded image</a>.</p>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Success Full Width',
-            code: `<div class="w-full text-white bg-emerald-500">
+</div>`,
+    },
+    {
+      name: "Success Full Width",
+      code: `<div class="w-full text-white bg-emerald-500">
     <div class="container flex items-center justify-between px-6 py-4 mx-auto">
         <div class="flex">
             <svg viewBox="0 0 40 40" class="w-6 h-6 fill-current">
@@ -334,11 +334,11 @@ const codeData = {
             </svg>
         </button>
     </div>
-</div>`
-        },
-        {
-            name: 'Info Full Width',
-            code: `<div class="w-full text-white bg-blue-500">
+</div>`,
+    },
+    {
+      name: "Info Full Width",
+      code: `<div class="w-full text-white bg-blue-500">
     <div class="container flex items-center justify-between px-6 py-4 mx-auto">
         <div class="flex">
             <svg viewBox="0 0 40 40" class="w-6 h-6 fill-current">
@@ -355,11 +355,11 @@ const codeData = {
             </svg>
         </button>
     </div>
-</div>`
-        },
-        {
-            name: 'Warning Full Width',
-            code: `<div class="w-full text-white bg-yellow-400">
+</div>`,
+    },
+    {
+      name: "Warning Full Width",
+      code: `<div class="w-full text-white bg-yellow-400">
     <div class="container flex items-center justify-between px-6 py-4 mx-auto">
         <div class="flex">
             <svg viewBox="0 0 40 40" class="w-6 h-6 fill-current">
@@ -376,11 +376,11 @@ const codeData = {
             </svg>
         </button>
     </div>
-</div>`
-        },
-        {
-            name: 'Error Full Width',
-            code: `<div class="w-full text-white bg-red-500">
+</div>`,
+    },
+    {
+      name: "Error Full Width",
+      code: `<div class="w-full text-white bg-red-500">
     <div class="container flex items-center justify-between px-6 py-4 mx-auto">
         <div class="flex">
             <svg viewBox="0 0 40 40" class="w-6 h-6 fill-current">
@@ -397,33 +397,33 @@ const codeData = {
             </svg>
         </button>
     </div>
-</div>`
-        }
-    ],
-    avatars: [
-        {
-            name: 'Simple',
-            code: `<div class="flex items-center gap-x-6">
+</div>`,
+    },
+  ],
+  avatars: [
+    {
+      name: "Simple",
+      code: `<div class="flex items-center gap-x-6">
     <img class="object-cover w-6 h-6 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="">
     <img class="object-cover w-8 h-8 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="">
     <img class="object-cover w-10 h-10 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="">
     <img class="object-cover w-12 h-12 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="">
     <img class="object-cover w-16 h-16 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="">
-</div>`
-        },
-        {
-            name: 'Border',
-            code: `<div class="flex items-center gap-x-6">
+</div>`,
+    },
+    {
+      name: "Border",
+      code: `<div class="flex items-center gap-x-6">
     <img class="object-cover w-6 h-6 rounded-full ring ring-gray-300 dark:ring-gray-600" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="object-cover w-8 h-8 rounded-full ring ring-gray-300 dark:ring-gray-600" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="object-cover w-10 h-10 rounded-full ring ring-gray-300 dark:ring-gray-600" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="object-cover w-12 h-12 rounded-full ring ring-gray-300 dark:ring-gray-600" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="object-cover w-16 h-16 rounded-full ring ring-gray-300 dark:ring-gray-600" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
-</div>`
-        },
-        {
-            name: 'Active Statue',
-            code: `<div class="flex items-center gap-x-6">
+</div>`,
+    },
+    {
+      name: "Active Statue",
+      code: `<div class="flex items-center gap-x-6">
     <div class="relative">
         <img class="object-cover w-6 h-6 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="">
         <span class="h-1.5 w-1.5 rounded-full bg-emerald-500 absolute right-0.5 ring-1 ring-white bottom-0"></span>
@@ -448,11 +448,11 @@ const codeData = {
         <img class="object-cover w-16 h-16 rounded-full" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&h=764&q=100" alt="">
         <span class="absolute bottom-0 w-3 h-3 rounded-full bg-emerald-500 right-1 ring-1 ring-white"></span>
     </div>
-</div>`
-        },
-        {
-            name: 'Active Statue with Border',
-            code: `<div class="flex items-center gap-x-6">
+</div>`,
+    },
+    {
+      name: "Active Statue with Border",
+      code: `<div class="flex items-center gap-x-6">
     <div class="relative">
         <img class="object-cover w-6 h-6 rounded-full ring ring-gray-300 dark:ring-gray-600" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
         <span class="h-1.5 w-1.5 rounded-full bg-emerald-500 absolute right-0 ring-1 ring-white -bottom-0.5"></span>
@@ -477,11 +477,11 @@ const codeData = {
         <img class="object-cover w-16 h-16 rounded-full ring ring-gray-300 dark:ring-gray-600" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
         <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 ring-1 ring-white"></span>
     </div>
-</div>`
-        },
-        {
-            name: 'Profile',
-            code: `<div class="space-y-6">
+</div>`,
+    },
+    {
+      name: "Profile",
+      code: `<div class="space-y-6">
     <div class="flex items-center gap-x-2">
         <img class="object-cover w-8 h-8 rounded-full" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=faceare&facepad=3&w=688&h=688&q=100" alt="">
         
@@ -521,11 +521,11 @@ const codeData = {
             <p class="text-base text-gray-500 dark:text-gray-400">miajohn@merakiui.com</p>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Profile Square',
-            code: `<div class="space-y-6">
+</div>`,
+    },
+    {
+      name: "Profile Square",
+      code: `<div class="space-y-6">
     <div class="flex items-center gap-x-2">
         <img class="object-cover w-8 h-8 rounded-lg" src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=faceare&facepad=3&w=688&h=688&q=100" alt="">
         
@@ -565,53 +565,53 @@ const codeData = {
             <p class="text-base text-gray-500 dark:text-gray-400">miajohn@merakiui.com</p>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Small Group',
-            code: `<div class="flex items-center">
+</div>`,
+    },
+    {
+      name: "Small Group",
+      code: `<div class="flex items-center">
     <img class="object-cover w-8 h-8 -mx-1 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="object-cover w-8 h-8 -mx-1 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=687&h=687&q=80" alt="">
     <img class="object-cover w-8 h-8 -mx-1 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=686&h=686&q=80" alt="">
     <img class="object-cover w-8 h-8 -mx-1 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=1401&h=1401&q=80" alt="">
     <img class="object-cover w-8 h-8 -mx-1 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=80" alt="">
-</div>`
-        },
-        {
-            name: 'Medium Group',
-            code: `<div class="flex items-center">
+</div>`,
+    },
+    {
+      name: "Medium Group",
+      code: `<div class="flex items-center">
     <img class="h-10 w-10 -mx-1.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="h-10 w-10 -mx-1.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=687&h=687&q=80" alt="">
     <img class="h-10 w-10 -mx-1.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=686&h=686&q=80" alt="">
     <img class="h-10 w-10 -mx-1.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=1401&h=1401&q=80" alt="">
     <img class="h-10 w-10 -mx-1.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=80" alt="">
-</div>`
-        },
-        {
-            name: 'Large Group',
-            code: `<div class="flex items-center">
+</div>`,
+    },
+    {
+      name: "Large Group",
+      code: `<div class="flex items-center">
     <img class="object-cover w-12 h-12 -mx-2 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="object-cover w-12 h-12 -mx-2 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=687&h=687&q=80" alt="">
     <img class="object-cover w-12 h-12 -mx-2 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=686&h=686&q=80" alt="">
     <img class="object-cover w-12 h-12 -mx-2 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=1401&h=1401&q=80" alt="">
     <img class="object-cover w-12 h-12 -mx-2 rounded-full ring ring-white dark:ring-gray-900" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=80" alt="">
-</div>`
-        },
-        {
-            name: 'Exra Large Group',
-            code: `<div class="flex items-center">
+</div>`,
+    },
+    {
+      name: "Exra Large Group",
+      code: `<div class="flex items-center">
     <img class="h-16 w-16 -mx-2.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="">
     <img class="h-16 w-16 -mx-2.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=687&h=687&q=80" alt="">
     <img class="h-16 w-16 -mx-2.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1464863979621-258859e62245?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=686&h=686&q=80" alt="">
     <img class="h-16 w-16 -mx-2.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=1401&h=1401&q=80" alt="">
     <img class="h-16 w-16 -mx-2.5 ring ring-white dark:ring-gray-900 rounded-full object-cover" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=80" alt="">
-</div>`
-        }
-    ],
-    breadcrumbs: [
-        {
-            name: 'Simple',
-            code: `<div class="flex items-center py-4 overflow-x-auto whitespace-nowrap">
+</div>`,
+    },
+  ],
+  breadcrumbs: [
+    {
+      name: "Simple",
+      code: `<div class="flex items-center py-4 overflow-x-auto whitespace-nowrap">
     <a href="#" class="text-gray-600 dark:text-gray-200">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
@@ -641,11 +641,11 @@ const codeData = {
     <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
         Settings
     </a>
-</div>`
-        },
-        {
-            name: 'Arrow',
-            code: `<div class="flex items-center py-4 overflow-x-auto whitespace-nowrap">
+</div>`,
+    },
+    {
+      name: "Arrow",
+      code: `<div class="flex items-center py-4 overflow-x-auto whitespace-nowrap">
     <a href="#" class="text-gray-600 dark:text-gray-200">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
@@ -681,11 +681,11 @@ const codeData = {
     <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
         Settings
     </a>
-</div>`
-        },
-        {
-            name: 'Icons',
-            code: `<div class="flex items-center py-4 overflow-x-auto whitespace-nowrap">
+</div>`,
+    },
+    {
+      name: "Icons",
+      code: `<div class="flex items-center py-4 overflow-x-auto whitespace-nowrap">
     <a href="#" class="text-gray-600 dark:text-gray-200">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
             <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
@@ -734,11 +734,11 @@ const codeData = {
 
         <span class="mx-2">Settings</span>
     </a>
-</div>`
-        },
-        {
-            name: 'Full Width',
-            code: `<div class="bg-gray-200 dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Full Width",
+      code: `<div class="bg-gray-200 dark:bg-gray-800">
     <div class="container flex items-center px-6 py-4 mx-auto overflow-x-auto whitespace-nowrap">
         <a href="#" class="text-gray-600 dark:text-gray-200">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -776,11 +776,11 @@ const codeData = {
             Settings
         </a>
     </div>
-</div>`
-        },
-        {
-            name: 'Full Width With Icons',
-            code: `<div class="bg-gray-200 dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Full Width With Icons",
+      code: `<div class="bg-gray-200 dark:bg-gray-800">
     <div class="container flex items-center px-6 py-4 mx-auto overflow-x-auto whitespace-nowrap">
         <a href="#" class="text-gray-600 dark:text-gray-200">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -831,29 +831,29 @@ const codeData = {
             <span class="mx-2">Settings</span>
         </a>
     </div>
-</div>`
-        }
-    ],
-    buttons: [
-        {
-            name: 'Primary',
-            code: `<button class="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+</div>`,
+    },
+  ],
+  buttons: [
+    {
+      name: "Primary",
+      code: `<button class="px-6 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
     Primary
-</button>`
-        },
-        {
-            name: 'Icon',
-            code: `<button class="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+</button>`,
+    },
+    {
+      name: "Icon",
+      code: `<button class="flex items-center px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
     <svg class="w-5 h-5 mx-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z" clip-rule="evenodd" />
     </svg>
 
     <span class="mx-1">Refresh</span>
-</button>`
-        },
-        {
-            name: 'Menu',
-            code: `<div x-data="{ isOpen: true }" class="flex items-center">
+</button>`,
+    },
+    {
+      name: "Menu",
+      code: `<div x-data="{ isOpen: true }" class="flex items-center">
     <button class="px-4 py-2 font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-lg hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">Download</button>
 
     <span class="border border-transparent"></span>
@@ -882,11 +882,11 @@ const codeData = {
             <a href="#" class="block px-4 py-2 text-sm text-gray-800 transition-colors duration-300 transform dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">large <span class="text-gray-600 dark:text-gray-400">(2400x1600)</span></a>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Group',
-            code: `<div class="flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse dark:bg-gray-900 dark:border-gray-700 dark:divide-gray-700">
+</div>`,
+    },
+    {
+      name: "Group",
+      code: `<div class="flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse dark:bg-gray-900 dark:border-gray-700 dark:divide-gray-700">
     <button class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
         Upload
     </button>
@@ -898,11 +898,11 @@ const codeData = {
     <button class="px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
         View
     </button>
-</div>`
-        },
-        {
-            name: 'Group Icons',
-            code: `<div class="flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse dark:bg-gray-900 dark:border-gray-700 dark:divide-gray-700">
+</div>`,
+    },
+    {
+      name: "Group Icons",
+      code: `<div class="flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse dark:bg-gray-900 dark:border-gray-700 dark:divide-gray-700">
     <button class="px-4 py-2 font-medium text-gray-600 transition-colors duration-200 sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 hover:bg-gray-100">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 sm:w-6 sm:h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
@@ -920,11 +920,11 @@ const codeData = {
             <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 003.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0120.25 6v1.5m0 9V18A2.25 2.25 0 0118 20.25h-1.5m-9 0H6A2.25 2.25 0 013.75 18v-1.5M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
     </button>
-</div>`
-        },
-        {
-            name: 'Group With Icons',
-            code: `<div class="flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse dark:bg-gray-900 dark:border-gray-700 dark:divide-gray-700">
+</div>`,
+    },
+    {
+      name: "Group With Icons",
+      code: `<div class="flex overflow-hidden bg-white border divide-x rounded-lg rtl:flex-row-reverse dark:bg-gray-900 dark:border-gray-700 dark:divide-gray-700">
     <button class="flex items-center px-4 py-2 text-sm font-medium text-gray-600 transition-colors duration-200 sm:text-base sm:px-6 dark:hover:bg-gray-800 dark:text-gray-300 gap-x-3 hover:bg-gray-100">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 sm:w-6 sm:h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
@@ -948,11 +948,11 @@ const codeData = {
 
         <span>View</span>
     </button>
-</div>`
-        },
-        {
-            name: 'Social Button Group',
-            code: `<div class="flex items-center gap-3 sm:gap-x-5">
+</div>`,
+    },
+    {
+      name: "Social Button Group",
+      code: `<div class="flex items-center gap-3 sm:gap-x-5">
     <button class="bg-white dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-lg hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
         <svg class="w-5 h-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_3033_94454)">
@@ -987,11 +987,11 @@ const codeData = {
             <path d="M20.8426 17.1449C20.5099 17.9135 20.1161 18.6211 19.6598 19.2715C19.0378 20.1583 18.5286 20.7721 18.1361 21.113C17.5277 21.6724 16.8759 21.959 16.1779 21.9753C15.6768 21.9753 15.0725 21.8327 14.3691 21.5434C13.6633 21.2555 13.0148 21.113 12.4217 21.113C11.7998 21.113 11.1327 21.2555 10.4193 21.5434C9.70469 21.8327 9.12904 21.9834 8.68892 21.9984C8.01957 22.0269 7.35239 21.7322 6.68644 21.113C6.26139 20.7422 5.72974 20.1067 5.09285 19.2063C4.40951 18.2449 3.84772 17.13 3.4076 15.8589C2.93624 14.486 2.69995 13.1565 2.69995 11.8694C2.69995 10.3951 3.01853 9.12345 3.65665 8.05784C4.15815 7.20191 4.82533 6.52672 5.66035 6.03105C6.49537 5.53539 7.39761 5.2828 8.36925 5.26664C8.9009 5.26664 9.59809 5.43109 10.4645 5.75429C11.3284 6.07858 11.8832 6.24303 12.1264 6.24303C12.3082 6.24303 12.9245 6.05074 13.9692 5.66738C14.9571 5.31186 15.7909 5.16466 16.474 5.22264C18.3249 5.37202 19.7155 6.10167 20.6402 7.41619C18.9849 8.4192 18.166 9.82403 18.1823 11.6262C18.1972 13.03 18.7065 14.1981 19.7073 15.1256C20.1609 15.5561 20.6674 15.8888 21.231 16.1251C21.1087 16.4795 20.9797 16.819 20.8426 17.1449ZM16.5975 0.440369C16.5975 1.54062 16.1956 2.56792 15.3944 3.51878C14.4275 4.64917 13.258 5.30236 11.9898 5.19929C11.9736 5.06729 11.9642 4.92837 11.9642 4.78239C11.9642 3.72615 12.424 2.59576 13.2406 1.67152C13.6483 1.20356 14.1667 0.814453 14.7955 0.504058C15.4229 0.198295 16.0163 0.0292007 16.5744 0.000244141C16.5907 0.147331 16.5975 0.294426 16.5975 0.440355V0.440369Z" fill="white"/>
         </svg>
     </button>
-</div>`
-        },
-        {
-            name: 'Social Button Group No Color',
-            code: `<div class="flex items-center gap-3 sm:gap-x-5">
+</div>`,
+    },
+    {
+      name: "Social Button Group No Color",
+      code: `<div class="flex items-center gap-3 sm:gap-x-5">
     <button class="bg-white dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-lg hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
         <svg class="w-5 h-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_3033_94664)">
@@ -1027,11 +1027,11 @@ const codeData = {
             <path d="M20.8426 17.1449C20.5099 17.9135 20.1161 18.6211 19.6598 19.2715C19.0378 20.1583 18.5286 20.7721 18.1361 21.113C17.5277 21.6724 16.8759 21.959 16.1779 21.9753C15.6768 21.9753 15.0725 21.8327 14.3691 21.5434C13.6633 21.2555 13.0148 21.113 12.4217 21.113C11.7998 21.113 11.1327 21.2555 10.4193 21.5434C9.70469 21.8327 9.12904 21.9834 8.68892 21.9984C8.01957 22.0269 7.35239 21.7322 6.68644 21.113C6.26139 20.7422 5.72974 20.1067 5.09285 19.2063C4.40951 18.2449 3.84772 17.13 3.4076 15.8589C2.93624 14.486 2.69995 13.1565 2.69995 11.8694C2.69995 10.3951 3.01853 9.12345 3.65665 8.05784C4.15815 7.20191 4.82533 6.52672 5.66035 6.03105C6.49537 5.53539 7.39761 5.2828 8.36925 5.26664C8.9009 5.26664 9.59809 5.43109 10.4645 5.75429C11.3284 6.07858 11.8832 6.24303 12.1264 6.24303C12.3082 6.24303 12.9245 6.05074 13.9692 5.66738C14.9571 5.31186 15.7909 5.16466 16.474 5.22264C18.3249 5.37202 19.7155 6.10167 20.6402 7.41619C18.9849 8.4192 18.166 9.82403 18.1823 11.6262C18.1972 13.03 18.7065 14.1981 19.7073 15.1256C20.1609 15.5561 20.6674 15.8888 21.231 16.1251C21.1087 16.4795 20.9797 16.819 20.8426 17.1449ZM16.5975 0.440369C16.5975 1.54062 16.1956 2.56792 15.3944 3.51878C14.4275 4.64917 13.258 5.30236 11.9898 5.19929C11.9736 5.06729 11.9642 4.92837 11.9642 4.78239C11.9642 3.72615 12.424 2.59576 13.2406 1.67152C13.6483 1.20356 14.1667 0.814453 14.7955 0.504058C15.4229 0.198295 16.0163 0.0292007 16.5744 0.000244141C16.5907 0.147331 16.5975 0.294426 16.5975 0.440355V0.440369Z" fill="#98A2B3"/>
         </svg>
     </button>
-</div>`
-        },
-        {
-            name: 'Social Button Group Column',
-            code: `<div class="flex flex-col w-full max-w-xs gap-y-5">
+</div>`,
+    },
+    {
+      name: "Social Button Group Column",
+      code: `<div class="flex flex-col w-full max-w-xs gap-y-5">
     <button class="bg-white flex items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base  dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-lg hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
         <svg class="w-5 h-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_3033_94454)">
@@ -1072,11 +1072,11 @@ const codeData = {
 
         <span>Sign in with Apple</span>
     </button>
-</div>`
-        },
-        {
-            name: 'Social Button Group Column No Color',
-            code: `<div class="flex flex-col w-full max-w-xs gap-y-5">
+</div>`,
+    },
+    {
+      name: "Social Button Group Column No Color",
+      code: `<div class="flex flex-col w-full max-w-xs gap-y-5">
     <button class="bg-white flex items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3  text-sm sm:text-base  dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-lg hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
         <svg class="w-5 h-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_3033_94427)">
@@ -1118,13 +1118,13 @@ const codeData = {
 
         <span>Sign in with Apple</span>
     </button>
-</div>`
-        }
-    ],
-    cookies: [
-        {
-            name:'Card',
-            code:`<section class="fixed max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 left-12 bottom-16 dark:border-gray-700 rounded-2xl">
+</div>`,
+    },
+  ],
+  cookies: [
+    {
+      name: "Card",
+      code: `<section class="fixed max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 left-12 bottom-16 dark:border-gray-700 rounded-2xl">
     <h2 class="font-semibold text-gray-800 dark:text-white">🍪 Cookie Notice</h2>
 
     <p class="mt-4 text-sm text-gray-600 dark:text-gray-300">We use cookies to ensure that we give you the best experience on our website. <a href="#" class="text-blue-500 hover:underline">Read cookies policies</a>. </p>
@@ -1138,11 +1138,11 @@ const codeData = {
             Accept
         </button>
     </div>
-</section>`
-        },
-        {
-            name:'Card #2',
-            code:`<section class="fixed max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 left-12 bottom-16 dark:border-gray-700 rounded-2xl">
+</section>`,
+    },
+    {
+      name: "Card #2",
+      code: `<section class="fixed max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 left-12 bottom-16 dark:border-gray-700 rounded-2xl">
     <h2 class="font-semibold text-gray-800 dark:text-white">🍪 We use cookies!</h2>
 
     <p class="mt-4 text-sm text-gray-600 dark:text-gray-300">Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <a href="#" class="font-medium text-gray-700 underline transition-colors duration-300 dark:hover:text-blue-400 dark:text-white hover:text-blue-500">Let me choose</a>. </p>
@@ -1166,11 +1166,11 @@ const codeData = {
             Close
         </button>
     </div>
-</section>`
-        },
-        {
-            name:'Banner',
-            code:`<section class="fixed flex items-center justify-between max-w-4xl p-4 mx-auto bg-white border border-gray-200 shadow-md dark:bg-gray-900 left-12 bottom-16 dark:shadow-gray-900 shadow-gray-100 md:gap-x-4 dark:border-gray-700 rounded-2xl">
+</section>`,
+    },
+    {
+      name: "Banner",
+      code: `<section class="fixed flex items-center justify-between max-w-4xl p-4 mx-auto bg-white border border-gray-200 shadow-md dark:bg-gray-900 left-12 bottom-16 dark:shadow-gray-900 shadow-gray-100 md:gap-x-4 dark:border-gray-700 rounded-2xl">
     <p class="text-sm text-gray-600 dark:text-gray-300">By continuing to use this site you consent to the use of cookies in accordance with our cookie policy.</p>
 
     <button class="flex items-center justify-center text-gray-700 transition-colors duration-300 rounded-full shrink-0 dark:text-gray-200 dark:hover:bg-gray-700 w-7 h-7 focus:outline-none hover:bg-gray-100">
@@ -1178,11 +1178,11 @@ const codeData = {
             <path d="M6.28 5.22a.75.75 0 00-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 101.06 1.06L10 11.06l3.72 3.72a.75.75 0 101.06-1.06L11.06 10l3.72-3.72a.75.75 0 00-1.06-1.06L10 8.94 6.28 5.22z" />
         </svg>
     </button>
-</section>`
-        },
-        {
-            name:'Banner with Action Buttons',
-            code:`<section class="fixed max-w-2xl p-4 mx-auto bg-white border border-gray-200 md:gap-x-4 left-12 bottom-16 dark:bg-gray-900 md:flex md:items-center dark:border-gray-700 rounded-2xl">
+</section>`,
+    },
+    {
+      name: "Banner with Action Buttons",
+      code: `<section class="fixed max-w-2xl p-4 mx-auto bg-white border border-gray-200 md:gap-x-4 left-12 bottom-16 dark:bg-gray-900 md:flex md:items-center dark:border-gray-700 rounded-2xl">
     <div class="flex items-center gap-x-4">
         <span class="inline-flex p-2 text-blue-500 rounded-lg shrink-0 dark:bg-gray-800 bg-blue-100/80">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1202,11 +1202,11 @@ const codeData = {
             Accept All Cookies
         </button>
     </div>
-</section>`
-        },
-        {
-            name:'Full Width',
-            code:`<section class="fixed bottom-0 w-full bg-gray-50 dark:bg-gray-800">
+</section>`,
+    },
+    {
+      name: "Full Width",
+      code: `<section class="fixed bottom-0 w-full bg-gray-50 dark:bg-gray-800">
     <div class="max-w-5xl px-4 py-8 mx-auto md:flex md:items-center md:gap-x-6">
         <div class="flex items-start md:items-center gap-x-2">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-gray-500 shrink-0 dark:text-gray-300">
@@ -1224,11 +1224,11 @@ const codeData = {
             </svg>
         </button>
     </div>
-</section>`
-        },
-        {
-            name:'Full Width with Action Buttons',
-            code:`<section class="fixed bottom-0 w-full bg-gray-50 dark:bg-gray-800">
+</section>`,
+    },
+    {
+      name: "Full Width with Action Buttons",
+      code: `<section class="fixed bottom-0 w-full bg-gray-50 dark:bg-gray-800">
     <div class="container px-4 py-8 mx-auto lg:flex lg:items-center lg:gap-x-16">
         <p class="text-gray-600 dark:text-gray-300">By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts.</p>
         
@@ -1242,13 +1242,13 @@ const codeData = {
             </button>
         </div>
     </div>
-</section>`
-        }
-    ],
-    dropdowns: [
-        {
-            name: 'Simple',
-            code: `<div x-data="{ isOpen: true }" class="relative inline-block">
+</section>`,
+    },
+  ],
+  dropdowns: [
+    {
+      name: "Simple",
+      code: `<div x-data="{ isOpen: true }" class="relative inline-block">
     <!-- Dropdown toggle button -->
     <button @click="isOpen = !isOpen" class="relative z-10 block p-2 text-gray-700 bg-white border border-transparent rounded-md dark:text-white focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:bg-gray-800 focus:outline-none">
         <svg class="w-5 h-5 text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -1273,11 +1273,11 @@ const codeData = {
         <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-300 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"> Settings </a>
         <a href="#" class="block px-4 py-3 text-sm text-gray-600 capitalize transition-colors duration-300 transform dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white"> Sign Out </a>
     </div>
-</div>`
-        },
-        {
-            name: 'Multi Level',
-            code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
+</div>`,
+    },
+    {
+      name: "Multi Level",
+      code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
     <!-- Dropdown toggle button -->
     <button @click="isOpen = !isOpen" class="relative z-10 block p-2 text-gray-700 bg-white border border-transparent rounded-md dark:text-white focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:bg-gray-800 focus:outline-none">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -1331,11 +1331,11 @@ const codeData = {
             Sign Out
         </a>
     </div>
-</div>`
-        },
-        {
-            name: 'Multi Level With Icons',
-            code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
+</div>`,
+    },
+    {
+      name: "Multi Level With Icons",
+      code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
     <!-- Dropdown toggle button -->
     <button @click="isOpen = !isOpen" class="relative z-10 block p-2 text-gray-700 bg-white border border-transparent rounded-md dark:text-white focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:bg-gray-800 focus:outline-none">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
@@ -1439,11 +1439,11 @@ const codeData = {
             </span>
         </a>
     </div>
-</div>`
-        },
-        {
-            name: 'User',
-            code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
+</div>`,
+    },
+    {
+      name: "User",
+      code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
     <!-- Dropdown toggle button -->
     <button @click="isOpen = !isOpen" class="relative z-10 flex items-center p-2 text-sm text-gray-600 bg-white border border-transparent rounded-md focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:text-white dark:bg-gray-800 focus:outline-none">
         <span class="mx-1">Jane Doe</span>
@@ -1508,11 +1508,11 @@ const codeData = {
             Sign Out
         </a>
     </div>
-</div>`
-        },
-        {
-            name: 'User With Icons',
-            code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
+</div>`,
+    },
+    {
+      name: "User With Icons",
+      code: `<div x-data="{ isOpen: true }" class="relative inline-block ">
     <!-- Dropdown toggle button -->
     <button @click="isOpen = !isOpen" class="relative z-10 flex items-center p-2 text-sm text-gray-600 bg-white border border-transparent rounded-md focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:text-white dark:bg-gray-800 focus:outline-none">
         <span class="mx-1">Jane Doe</span>
@@ -1627,11 +1627,11 @@ const codeData = {
             </span>
         </a>
     </div>
-</div>`
-        },
-        {
-            name: 'Notification',
-            code: `<div x-data="{ isOpen: true }" class="relative inline-block">
+</div>`,
+    },
+    {
+      name: "Notification",
+      code: `<div x-data="{ isOpen: true }" class="relative inline-block">
     <!-- Dropdown toggle button -->
     <button @click="isOpen = !isOpen" class="relative z-10 block p-2 text-gray-700 bg-white border border-transparent rounded-md dark:text-white focus:border-blue-500 focus:ring-opacity-40 dark:focus:ring-opacity-40 focus:ring-blue-300 dark:focus:ring-blue-400 focus:ring dark:bg-gray-800 focus:outline-none">
         <svg class="w-5 h-5 text-gray-800 dark:text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1670,13 +1670,13 @@ const codeData = {
         </div>
         <a href="#" class="block py-2 font-bold text-center text-white bg-gray-800 dark:bg-gray-700 hover:underline">See all notifications</a>
     </div>
-</div>`
-        }
-    ],
-    pagination: [
-        {
-            name: 'Simple',
-            code: `<div class="flex">
+</div>`,
+    },
+  ],
+  pagination: [
+    {
+      name: "Simple",
+      code: `<div class="flex">
     <a href="#" class="flex items-center px-4 py-2 mx-1 text-gray-500 bg-white rounded-md cursor-not-allowed dark:bg-gray-800 dark:text-gray-600">
         previous
     </a>
@@ -1696,11 +1696,11 @@ const codeData = {
     <a href="#" class="flex items-center px-4 py-2 mx-1 text-gray-700 transition-colors duration-300 transform bg-white rounded-md dark:bg-gray-800 dark:text-gray-200 hover:bg-blue-600 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200">
         Next
     </a>
-</div>`
-        },
-        {
-            name: 'Arrows',
-            code: `<div class="flex">
+</div>`,
+    },
+    {
+      name: "Arrows",
+      code: `<div class="flex">
     <a href="#" class="flex items-center justify-center px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed rtl:-scale-x-100 dark:bg-gray-800 dark:text-gray-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
@@ -1732,11 +1732,11 @@ const codeData = {
             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
         </svg>
     </a>
-</div>`
-        },
-        {
-            name: 'Icons',
-            code: `<div class="flex">
+</div>`,
+    },
+    {
+      name: "Icons",
+      code: `<div class="flex">
     <a href="#" class="px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-800 dark:text-gray-600">
         <div class="flex items-center -mx-1">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-1 rtl:-scale-x-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -1780,11 +1780,11 @@ const codeData = {
             </svg>
         </div>
     </a>
-</div>`
-        },
-        {
-            name: 'Table',
-            code: `<div class="w-full bg-white dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Table",
+      code: `<div class="w-full bg-white dark:bg-gray-800">
     <div class="container flex flex-col items-center px-6 py-5 mx-auto space-y-6 sm:flex-row sm:justify-between sm:space-y-0 ">
         <div class="-mx-2">
             <a href="#" class="inline-flex items-center justify-center px-4 py-1 mx-2 text-gray-700 transition-colors duration-300 transform bg-gray-100 rounded-lg dark:text-white dark:bg-gray-700">
@@ -1804,13 +1804,13 @@ const codeData = {
             <span class="font-medium text-gray-700 dark:text-gray-100">1 - 25</span> of 77 records
         </div>
     </div>
-</div>`
-        }
-    ],
-    forms: [
-        {
-            name: 'Simple',
-            code: `<section class="max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
+</div>`,
+    },
+  ],
+  forms: [
+    {
+      name: "Simple",
+      code: `<section class="max-w-4xl p-6 mx-auto bg-white rounded-md shadow-md dark:bg-gray-800">
     <h2 class="text-lg font-semibold text-gray-700 capitalize dark:text-white">Account settings</h2>
 
     <form>
@@ -1840,11 +1840,11 @@ const codeData = {
             <button class="px-8 py-2.5 leading-5 text-white transition-colors duration-300 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">Save</button>
         </div>
     </form>
-</section>`
-        },
-        {
-            name: 'Search',
-            code: `<section class="relative w-full max-w-md px-5 py-4 mx-auto rounded-md">
+</section>`,
+    },
+    {
+      name: "Search",
+      code: `<section class="relative w-full max-w-md px-5 py-4 mx-auto rounded-md">
     <div class="relative">
         <span class="absolute inset-y-0 left-0 flex items-center pl-3">
             <svg class="w-5 h-5 text-gray-400" viewBox="0 0 24 24" fill="none">
@@ -1861,11 +1861,11 @@ const codeData = {
             <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">02/04/2020</p>
         </a>
     </div>
-</section>`
-        },
-        {
-            name: 'Newsletter',
-            code: `<section class="flex flex-col max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-48">
+</section>`,
+    },
+    {
+      name: "Newsletter",
+      code: `<section class="flex flex-col max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 md:flex-row md:h-48">
     <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-gray-700 md:dark:bg-gray-800">
         <div class="px-6 py-6 md:px-8 md:py-0">
             <h2 class="text-lg font-bold text-gray-700 dark:text-white md:text-gray-100">Sign Up For <span class="text-blue-600 dark:text-blue-400 md:text-blue-300">Project</span> Updates</h2>
@@ -1883,11 +1883,11 @@ const codeData = {
             </div>
         </form>
     </div>
-</section>`
-        },
-        {
-            name: 'Newsletter #2',
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Newsletter #2",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="max-w-3xl px-6 py-16 mx-auto text-center">
         <h1 class="text-3xl font-semibold text-gray-800 dark:text-gray-100">Want to see Back in action?</h1>
         <p class="max-w-md mx-auto mt-5 text-gray-500 dark:text-gray-400">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, minus tempora nemo quos</p>
@@ -1900,39 +1900,39 @@ const codeData = {
             </button>
         </div>
     </div>
-</section>`
-        }
-    ],
-    inputs: [
-        {
-            name: 'Simple',
-            code: `<div>
+</section>`,
+    },
+  ],
+  inputs: [
+    {
+      name: "Simple",
+      code: `<div>
     <label for="username" class="block text-sm text-gray-500 dark:text-gray-300">Username</label>
 
     <input type="text" placeholder="John Doe" class="block  mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
-</div>`
-        },
-        {
-            name: 'Disabled',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Disabled",
+      code: `<div>
     <label for="username" class="block text-sm text-gray-500 dark:text-gray-300">Username</label>
 
     <input disabled type="text" placeholder="John Doe" class="block bg-gray-50 cursor-not-allowed mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
-</div>`
-        },
-        {
-            name: 'Email with Message',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Email with Message",
+      code: `<div>
     <label for="email" class="block text-sm text-gray-500 dark:text-gray-300">Email Address</label>
 
     <input type="email" placeholder="john@example.com" class="mt-2 block w-full placeholder-gray-400/70 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
     
     <p class="mt-3 text-xs text-gray-400 dark:text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-</div>`
-        },
-        {
-            name: 'Email with Icon',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Email with Icon",
+      code: `<div>
     <label for="email" class="block text-sm text-gray-500 dark:text-gray-300">Email Address</label>
 
     <div class="relative flex items-center mt-2">
@@ -1944,11 +1944,11 @@ const codeData = {
 
         <input type="email" placeholder="john@example.com" class="block w-full py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg pl-11 pr-5 rtl:pr-11 rtl:pl-5 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
     </div>
-</div>`
-        },
-        {
-            name: 'Password with Show Icon',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Password with Show Icon",
+      code: `<div>
     <div class="flex items-center justify-between">
         <label for="password" class="block text-sm text-gray-500 dark:text-gray-300">Password</label>
         <a href="#" class="text-xs text-gray-600 hover:underline dark:text-gray-400">Forget Password?</a>
@@ -1964,11 +1964,11 @@ const codeData = {
 
         <input type="password" placeholder="********" class="block w-full py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg pl-5 pr-11 rtl:pr-5 rtl:pl-11 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
     </div>
-</div>`
-        },
-        {
-            name: 'Card Number',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Card Number",
+      code: `<div>
     <label for="card" class="block text-sm text-gray-500 dark:text-gray-300">Card Number</label>
 
     <div class="relative flex items-center mt-2">
@@ -1983,48 +1983,48 @@ const codeData = {
 
         <input type="text" placeholder="5555555555554444" class="block w-full py-2.5 text-gray-700 placeholder-gray-400/70 bg-white border border-gray-200 rounded-lg pl-11 pr-5 rtl:pr-11 rtl:pl-5 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:ring-blue-300 focus:outline-none focus:ring focus:ring-opacity-40">
     </div>
-</div>`
-        },
-        {
-            name: 'Add On',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Add On",
+      code: `<div>
     <label for="domain name" class="block text-sm text-gray-500 dark:text-gray-300">Domain Name</label>
 
     <div class="flex items-center mt-2">
         <p class="py-2.5 px-3 text-gray-500 bg-gray-100 dark:bg-gray-800 dark:border-gray-700 border border-r-0 rtl:rounded-r-lg rtl:rounded-l-none rtl:border-l-0 rtl:border-r rounded-l-lg">http://</p>
         <input type="text" placeholder="merakiui.com" class="block w-full rounded-l-none rtl:rounded-l-lg rtl:rounded-r-none placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
     </div>
-</div>`
-        },
-        {
-            name: 'Error with Message',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Error with Message",
+      code: `<div>
     <label for="username" class="block text-sm text-gray-500 dark:text-gray-300">Username</label>
 
     <input type="text" placeholder="John Doe" class="block  mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-red-400 bg-white px-5 py-2.5 text-gray-700 focus:border-red-400 focus:outline-none focus:ring focus:ring-red-300 focus:ring-opacity-40 dark:border-red-400 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-red-300" />
     
     <p class="mt-3 text-xs text-red-400">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-</div>`
-        },
-        {
-            name: 'Date',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Date",
+      code: `<div>
     <label for="Birthday" class="block text-sm text-gray-500 dark:text-gray-300">Birthday</label>
 
     <input type="date" placeholder="John Doe" class="block  mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300" />
-</div>`
-        },
-        {
-            name: 'File',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "File",
+      code: `<div>
     <label for="image" class="block text-sm text-gray-500 dark:text-gray-300">Image</label>
 
     <input type="file" class="block w-full px-3 py-2 mt-2 text-sm text-gray-600 bg-white border border-gray-200 rounded-lg file:bg-gray-200 file:text-gray-700 file:text-sm file:px-4 file:py-1 file:border-none file:rounded-full dark:file:bg-gray-800 dark:file:text-gray-200 dark:text-gray-300 placeholder-gray-400/70 dark:placeholder-gray-500 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:focus:border-blue-300" />
-</div>`
-        },
-        {
-            name: 'Custom File',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Custom File",
+      code: `<div>
     <label for="file" class="block text-sm text-gray-500 dark:text-gray-300">File</label>
 
     <label for="dropzone-file" class="flex flex-col items-center w-full max-w-lg p-5 mx-auto mt-2 text-center bg-white border-2 border-gray-300 border-dashed cursor-pointer dark:bg-gray-900 dark:border-gray-700 rounded-xl">
@@ -2038,31 +2038,31 @@ const codeData = {
 
         <input id="dropzone-file" type="file" class="hidden" />
     </label>
-</div>`
-        },
-        {
-            name: 'Textarea',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Textarea",
+      code: `<div>
     <label for="Description" class="block text-sm text-gray-500 dark:text-gray-300">Description</label>
 
     <textarea placeholder="lorem..." class="block  mt-2 w-full  placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-4 h-32 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300"></textarea>
-</div>`
-        },
-        {
-            name: 'Textarea #2',
-            code: `<div>
+</div>`,
+    },
+    {
+      name: "Textarea #2",
+      code: `<div>
     <label for="Description" class="block text-sm text-gray-500 dark:text-gray-300">Description</label>
 
     <textarea placeholder="lorem..." class="block  mt-2 w-full placeholder-gray-400/70 dark:placeholder-gray-500 rounded-lg border border-gray-200 bg-white px-4 h-32 py-2.5 text-gray-700 focus:border-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-40 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:focus:border-blue-300"></textarea>
     
     <p class="mt-3 text-xs text-gray-400 dark:text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-</div>`
-        }
-    ],
-    modals: [
-        {
-            name: 'Archive',
-            code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
+</div>`,
+    },
+  ],
+  modals: [
+    {
+      name: "Archive",
+      code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
     <button @click="isOpen = true" class="px-6 py-2 mx-auto tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
         Open Modal
     </button>
@@ -2114,11 +2114,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Confirm',
-            code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
+</div>`,
+    },
+    {
+      name: "Confirm",
+      code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
     <button @click="isOpen = true" class="px-6 py-2 mx-auto tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
         Open Modal
     </button>
@@ -2174,11 +2174,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Steps',
-            code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
+</div>`,
+    },
+    {
+      name: "Steps",
+      code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
     <button @click="isOpen = true" class="px-6 py-2 mx-auto tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
         Open Modal
     </button>
@@ -2233,11 +2233,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Invite',
-            code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
+</div>`,
+    },
+    {
+      name: "Invite",
+      code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
     <button @click="isOpen = true" class="px-6 py-2 mx-auto tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
         Open Modal
     </button>
@@ -2300,11 +2300,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: 'Multi Invites',
-            code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
+</div>`,
+    },
+    {
+      name: "Multi Invites",
+      code: `<div x-data="{ isOpen: true }" class="relative flex justify-center">
     <button @click="isOpen = true" class="px-6 py-2 mx-auto tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-80">
         Open Modal
     </button>
@@ -2370,13 +2370,13 @@ const codeData = {
                 </div>
         </div>
     </div>
-</div>`
-        }
-    ],
-    navbars: [
-        {
-            name: 'Simple',
-            code: `<nav class="bg-white shadow dark:bg-gray-800">
+</div>`,
+    },
+  ],
+  navbars: [
+    {
+      name: "Simple",
+      code: `<nav class="bg-white shadow dark:bg-gray-800">
     <div class="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
         <a href="#" class="text-gray-800 transition-colors duration-300 transform dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">home</a>
 
@@ -2394,11 +2394,11 @@ const codeData = {
             <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m.75 19h7.092c4.552 0 6.131-6.037 2.107-8.203 2.701-2.354 1.029-6.797-2.595-6.797h-6.604c-.414 0-.75.336-.75.75v13.5c0 .414.336.75.75.75zm.75-13.5h5.854c3.211 0 3.215 4.768 0 4.768h-5.854zm0 6.268h6.342c3.861 0 3.861 5.732 0 5.732h-6.342z"/><path d="m18.374 7.857c-3.259 0-5.755 2.888-5.635 5.159-.247 3.28 2.397 5.984 5.635 5.984 2.012 0 3.888-1.065 4.895-2.781.503-.857-.791-1.613-1.293-.76-.739 1.259-2.12 2.041-3.602 2.041-2.187 0-3.965-1.668-4.125-3.771 1.443.017 4.136-.188 8.987-.033.016 0 .027-.008.042-.008 2-.09-.189-5.831-4.904-5.831zm-3.928 4.298c1.286-3.789 6.718-3.676 7.89.064-4.064.097-6.496-.066-7.89-.064z"/><path d="m21.308 6.464c.993 0 .992-1.5 0-1.5h-5.87c-.993 0-.992 1.5 0 1.5z"/></svg>
         </a>
     </div>
-</nav>`
-        },
-        {
-            name: 'E-Commerce',
-            code: `<nav x-data="{ isOpen: false }" class="relative bg-white shadow dark:bg-gray-800">
+</nav>`,
+    },
+    {
+      name: "E-Commerce",
+      code: `<nav x-data="{ isOpen: false }" class="relative bg-white shadow dark:bg-gray-800">
     <div class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div class="flex items-center justify-between">
             <a href="#">
@@ -2439,11 +2439,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</nav>`
-        },
-        {
-            name: 'Search',
-            code: `<nav x-data="{ isOpen: false }" class="relative bg-white shadow dark:bg-gray-800">
+</nav>`,
+    },
+    {
+      name: "Search",
+      code: `<nav x-data="{ isOpen: false }" class="relative bg-white shadow dark:bg-gray-800">
     <div class="container px-6 py-3 mx-auto md:flex">
         <div class="flex items-center justify-between">
             <a href="#">
@@ -2483,11 +2483,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</nav>`
-        },
-        {
-            name: 'Avatar',
-            code: `<nav x-data="{ isOpen: false }" class="relative bg-white shadow dark:bg-gray-800">
+</nav>`,
+    },
+    {
+      name: "Avatar",
+      code: `<nav x-data="{ isOpen: false }" class="relative bg-white shadow dark:bg-gray-800">
     <div class="container px-6 py-4 mx-auto">
         <div class="lg:flex lg:items-center lg:justify-between">
             <div class="flex items-center justify-between">
@@ -2536,11 +2536,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</nav>`
-        },
-        {
-            name: 'Social Media Links',
-            code: `<nav x-data="{ isOpen: false }" class="bg-white shadow dark:bg-gray-800">
+</nav>`,
+    },
+    {
+      name: "Social Media Links",
+      code: `<nav x-data="{ isOpen: false }" class="bg-white shadow dark:bg-gray-800">
     <div class="container px-6 py-4 mx-auto">
         <div class="lg:flex lg:items-center">
             <div class="flex items-center justify-between">
@@ -2609,11 +2609,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</nav>`
-        },
-        {
-            name: 'Categories',
-            code: `<!-- Require css -->
+</nav>`,
+    },
+    {
+      name: "Categories",
+      code: `<!-- Require css -->
 <style>
     .scroll-hidden::-webkit-scrollbar {
         height: 0px;
@@ -2706,13 +2706,13 @@ const codeData = {
             <a class="mx-4 text-sm leading-5 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 hover:underline md:my-0" href="#">Sublime</a>
         </div>
     </div>
-</nav>`
-        }
-    ],
-    pagination: [
-        {
-            name: "Simple",
-            code: `<div class="flex">
+</nav>`,
+    },
+  ],
+  pagination: [
+    {
+      name: "Simple",
+      code: `<div class="flex">
     <a href="#" class="flex items-center px-4 py-2 mx-1 text-gray-500 bg-white rounded-md cursor-not-allowed dark:bg-gray-800 dark:text-gray-600">
         previous
     </a>
@@ -2732,11 +2732,11 @@ const codeData = {
     <a href="#" class="flex items-center px-4 py-2 mx-1 text-gray-700 transition-colors duration-300 transform bg-white rounded-md dark:bg-gray-800 dark:text-gray-200 hover:bg-blue-600 dark:hover:bg-blue-500 hover:text-white dark:hover:text-gray-200">
         Next
     </a>
-</div>`
-        },
-        {
-            name: "Arrows",
-            code: `<div class="flex">
+</div>`,
+    },
+    {
+      name: "Arrows",
+      code: `<div class="flex">
     <a href="#" class="flex items-center justify-center px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed rtl:-scale-x-100 dark:bg-gray-800 dark:text-gray-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
@@ -2768,11 +2768,11 @@ const codeData = {
             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
         </svg>
     </a>
-</div>`
-        },
-        {
-            name: "Icons",
-            code: `<div class="flex">
+</div>`,
+    },
+    {
+      name: "Icons",
+      code: `<div class="flex">
     <a href="#" class="px-4 py-2 mx-1 text-gray-500 capitalize bg-white rounded-md cursor-not-allowed dark:bg-gray-800 dark:text-gray-600">
         <div class="flex items-center -mx-1">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 mx-1 rtl:-scale-x-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -2816,11 +2816,11 @@ const codeData = {
             </svg>
         </div>
     </a>
-</div>`
-        },
-        {
-            name: "Table",
-            code: `<div class="w-full bg-white dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Table",
+      code: `<div class="w-full bg-white dark:bg-gray-800">
     <div class="container flex flex-col items-center px-6 py-5 mx-auto space-y-6 sm:flex-row sm:justify-between sm:space-y-0 ">
         <div class="-mx-2">
             <a href="#" class="inline-flex items-center justify-center px-4 py-1 mx-2 text-gray-700 transition-colors duration-300 transform bg-gray-100 rounded-lg dark:text-white dark:bg-gray-700">
@@ -2840,13 +2840,13 @@ const codeData = {
             <span class="font-medium text-gray-700 dark:text-gray-100">1 - 25</span> of 77 records
         </div>
     </div>
-</div>`
-        }
-    ],
-    sidebar: [
-        {
-            name: "Collapse",
-            code: `<aside class="flex flex-col items-center w-16 h-screen py-8 overflow-y-auto bg-white border-r rtl:border-l rtl:border-r-0 dark:bg-gray-900 dark:border-gray-700">
+</div>`,
+    },
+  ],
+  sidebar: [
+    {
+      name: "Collapse",
+      code: `<aside class="flex flex-col items-center w-16 h-screen py-8 overflow-y-auto bg-white border-r rtl:border-l rtl:border-r-0 dark:bg-gray-900 dark:border-gray-700">
     <nav class="flex flex-col flex-1 space-y-6">
         <a href="#">
             <img class="w-auto h-6 " src="https://merakiui.com/images/logo.svg" alt="">
@@ -2901,11 +2901,11 @@ const codeData = {
             <img class="object-cover w-8 h-8 rounded-full" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=880&h=880&q=100" alt="" />
         </a>
     </div>
-</aside>`
-        },
-        {
-            name: "Search",
-            code: `<aside class="flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+</aside>`,
+    },
+    {
+      name: "Search",
+      code: `<aside class="flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
     <a href="#">
         <img class="w-auto h-6 sm:h-7" src="https://merakiui.com/images/logo.svg" alt="">
     </a>
@@ -2983,11 +2983,11 @@ const codeData = {
             <span class="mx-2 font-medium text-gray-800 dark:text-gray-200">John Doe</span>
         </a>
     </div>
-</aside>`
-        },
-        {
-            name: "Search with Bottom Card",
-            code: `<aside class="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+</aside>`,
+    },
+    {
+      name: "Search with Bottom Card",
+      code: `<aside class="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
     <a href="#">
         <img class="w-auto h-7" src="https://merakiui.com/images/logo.svg" alt="">
     </a>
@@ -3086,11 +3086,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</aside>`
-        },
-        {
-            name: "Label Section",
-            code: `<aside class="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+</aside>`,
+    },
+    {
+      name: "Label Section",
+      code: `<aside class="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
     <a href="#">
         <img class="w-auto h-7" src="https://merakiui.com/images/logo.svg" alt="">
     </a>
@@ -3167,11 +3167,11 @@ const codeData = {
             </div>
         </nav>
     </div>
-</aside>`
-        },
-        {
-            name: "Bottom Menu",
-            code: `<aside class="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+</aside>`,
+    },
+    {
+      name: "Bottom Menu",
+      code: `<aside class="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
     <a href="#">
         <img class="w-auto h-7" src="https://merakiui.com/images/logo.svg" alt="">
     </a>
@@ -3297,11 +3297,11 @@ const codeData = {
             </nav>
         </div>
     </div>
-</aside>`
-        },
-        {
-            name: "Avatar",
-            code: `<aside class="flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
+</aside>`,
+    },
+    {
+      name: "Avatar",
+      code: `<aside class="flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
     <a href="#" class="mx-auto">
         <img class="w-auto h-6 sm:h-7" src="https://merakiui.com/images/full-logo.svg" alt="">
     </a>
@@ -3349,11 +3349,11 @@ const codeData = {
             </a>
         </nav>
     </div>
-</aside>`
-        },
-        {
-            name: "Sub Menu",
-            code: `<aside class="flex">
+</aside>`,
+    },
+    {
+      name: "Sub Menu",
+      code: `<aside class="flex">
     <div class="flex flex-col items-center w-16 h-screen py-8 space-y-8 bg-white dark:bg-gray-900 dark:border-gray-700">
         <a href="#">
             <img class="w-auto h-6" src="https://merakiui.com/images/logo.svg" alt="">
@@ -3476,11 +3476,11 @@ const codeData = {
             </button>
         </div>
     </div>
-</aside>`
-        },
-        {
-            name: "Sub Menu with label section",
-            code: `<aside class="flex">
+</aside>`,
+    },
+    {
+      name: "Sub Menu with label section",
+      code: `<aside class="flex">
     <div class="flex flex-col items-center w-16 h-screen py-8 bg-white dark:bg-gray-900 dark:border-gray-700">
         <nav class="flex flex-col items-center flex-1 space-y-8 ">
             <a href="#">
@@ -3615,13 +3615,13 @@ const codeData = {
             </div>
         </nav>
     </div>
-</aside>`
-        }
-    ],
-    authform: [
-        {
-            name: "Sign In Card",
-            code: `<div class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+</aside>`,
+    },
+  ],
+  authform: [
+    {
+      name: "Sign In Card",
+      code: `<div class="w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
     <div class="px-6 py-4">
         <div class="flex justify-center mx-auto">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="">
@@ -3655,11 +3655,11 @@ const codeData = {
 
         <a href="#" class="mx-2 text-sm font-bold text-blue-500 dark:text-blue-400 hover:underline">Register</a>
     </div>
-</div>`
-        },
-        {
-            name: "Sign In Card with Social Media Links",
-            code: `<div class="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800">
+</div>`,
+    },
+    {
+      name: "Sign In Card with Social Media Links",
+      code: `<div class="w-full max-w-sm p-6 m-auto mx-auto bg-white rounded-lg shadow-md dark:bg-gray-800">
     <div class="flex justify-center mx-auto">
         <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="">
     </div>
@@ -3715,11 +3715,11 @@ const codeData = {
     </div>
 
     <p class="mt-8 text-xs font-light text-center text-gray-400"> Don't have an account? <a href="#" class="font-medium text-gray-700 dark:text-gray-200 hover:underline">Create One</a></p>
-</div>`
-        },
-        {
-            name: "Sign In Card With Side Image",
-            code: `<div class="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl">
+</div>`,
+    },
+    {
+      name: "Sign In Card With Side Image",
+      code: `<div class="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl">
     <div class="hidden bg-cover lg:block lg:w-1/2" style="background-image: url('https://images.unsplash.com/photo-1606660265514-358ebbadc80d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80');"></div>
 
     <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
@@ -3781,11 +3781,11 @@ const codeData = {
             <span class="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: "Sign Up Page",
-            code: `<section class="bg-white dark:bg-gray-900">
+</div>`,
+    },
+    {
+      name: "Sign Up Page",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex items-center justify-center min-h-screen px-6 mx-auto">
         <form class="w-full max-w-md">
             <div class="flex justify-center mx-auto">
@@ -3865,11 +3865,11 @@ const codeData = {
             </div>
         </form>
     </div>
-</section>`
-        },
-        {
-            name: "Sign In Page",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Sign In Page",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex items-center justify-center min-h-screen px-6 mx-auto">
         <form class="w-full max-w-md">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="">
@@ -3922,11 +3922,11 @@ const codeData = {
             </div>
         </form>
     </div>
-</section>`
-        },
-        {
-            name: "Sign In Page with Select User",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Sign In Page with Select User",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center justify-center min-h-screen px-6 mx-auto">
         <div class="flex justify-center mx-auto">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/logo.svg" alt="">
@@ -3976,11 +3976,11 @@ const codeData = {
             </form>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Sign In Page with Socail Media Links",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Sign In Page with Socail Media Links",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-24 mx-auto lg:py-32">
         <div class="lg:flex">
             <div class="lg:w-1/2">
@@ -4060,11 +4060,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Sign In Page With Image",
-            code: `<div class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Sign In Page With Image",
+      code: `<div class="bg-white dark:bg-gray-900">
     <div class="flex justify-center h-screen">
         <div class="hidden bg-cover lg:block lg:w-2/3" style="background-image: url(https://images.unsplash.com/photo-1616763355603-9755a640a287?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)">
             <div class="flex items-center h-full px-20 bg-gray-900 bg-opacity-40">
@@ -4119,11 +4119,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: "Sign Up Page with Side Image",
-            code: `<section class="bg-white dark:bg-gray-900">
+</div>`,
+    },
+    {
+      name: "Sign Up Page with Side Image",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="flex justify-center min-h-screen">
         <div class="hidden bg-cover lg:block lg:w-2/5" style="background-image: url('https://images.unsplash.com/photo-1494621930069-4fd4b2e24a11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80')">
         </div>
@@ -4209,13 +4209,13 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        }
-    ],
-    skeleton: [
-        {
-            name: "Card",
-            code: `<div class="flex w-full max-w-md mx-auto overflow-hidden bg-white rounded-lg shadow-lg animate-pulse dark:bg-gray-800">
+</section>`,
+    },
+  ],
+  skeleton: [
+    {
+      name: "Card",
+      code: `<div class="flex w-full max-w-md mx-auto overflow-hidden bg-white rounded-lg shadow-lg animate-pulse dark:bg-gray-800">
     <div class="w-1/3 bg-gray-300 dark:bg-gray-600"></div>
 
     <div class="w-2/3 p-4 md:p-4">
@@ -4237,22 +4237,22 @@ const codeData = {
             <div class="h-4 bg-gray-200 rounded-lg w-28 dark:bg-gray-700"></div>
         </div>
     </div>
-</div>`
-        },
-        {
-            name: "Header with paragraph",
-            code: `<div class="w-full max-w-md mx-auto animate-pulse p-9">
+</div>`,
+    },
+    {
+      name: "Header with paragraph",
+      code: `<div class="w-full max-w-md mx-auto animate-pulse p-9">
     <h1 class="h-2 bg-gray-300 rounded-lg w-52 dark:bg-gray-600"></h1>
 
     <p class="w-48 h-2 mt-6 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
     <p class="w-full h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
     <p class="w-64 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
     <p class="w-4/5 h-2 mt-4 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
-</div>`
-        },
-        {
-            name: "Space between Navbar",
-            code: `<section class="bg-white dark:bg-gray-900">
+</div>`,
+    },
+    {
+      name: "Space between Navbar",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 animate-pulse sm:space-y-0 sm:flex-row">
         <p class="w-32 h-2 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
         <div class="flex flex-wrap items-center justify-center gap-6 mt-10">
@@ -4264,21 +4264,21 @@ const codeData = {
             <p class="w-8 h-8 bg-gray-200 rounded-full dark:bg-gray-700"></p>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Space between Footer",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Space between Footer",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center justify-between p-6 mx-auto space-y-4 animate-pulse sm:space-y-0 sm:flex-row">
         <p class="w-32 h-2 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
         <p class="w-48 h-2 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
         <p class="w-64 h-2 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
     </div>
-</section>`
-        },
-        {
-            name: "Centered Footer",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Centered Footer",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-8 mx-auto animate-pulse">
         <div class="text-center">
             <p class="w-32 h-2 mx-auto bg-gray-200 rounded-lg dark:bg-gray-700"></p>
@@ -4301,11 +4301,11 @@ const codeData = {
             <p class="w-64 h-2 bg-gray-200 rounded-lg dark:bg-gray-700"></p>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Grid 3x with header",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Grid 3x with header",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto animate-pulse">
         <h1 class="w-48 h-2 mx-auto bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
 
@@ -4335,11 +4335,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Grid 4x2 Rounded full with header",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Grid 4x2 Rounded full with header",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto animate-pulse">
         <h1 class="w-40 h-2 mx-auto bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
 
@@ -4420,11 +4420,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Grid 4x2 with header",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Grid 4x2 with header",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto animate-pulse">
         <h1 class="w-48 h-2 mx-auto bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
 
@@ -4489,13 +4489,13 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        }
-    ],
-    tables: [
-        {
-            name: "Simple",
-            code: `<section class="container px-4 mx-auto">
+</section>`,
+    },
+  ],
+  tables: [
+    {
+      name: "Simple",
+      code: `<section class="container px-4 mx-auto">
     <h2 class="text-lg font-medium text-gray-800 dark:text-white">Customers</h2>
 
     <p class="mt-1 text-sm text-gray-500 dark:text-gray-300">These companies have purchased in the last 12 months.</p>
@@ -4791,11 +4791,11 @@ const codeData = {
             </svg>
         </a>
     </div>
-</section>`
-        },
-        {
-            name: "Avatar",
-            code: `<section class="container px-4 mx-auto">
+</section>`,
+    },
+    {
+      name: "Avatar",
+      code: `<section class="container px-4 mx-auto">
     <div class="flex items-center gap-x-3">
         <h2 class="text-lg font-medium text-gray-800 dark:text-white">Team members</h2>
 
@@ -5120,11 +5120,11 @@ const codeData = {
             </svg>
         </a>
     </div>
-</section>`
-        },
-        {
-            name: "Invoices",
-            code: `<section class="container px-4 mx-auto">
+</section>`,
+    },
+    {
+      name: "Invoices",
+      code: `<section class="container px-4 mx-auto">
     <div class="flex flex-col">
         <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
@@ -5411,11 +5411,11 @@ const codeData = {
             </svg>
         </a>
     </div>
-</section>`
-        },
-        {
-            name: "Files",
-            code: `<section class="container px-4 mx-auto">
+</section>`,
+    },
+    {
+      name: "Files",
+      code: `<section class="container px-4 mx-auto">
     <div class="sm:flex sm:items-center sm:justify-between">
         <h2 class="text-lg font-medium text-gray-800 dark:text-white">Files uploaded</h2>
 
@@ -5684,11 +5684,11 @@ const codeData = {
             </svg>
         </a>
     </div>
-</section>`
-        },
-        {
-            name: "Filter and Search",
-            code: `<section class="container px-4 mx-auto">
+</section>`,
+    },
+    {
+      name: "Filter and Search",
+      code: `<section class="container px-4 mx-auto">
     <div class="sm:flex sm:items-center sm:justify-between">
         <div>
             <div class="flex items-center gap-x-3">
@@ -6037,11 +6037,11 @@ const codeData = {
             </a>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Empty",
-            code: `<section class="container px-4 mx-auto">
+</section>`,
+    },
+    {
+      name: "Empty",
+      code: `<section class="container px-4 mx-auto">
     <div class="sm:flex sm:items-center sm:justify-between">
         <div>
             <div class="flex items-center gap-x-3">
@@ -6157,13 +6157,13 @@ const codeData = {
             </a>
         </div>
     </div>
-</section>`
-        }
-    ],
-    tabs: [
-        {
-            name: "Line",
-            code: `<div class="flex overflow-x-auto overflow-y-hidden border-b border-gray-200 whitespace-nowrap dark:border-gray-700">
+</section>`,
+    },
+  ],
+  tabs: [
+    {
+      name: "Line",
+      code: `<div class="flex overflow-x-auto overflow-y-hidden border-b border-gray-200 whitespace-nowrap dark:border-gray-700">
     <button class="inline-flex items-center h-10 px-4 -mb-px text-sm text-center text-blue-600 bg-transparent border-b-2 border-blue-500 sm:text-base dark:border-blue-400 dark:text-blue-300 whitespace-nowrap focus:outline-none">
         Profile
     </button>
@@ -6175,11 +6175,11 @@ const codeData = {
     <button class="inline-flex items-center h-10 px-4 -mb-px text-sm text-center text-gray-700 bg-transparent border-b-2 border-transparent sm:text-base dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-gray-400">
         Notification
     </button>
-</div>`
-        },
-        {
-            name: "Line With Icons",
-            code: `<div class="flex overflow-x-auto overflow-y-hidden border-b border-gray-200 whitespace-nowrap dark:border-gray-700">
+</div>`,
+    },
+    {
+      name: "Line With Icons",
+      code: `<div class="flex overflow-x-auto overflow-y-hidden border-b border-gray-200 whitespace-nowrap dark:border-gray-700">
     <button class="inline-flex items-center h-10 px-2 py-2 -mb-px text-center text-blue-600 bg-transparent border-b-2 border-blue-500 sm:px-4 -px-1 dark:border-blue-400 dark:text-blue-300 whitespace-nowrap focus:outline-none">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mx-1 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
@@ -6209,11 +6209,11 @@ const codeData = {
             Notification
         </span>
     </button>
-</div>`
-        },
-        {
-            name: "End Closed",
-            code: `<div class="flex overflow-x-auto whitespace-nowrap">
+</div>`,
+    },
+    {
+      name: "End Closed",
+      code: `<div class="flex overflow-x-auto whitespace-nowrap">
     <button class="inline-flex items-center h-12 px-4 py-2 text-sm text-center text-gray-700 border border-b-0 border-gray-300 sm:text-base dark:border-gray-500 rounded-t-md dark:text-white whitespace-nowrap focus:outline-none">
         Profile
     </button>
@@ -6225,11 +6225,11 @@ const codeData = {
     <button class="inline-flex items-center h-12 px-4 py-2 text-sm text-center text-gray-700 bg-transparent border-b border-gray-300 sm:text-base dark:border-gray-500 dark:text-white whitespace-nowrap cursor-base focus:outline-none hover:border-gray-400 dark:hover:border-gray-300">
         Notification
     </button>
-</div>`
-        },
-        {
-            name: "End Closed With Icons",
-            code: `<div class="flex overflow-x-auto whitespace-nowrap">
+</div>`,
+    },
+    {
+      name: "End Closed With Icons",
+      code: `<div class="flex overflow-x-auto whitespace-nowrap">
     <button class="inline-flex items-center h-12 px-2 py-2 text-center text-gray-700 border border-b-0 border-gray-300 sm:px-4 dark:border-gray-500 rounded-t-md -px-1 dark:text-white whitespace-nowrap focus:outline-none">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mx-1 sm:w-6 sm:h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" />
@@ -6259,13 +6259,13 @@ const codeData = {
             Notification
         </span>
     </button>
-</div>`
-        }
-    ],
-    tooltip: [
-        {
-            name: "Bottom",
-            code: `<div class="relative inline-block">
+</div>`,
+    },
+  ],
+  tooltip: [
+    {
+      name: "Bottom",
+      code: `<div class="relative inline-block">
     <button class="text-gray-600 transition-colors duration-200 focus:outline-none dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -6275,11 +6275,11 @@ const codeData = {
     <p class="absolute w-48 px-5 py-3 text-center text-gray-600 truncate -translate-x-1/2 bg-white rounded-lg shadow-lg -bottom-12 left-1/2 dark:shadow-none shadow-gray-200 dark:bg-gray-800 dark:text-white">
         This is a tooltip
     </p>
-</div>`
-        },
-        {
-            name: "Top",
-            code: `<div class="relative inline-block">
+</div>`,
+    },
+    {
+      name: "Top",
+      code: `<div class="relative inline-block">
     <button class="text-gray-600 transition-colors duration-200 focus:outline-none dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -6289,11 +6289,11 @@ const codeData = {
     <p class="absolute w-48 px-5 py-3 text-center text-gray-600 truncate -translate-x-1/2 bg-white rounded-lg shadow-lg -top-14 left-1/2 dark:shadow-none shadow-gray-200 dark:bg-gray-800 dark:text-white">
         This is a tooltip
     </p>
-</div>`
-        },
-        {
-            name: "Left",
-            code: `<div class="relative inline-block">
+</div>`,
+    },
+    {
+      name: "Left",
+      code: `<div class="relative inline-block">
     <button class="text-gray-600 transition-colors duration-200 focus:outline-none dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -6307,11 +6307,11 @@ const codeData = {
             <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
         </svg>
     </p>
-</div>`
-        },
-        {
-            name: "Right",
-            code: `<div class="relative inline-block">
+</div>`,
+    },
+    {
+      name: "Right",
+      code: `<div class="relative inline-block">
     <button class="text-gray-600 transition-colors duration-200 focus:outline-none dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -6325,11 +6325,11 @@ const codeData = {
             <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
         </svg>
     </p>
-</div>`
-        },
-        {
-            name: "Top Center",
-            code: `<div class="relative inline-block">
+</div>`,
+    },
+    {
+      name: "Top Center",
+      code: `<div class="relative inline-block">
     <button class="text-gray-600 transition-colors duration-200 focus:outline-none dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -6343,11 +6343,11 @@ const codeData = {
             <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
         </svg>
     </p>
-</div>`
-        },
-        {
-            name: "Top Left",
-            code: `<div class="relative inline-block">
+</div>`,
+    },
+    {
+      name: "Top Left",
+      code: `<div class="relative inline-block">
     <button class="text-gray-600 transition-colors duration-200 focus:outline-none dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -6361,11 +6361,11 @@ const codeData = {
             <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
         </svg>
     </p>
-</div>`
-        },
-        {
-            name: "Top Right",
-            code: `<div class="relative inline-block">
+</div>`,
+    },
+    {
+      name: "Top Right",
+      code: `<div class="relative inline-block">
     <button class="text-gray-600 transition-colors duration-200 focus:outline-none dark:text-gray-200 dark:hover:text-blue-400 hover:text-blue-500">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" />
@@ -6379,13 +6379,13 @@ const codeData = {
             <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"></path>
         </svg>
     </p>
-</div>`
-        }        
-    ],
-    pages404: [
-        {
-            name: "Simple",
-            code: `<section class="bg-white dark:bg-gray-900 ">
+</div>`,
+    },
+  ],
+  pages404: [
+    {
+      name: "Simple",
+      code: `<section class="bg-white dark:bg-gray-900 ">
     <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
         <div>
             <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
@@ -6407,11 +6407,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Links",
-            code: `<section class="bg-white dark:bg-gray-900 ">
+</section>`,
+    },
+    {
+      name: "Links",
+      code: `<section class="bg-white dark:bg-gray-900 ">
     <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
         <div>
             <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
@@ -6472,11 +6472,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Centered",
-            code: `<section class="bg-white dark:bg-gray-900 ">
+</section>`,
+    },
+    {
+      name: "Centered",
+      code: `<section class="bg-white dark:bg-gray-900 ">
     <div class="container flex items-center min-h-screen px-6 py-12 mx-auto">
         <div class="flex flex-col items-center max-w-sm mx-auto text-center">
             <p class="p-3 text-sm font-medium text-blue-500 rounded-full bg-blue-50 dark:bg-gray-800">
@@ -6503,11 +6503,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Centered with Links",
-            code: `<section class="bg-white dark:bg-gray-900 ">
+</section>`,
+    },
+    {
+      name: "Centered with Links",
+      code: `<section class="bg-white dark:bg-gray-900 ">
     <div class="container flex items-center justify-center min-h-screen px-6 py-12 mx-auto">
         <div class="w-full ">
             <div class="flex flex-col items-center max-w-lg mx-auto text-center">
@@ -6594,11 +6594,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Image",
-            code: `<section class="bg-white dark:bg-gray-900 ">
+</section>`,
+    },
+    {
+      name: "Image",
+      code: `<section class="bg-white dark:bg-gray-900 ">
     <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
         <div class="wf-ull lg:w-1/2">
             <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
@@ -6625,11 +6625,11 @@ const codeData = {
             <img class=" w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover " src="https://images.unsplash.com/photo-1613310023042-ad79320c00ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Image with Links",
-            code: `<section class="bg-white dark:bg-gray-900 ">
+</section>`,
+    },
+    {
+      name: "Image with Links",
+      code: `<section class="bg-white dark:bg-gray-900 ">
     <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
         <div class="wf-ull lg:w-1/2">
             <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
@@ -6694,11 +6694,11 @@ const codeData = {
             <img class=" w-full lg:h-[32rem] h-80 md:h-96 rounded-lg object-cover " src="https://images.unsplash.com/photo-1508881598441-324f3974994b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="">
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Illustration",
-            code: `<section class="bg-white dark:bg-gray-900 ">
+</section>`,
+    },
+    {
+      name: "Illustration",
+      code: `<section class="bg-white dark:bg-gray-900 ">
     <div class="container min-h-screen px-6 py-12 mx-auto lg:flex lg:items-center lg:gap-12">
         <div class="wf-ull lg:w-1/2">
             <p class="text-sm font-medium text-blue-500 dark:text-blue-400">404 error</p>
@@ -6725,13 +6725,13 @@ const codeData = {
             <img class="w-full max-w-lg lg:mx-auto" src="/images/components/illustration.svg" alt="">
         </div>
     </div>
-</section>`
-        }
-    ],
-    blog: [
-        {
-            name: "Single Post",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+  ],
+  blog: [
+    {
+      name: "Single Post",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
         <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
 
@@ -6763,11 +6763,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Single Post with Recent",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Single Post with Recent",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
         <div class="lg:flex lg:-mx-6">
             <div class="lg:w-3/4 lg:px-6">
@@ -6832,11 +6832,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Cards",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Cards",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
         <div class="text-center">
             <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
@@ -6883,11 +6883,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Recent Posts",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Recent Posts",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
         <div class="flex items-center justify-between">
             <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">recent posts </h1>
@@ -6991,13 +6991,13 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        }
-    ],
-    cta: [
-        {
-            name: "Simple",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+  ],
+  cta: [
+    {
+      name: "Simple",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
         <h2 class="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
             Bring your Business to the <span class="text-blue-500">next level.</span>
@@ -7015,11 +7015,11 @@ const codeData = {
             </a>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Card",
-            code: `<section class="bg-gray-100 dark:bg-gray-800 lg:py-12 lg:flex lg:justify-center">
+</section>`,
+    },
+    {
+      name: "Card",
+      code: `<section class="bg-gray-100 dark:bg-gray-800 lg:py-12 lg:flex lg:justify-center">
     <div
         class="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl">
         <div class="lg:w-1/2">
@@ -7044,11 +7044,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Centered",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Centered",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
         <h2 class="text-2xl font-bold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
             Try something really different right now.
@@ -7103,11 +7103,11 @@ const codeData = {
             </a>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Grid",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Grid",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container grid grid-cols-1 gap-8 px-4 py-12 mx-auto lg:grid-cols-2">
         <div class="flex flex-col items-center max-w-lg mx-auto text-center">
             <h2 class="text-3xl font-semibold tracking-tight text-gray-800 dark:text-white">
@@ -7133,11 +7133,11 @@ const codeData = {
             </a>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Form",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Form",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-4 py-16 mx-auto lg:flex lg:items-center lg:justify-between">
         <h2 class="text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
             Join us and get the update from anywhere
@@ -7155,11 +7155,11 @@ const codeData = {
             <p class="mt-3 text-sm text-gray-500 dark:text-gray-300">Attention! Offer expires in 30 days. Make sure not to miss this opportunity</p>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Image",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Image",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container flex flex-col items-center px-4 py-12 mx-auto xl:flex-row">
         <div class="flex justify-center xl:w-1/2">
             <img class="h-80 w-80 sm:w-[28rem] sm:h-[28rem] flex-shrink-0 object-cover rounded-full" src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80" alt="">
@@ -7216,13 +7216,13 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        }
-    ],
-    contact: [
-        {
-            name: "Simple",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+  ],
+  contact: [
+    {
+      name: "Simple",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-12 mx-auto">
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
@@ -7277,11 +7277,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Centered",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Centered",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-12 mx-auto">
         <div class="text-center">
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
@@ -7330,11 +7330,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Two Column",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Two Column",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container grid grid-cols-1 gap-10 px-6 py-12 mx-auto lg:grid-cols-3">
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400">Our locations</p>
@@ -7376,11 +7376,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Form",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Form",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-12 mx-auto">
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
@@ -7474,11 +7474,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Map",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Map",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-12 mx-auto">
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
@@ -7533,11 +7533,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Grid",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Grid",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-12 mx-auto">
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
@@ -7599,11 +7599,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Grid 2x2",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Grid 2x2",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container grid gap-8 px-6 py-12 mx-auto lg:grid-cols-3">
         <div>
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
@@ -7665,11 +7665,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Grid with Image",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Grid with Image",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-12 mx-auto">
         <div class="text-center ">
             <p class="font-medium text-blue-500 dark:text-blue-400">Contact us</p>
@@ -7720,11 +7720,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Card",
-            code: `<section class="bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Card",
+      code: `<section class="bg-white dark:bg-gray-900">
     <div class="container px-6 py-12 mx-auto">
         <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
@@ -7824,11 +7824,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Image",
-            code: `<section class="min-h-screen bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Image",
+      code: `<section class="min-h-screen bg-white dark:bg-gray-900">
     <div class="container px-6 py-10 mx-auto">
         <div class="lg:flex lg:items-center lg:-mx-10">
             <div class="lg:w-1/2 lg:mx-10">
@@ -7930,11 +7930,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Background Image",
-            code: `<section class="min-h-screen bg-cover " style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')">
+</section>`,
+    },
+    {
+      name: "Background Image",
+      code: `<section class="min-h-screen bg-cover " style="background-image: url('https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')">
     <div class="flex flex-col min-h-screen bg-black/60">
         <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
             <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
@@ -8018,11 +8018,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Background Gradient",
-            code: `<section class="min-h-screen bg-gradient-to-r from-blue-600 via-blue-800 to-blue-900 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 ">
+</section>`,
+    },
+    {
+      name: "Background Gradient",
+      code: `<section class="min-h-screen bg-gradient-to-r from-blue-600 via-blue-800 to-blue-900 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900 ">
     <div class="container flex flex-col min-h-screen px-6 py-12 mx-auto">
         <div class="flex-1 lg:flex lg:items-center lg:-mx-6">
             <div class="text-white lg:w-1/2 lg:mx-6">
@@ -8120,11 +8120,11 @@ const codeData = {
             </div>
         </div>
     </div>
-</section>`
-        },
-        {
-            name: "Page Side by Side",
-            code: `<section class="min-h-screen bg-white dark:bg-gray-900 lg:flex">
+</section>`,
+    },
+    {
+      name: "Page Side by Side",
+      code: `<section class="min-h-screen bg-white dark:bg-gray-900 lg:flex">
     <div class="flex flex-col justify-center w-full p-8 lg:bg-gray-100 lg:dark:bg-gray-800 lg:px-12 xl:px-32 lg:w-1/2">
         <h1 class="text-2xl font-semibold text-gray-800 capitalize dark:text-white lg:text-3xl">hire us.</h1>
 
@@ -8190,13 +8190,13 @@ const codeData = {
             </button>
         </form>
     </div>
-</section>`
-        }
-    ],
-    emailtemplates: [
-        {
-            name: "Invite",
-            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+</section>`,
+    },
+  ],
+  emailtemplates: [
+    {
+      name: "Invite",
+      code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
     <header>
         <a href="#">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
@@ -8229,11 +8229,11 @@ const codeData = {
 
         <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
     </footer>
-</section>`
-        },
-        {
-            name: "Verification",
-            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Verification",
+      code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
     <header>
         <a href="#">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
@@ -8277,11 +8277,11 @@ const codeData = {
 
         <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
     </footer>
-</section>`
-        },
-        {
-            name: "Welcome",
-            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Welcome",
+      code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
     <header>
         <a href="#">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
@@ -8363,11 +8363,11 @@ const codeData = {
 
         <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
     </footer>
-</section>`
-        },
-        {
-            name: "Welcome with Video",
-            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Welcome with Video",
+      code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
     <header>
         <a href="#">
             <img class="w-auto mx-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
@@ -8445,11 +8445,11 @@ const codeData = {
 
         <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
     </footer>
-</section>`
-        },
-        {
-            name: "Notification",
-            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Notification",
+      code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
     <header>
         <a href="#">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
@@ -8492,11 +8492,11 @@ const codeData = {
 
         <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
     </footer>
-</section>`
-        },
-        {
-            name: "Notification with Image",
-            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "Notification with Image",
+      code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
     <header>
         <a href="#">
             <img class="w-auto h-7 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
@@ -8541,11 +8541,11 @@ const codeData = {
 
         <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
     </footer>
-</section>`
-        },
-        {
-            name: "News",
-            code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
+</section>`,
+    },
+    {
+      name: "News",
+      code: `<section class="max-w-2xl px-6 py-8 mx-auto bg-white dark:bg-gray-900">
     <header class="flex items-center justify-between ">
         <a href="#">
             <img class="w-auto h-6 sm:h-8" src="https://merakiui.com/images/full-logo.svg" alt="">
@@ -8636,9 +8636,431 @@ const codeData = {
 
         <p class="mt-3 text-gray-500 dark:text-gray-400">© {{ new Date().getFullYear() }} Meraki UI. All Rights Reserved.</p>
     </footer>
-</section>`
-        }
-    ]
+</section>`,
+    },
+  ],
+  faq: [
+    {
+      name: "Centered",
+      code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container max-w-4xl px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">Frequently asked questions</h1>
+
+        <div class="mt-12 space-y-8">
+            <div class="border-2 border-gray-100 rounded-lg dark:border-gray-700">
+                <button class="flex items-center justify-between w-full p-8">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">How i can play for my appoinment ?</h1>
+
+                    <span class="text-gray-400 bg-gray-200 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6" />
+                        </svg>
+                    </span>
+                </button>
+
+                <hr class="border-gray-200 dark:border-gray-700">
+
+                <p class="p-8 text-sm text-gray-500 dark:text-gray-300">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?
+                </p>
+            </div>
+
+            <div class="border-2 border-gray-100 rounded-lg dark:border-gray-700">
+                <button class="flex items-center justify-between w-full p-8">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">Is the cost of the appoinment covered by private health insurance?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+            <div class="border-2 border-gray-100 rounded-lg dark:border-gray-700">
+                <button class="flex items-center justify-between w-full p-8">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">Do i need a referral?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+            <div class="border-2 border-gray-100 rounded-lg dark:border-gray-700">
+                <button class="flex items-center justify-between w-full p-8">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">What are your opening house?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+            <div class="border-2 border-gray-100 rounded-lg dark:border-gray-700">
+                <button class="flex items-center justify-between w-full p-8">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">What can i expect at my first consultation?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>`,
+    },
+    {
+      name: "Cards",
+      code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">Frequently asked questions</h1>
+
+        <div class="mt-8 space-y-8 lg:mt-12">
+            <div class="p-8 bg-gray-100 rounded-lg dark:bg-gray-800">
+                <button class="flex items-center justify-between w-full">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">How i can play for my appoinment ?</h1>
+
+                    <span class="text-gray-400 bg-gray-200 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6" />
+                        </svg>
+                    </span>
+                </button>
+
+                <p class="mt-6 text-sm text-gray-500 dark:text-gray-300">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?
+                </p>
+            </div>
+
+            <div class="p-8 bg-gray-100 rounded-lg dark:bg-gray-800">
+                <button class="flex items-center justify-between w-full">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">Is the cost of the appoinment covered by private health insurance?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+            <div class="p-8 bg-gray-100 rounded-lg dark:bg-gray-800">
+                <button class="flex items-center justify-between w-full">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">Do i need a referral?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+            <div class="p-8 bg-gray-100 rounded-lg dark:bg-gray-800">
+                <button class="flex items-center justify-between w-full">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">What are your opening house?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+
+            <div class="p-8 bg-gray-100 rounded-lg dark:bg-gray-800">
+                <button class="flex items-center justify-between w-full">
+                    <h1 class="font-semibold text-gray-700 dark:text-white">What can i expect at my first consultation?</h1>
+
+                    <span class="text-white bg-blue-500 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>`,
+    },
+    {
+      name: "Grid",
+      code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">Frequently asked questions.</h1>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 lg:mt-16 md:grid-cols-2 xl:grid-cols-3">
+            <div>
+                <div class="inline-block p-3 text-white bg-blue-600 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What can i expect at my first consultation?</h1>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="inline-block p-3 text-white bg-blue-600 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What are your opening house?</h1>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="inline-block p-3 text-white bg-blue-600 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Do i need a referral?</h1>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="inline-block p-3 text-white bg-blue-600 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-xl font-semibold text-gray-700 dark:text-white">Is the cost of the appoinment covered by private health insurance?</h1>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="inline-block p-3 text-white bg-blue-600 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What is your cancellation policy?</h1>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <div class="inline-block p-3 text-white bg-blue-600 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+
+                <div>
+                    <h1 class="text-xl font-semibold text-gray-700 dark:text-white">What are the parking and public transport options?</h1>
+
+                    <p class="mt-2 text-sm text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`,
+    },
+    {
+      name: "Collapse",
+      code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">FAQ's</h1>
+
+        <hr class="my-6 border-gray-200 dark:border-gray-700">
+
+        <div>
+            <div>
+                <button class="flex items-center focus:outline-none">
+                    <svg class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+                    <h1 class="mx-4 text-xl text-gray-700 dark:text-white">How can I pay for my appointment ?</h1>
+                </button>
+
+                <div class="flex mt-8 md:mx-10">
+                    <span class="border border-blue-500"></span>
+
+                    <p class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.
+                    </p>
+                </div>
+            </div>
+
+            <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+            <div>
+                <button class="flex items-center focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+
+                    <h1 class="mx-4 text-xl text-gray-700 dark:text-white">What can I expect at my first consultation ?</h1>
+                </button>
+            </div>
+
+            <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+            <div>
+                <button class="flex items-center focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+
+                    <h1 class="mx-4 text-xl text-gray-700 dark:text-white">What are your opening hours ?</h1>
+                </button>
+            </div>
+
+            <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+            <div>
+                <button class="flex items-center focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+
+                    <h1 class="mx-4 text-xl text-gray-700 dark:text-white">Do I need a referral ?</h1>
+                </button>
+            </div>
+
+            <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+            <div>
+                <button class="flex items-center focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                    </svg>
+
+                    <h1 class="mx-4 text-xl text-gray-700 dark:text-white">Is the cost of the appointment covered by private health insurance ?</h1>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>`,
+    },
+    {
+      name: "Collapse with side link",
+      code: `<section class="bg-white dark:bg-gray-900">
+    <div class="container px-6 py-12 mx-auto">
+        <h1 class="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">Have any Questions?</h1>
+
+        <div class="mt-8 xl:mt-16 lg:flex lg:-mx-12">
+            <div class="lg:mx-12">
+                <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Table of Content</h1>
+
+                <div class="mt-4 space-y-4 lg:mt-8">
+                    <a href="#" class="block text-blue-500 dark:text-blue-400 hover:underline">General</a>
+                    <a href="#" class="block text-gray-500 dark:text-gray-300 hover:underline">Trust & Safety</a>
+                    <a href="#" class="block text-gray-500 dark:text-gray-300 hover:underline">Services</a>
+                    <a href="#" class="block text-gray-500 dark:text-gray-300 hover:underline">Billing</a>
+                    <a href="#" class="block text-gray-500 dark:text-gray-300 hover:underline">Office Cleaning</a>
+                </div>
+            </div>
+
+            <div class="flex-1 mt-8 lg:mx-12 lg:mt-0">
+                <div>
+                    <button class="flex items-center focus:outline-none">
+                        <svg class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"></path></svg>
+
+                        <h1 class="mx-4 text-xl text-gray-700 dark:text-white">How i can play for my appoinment ?</h1>
+                    </button>
+
+                    <div class="flex mt-8 md:mx-10">
+                        <span class="border border-blue-500"></span>
+
+                        <p class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, eum quae. Harum officiis reprehenderit ex quia ducimus minima id provident molestias optio nam vel, quidem iure voluptatem, repellat et ipsa.
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+                <div>
+                    <button class="flex items-center focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+
+                        <h1 class="mx-4 text-xl text-gray-700 dark:text-white">What can i expect at my first consultation ?</h1>
+                    </button>
+                </div>
+
+                <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+                <div>
+                    <button class="flex items-center focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+
+                        <h1 class="mx-4 text-xl text-gray-700 dark:text-white">What are your opening house ?</h1>
+                    </button>
+                </div>
+
+                <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+                <div>
+                    <button class="flex items-center focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+
+                        <h1 class="mx-4 text-xl text-gray-700 dark:text-white">Do i need a referral ?</h1>
+                    </button>
+                </div>
+
+                <hr class="my-8 border-gray-200 dark:border-gray-700">
+
+                <div>
+                    <button class="flex items-center focus:outline-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="flex-shrink-0 w-6 h-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+                        </svg>
+
+                        <h1 class="mx-4 text-xl text-gray-700 dark:text-white">Is the cost of the appoinment covered by private health insurance ?</h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>`,
+    },
+  ],
 };
 
 export default codeData;

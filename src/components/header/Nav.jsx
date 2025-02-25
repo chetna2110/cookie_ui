@@ -1,8 +1,30 @@
 import React from "react";
 import { navmenu } from "../../mockdata/data";
-import { Link, Links } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import {useRef} from "react";
+import { data } from "../../mockdata/cardData";
+import { useUser } from "@clerk/clerk-react";
 
 const Nav = () => {
+  const inputRef=useRef(null);
+  const navigate=useNavigate();
+  const { user, isSignedIn } = useUser();
+  const userName=user.firstName[0]+user.lastName[0];
+  const handleSearch = (e) => {
+    if (e.key === "Enter") {
+      const name = inputRef.current.value.toLowerCase();
+      const item = data.find(
+        (item) =>
+          item.componentName === name.charAt(0).toUpperCase() + name.slice(1)
+      );
+
+      if (item) {
+        navigate(item.link); // Change URL dynamically
+      } else {
+        alert("Component not found!");
+      }
+    }
+  };
   return (
     <nav className="bg-amber-100 flex items-center justify-between shadow-lg hover:shadow-orange-200 p-4 sm:px-6 lg:px-8">
       {/* Left Section */}
@@ -44,14 +66,23 @@ const Nav = () => {
         {/* Search */}
         <div className="flex-grow sm:flex-grow-0 w-full sm:w-auto">
           <input
+            ref={inputRef}
             type="search"
             placeholder="Search..."
             className="w-full sm:w-64 md:w-80 lg:w-96 h-10 border border-amber-500 rounded-lg focus:outline-none pl-2 focus:border-amber-800 focus:shadow-md transition-all duration-300"
+            onKeyDown={handleSearch}
           />
         </div>
 
         {/* Buttons */}
-        <div className="flex gap-4">
+        <div>
+          {
+            isSignedIn ?(
+              <div className="bg-amber-400 border border-amber-600 rounded-full p-2"  >
+                {userName.toUpperCase()}
+              </div>
+            ):(
+              <div className="flex gap-4">
           <Link to="/signin">
             <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
               Sign in
@@ -62,6 +93,9 @@ const Nav = () => {
               Sign up
             </button>
           </Link>
+        </div>
+            )
+          }
         </div>
       </div>
     </nav>
