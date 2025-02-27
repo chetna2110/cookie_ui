@@ -102,10 +102,10 @@ const Signin = () => {
       <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg  lg:max-w-4xl mt-20">
         <div className="hidden bg-cover lg:block lg:w-1/2">
           <img
-            src="./image/footerlogo.png"
+            src="/image/footerlogo.png"
             className=" h-full object-cover overflow-clip"
             alt=""
-            srcset=""
+            srcSet=""
           />
         </div>
         <div className="w-full px-6 py-8 md:px-8 lg:w-1/2 bg-amber-50">
@@ -113,7 +113,7 @@ const Signin = () => {
             <div className="h-full w-full flex justify-center items-center relative mt-[13px]">
               <img
                 className="w-40 h-40 absolute"
-                src="./image/logo.png"
+                src="/image/logo.png"
                 alt=""
               />
             </div>
@@ -241,7 +241,7 @@ const Signin = () => {
                 <span className="w-1/5 border-b lg:w-1/4"></span>
 
                 <Link
-                  to="/signin"
+                  to="/auth/signin"
                   className="text-xs text-center text-black uppercase hover:underline"
                 >
                   or login with email
@@ -308,7 +308,7 @@ const Signin = () => {
             <span className="w-1/5 border-b md:w-1/4"></span>
 
             <Link
-              to="/signup"
+              to="/auth/signup"
               className="text-xs text-black uppercase hover:underline"
             >
               or sign up

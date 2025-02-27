@@ -66,7 +66,7 @@ const Signup = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="hidden bg-cover lg:block lg:w-1/2">
             <img
-              src="./image/footerlogo.png"
+              src="/image/footerlogo.png"
               className="h-full object-cover"
               alt="Logo"
             />
@@ -76,7 +76,7 @@ const Signup = () => {
             <div className="flex items-center justify-center mt-10 relative">
               <img
                 className="w-40 h-40 absolute insert-2"
-                src="./image/logo.png"
+                src="/image/logo.png"
                 alt="Logo"
               />
             </div>
@@ -177,7 +177,7 @@ const Signup = () => {
 
             <div className="text-center mt-4">
               <Link
-                to="/signin"
+                to="/auth/signin"
                 className="text-sm font-medium text-gray-500 hover:underline"
               >
                 Already have an account? Sign in
