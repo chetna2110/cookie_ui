@@ -23,7 +23,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />, // Main layout with Nav/Footer
     children: [
-      { path: "", element: <Hero /> },
+      { path: "", element: <><Hero /><Grid/></> },
       { path: "categories", element: <><Grid /><Grid2 /></> },
       { path: "blog", element: <><BlogHero /><Bloggrid /></> },
       { path: "docs", element: <Docs /> },
