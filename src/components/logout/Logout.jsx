@@ -9,7 +9,7 @@ const Logout = ({isClicked, setIsClicked}) => {
 
   const handleLogout = async () => {
     await signOut(); // Logs the user out
-    navigate("/signin"); // Redirect to sign-in page
+    navigate("/"); // Redirect to sign-in page
   };
   // Delete Account function
   const handleDeleteAccount = async () => {

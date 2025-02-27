@@ -4,7 +4,7 @@ export const data = [
     componentName: "Alerts",
     componentCount: "9 components",
     uiName: "Application UI",
-    path: "./image/alerts.webp",
+    path: "/image/alerts.webp",
     link: "/categories/alerts", // Dynamic category path
   },
   {
@@ -12,7 +12,7 @@ export const data = [
     componentName: "Avatars",
     componentCount: "10 components",
     uiName: "Application UI",
-    path: "./image/avatars.webp",
+    path: "/image/avatars.webp",
     link: "/categories/avatars",
   },
   {
@@ -20,7 +20,7 @@ export const data = [
     componentName: "Breadcrumbs",
     componentCount: "5 components",
     uiName: "Application UI",
-    path: "./image/breadcrumbs.webp",
+    path: "/image/breadcrumbs.webp",
     link: "/categories/breadcrumbs",
   },
   {
@@ -28,7 +28,7 @@ export const data = [
     componentName: "Buttons",
     componentCount: "10 components",
     uiName: "Application UI",
-    path: "./image/buttons.webp",
+    path: "/image/buttons.webp",
     link: "/categories/buttons",
   },
   {
@@ -36,7 +36,7 @@ export const data = [
     componentName: "Cards",
     componentCount: "9 components",
     uiName: "Application UI",
-    path: "./image/cards.webp",
+    path: "/image/cards.webp",
     link: "/categories/cards",
   },
   {
@@ -44,7 +44,7 @@ export const data = [
     componentName: "Cookies",
     componentCount: "6 components",
     uiName: "Application UI",
-    path: "./image/cookies.webp",
+    path: "/image/cookies.webp",
     link: "/categories/cookies",
   },
   {
@@ -52,7 +52,7 @@ export const data = [
     componentName: "Dropdowns",
     componentCount: "6 components",
     uiName: "Application UI",
-    path: "./image/dropdowns.webp",
+    path: "/image/dropdowns.webp",
     link: "/categories/dropdowns",
   },
   {
@@ -60,7 +60,7 @@ export const data = [
     componentName: "Forms",
     componentCount: "4 components",
     uiName: "Application UI",
-    path: "./image/forms.webp",
+    path: "/image/forms.webp",
     link: "/categories/forms",
   },
   {
@@ -68,7 +68,7 @@ export const data = [
     componentName: "Inputs",
     componentCount: "13 components",
     uiName: "Application UI",
-    path: "./image/inputs.webp",
+    path: "/image/inputs.webp",
     link: "/categories/inputs",
   },
   {
@@ -76,7 +76,7 @@ export const data = [
     componentName: "Modals",
     componentCount: "5 components",
     uiName: "Application UI",
-    path: "./image/modals.webp",
+    path: "/image/modals.webp",
     link: "/categories/modals",
   },
   {
@@ -84,7 +84,7 @@ export const data = [
     componentName: "Navbars",
     componentCount: "6 components",
     uiName: "Application UI",
-    path: "./image/navbars.webp",
+    path: "/image/navbars.webp",
     link: "/categories/navbars",
   },
   {
@@ -92,7 +92,7 @@ export const data = [
     componentName: "Auth Form",
     componentCount: "9 components",
     uiName: "Application UI",
-    path: "./image/sign-in-and-registration.webp",
+    path: "/image/sign-in-and-registration.webp",
     link: "/categories/authform",
   },
   {
@@ -100,7 +100,7 @@ export const data = [
     componentName: "Skeleton",
     componentCount: "8 components",
     uiName: "Application UI",
-    path: "./image/skeleton.webp",
+    path: "/image/skeleton.webp",
     link: "/categories/skeleton",
   },
   {
@@ -108,7 +108,7 @@ export const data = [
     componentName: "Tables",
     componentCount: "6 components",
     uiName: "Application UI",
-    path: "./image/tables.webp",
+    path: "/image/tables.webp",
     link: "/categories/tables",
   },
   {
@@ -116,7 +116,7 @@ export const data = [
     componentName: "Tabs",
     componentCount: "4 components",
     uiName: "Application UI",
-    path: "./image/tabs.webp",
+    path: "/image/tabs.webp",
     link: "/categories/tabs",
   },
   {
@@ -124,7 +124,7 @@ export const data = [
     componentName: "Tooltip",
     componentCount: "7 components",
     uiName: "Application UI",
-    path: "./image/tooltip.webp",
+    path: "/image/tooltip.webp",
     link: "/categories/tooltip",
   }
 ];

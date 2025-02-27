@@ -33,7 +33,7 @@ const Nav = () => {
         {/* Logo */}
         <div className="flex items-center justify-center relative">
           <img
-            src="./image/logo.png"
+            src="/image/logo.png"
             alt=""
             className="size-20 absolute left-0 -top-[18px]"
           />
@@ -97,12 +97,12 @@ const Nav = () => {
             </div>
           ) : (
             <div className="flex gap-4">
-              <Link to="/signin">
+              <Link to="/auth/signin">
                 <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
                   Sign in
                 </button>
               </Link>
-              <Link to="/signup">
+              <Link to="/auth/signup">
                 <button className="bg-amber-600 rounded-lg px-4 sm:px-6 py-2 font-semibold hover:ring-4 ring-amber-500 hover:bg-amber-700 hover:text-white hover:animate-bounce transition-all duration-300 text-sm sm:text-base">
                   Sign up
                 </button>

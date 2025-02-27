@@ -6,7 +6,7 @@ const Footer = () => {
    <footer className=" mt-10 border-t border-gray-300 m">
     <div className='flex items-center justify-center  bg-gradient-to-r from-amber-200 to-white-400'>
     <div >
-    <img src="./image/footerlogo.png" alt="" className="size-48  left-0 -top-[18px] ml-4" />
+    <img src="/image/footerlogo.png" alt="" className="size-48  left-0 -top-[18px] ml-4" />
     </div>
     <div className='ml-9'>
   <div className="text-2xl font-serif text-orange-950 leading-relaxed">
@@ -25,7 +25,7 @@ const Footer = () => {
      <div className="flex items-center justify-start mt-2">
         <div className="relative">
           <img
-            src="./image/logo.png"
+            src="/image/logo.png"
             alt=""
             className="size-20 absolute left-0 -top-[18px]"
           />

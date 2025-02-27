@@ -4,7 +4,7 @@ export const data2 = [
     componentName: "Blog",
     componentCount: "6 components",
     uiName: "Marketing UI",
-    path: "./image/blog.webp",
+    path: "/image/blog.webp",
     link: "/categories/blog"
   },
   {
@@ -12,7 +12,7 @@ export const data2 = [
     componentName: "CTA",
     componentCount: "6 components",
     uiName: "Marketing UI",
-    path: "./image/cta.webp",
+    path: "/image/cta.webp",
     link: "/categories/cta"
   },
   {
@@ -20,7 +20,7 @@ export const data2 = [
     componentName: "Contact",
     componentCount: "13 components",
     uiName: "Marketing UI",
-    path: "./image/contact.webp",
+    path: "/image/contact.webp",
     link: "/categories/contact"
   },
   {
@@ -28,7 +28,7 @@ export const data2 = [
     componentName: "Email Templates",
     componentCount: "7 components",
     uiName: "Marketing UI",
-    path: "./image/email-templates.webp",
+    path: "/image/email-templates.webp",
     link: "/categories/emailtemplates"
   },
   {
@@ -36,7 +36,7 @@ export const data2 = [
     componentName: "FAQ",
     componentCount: "5 components",
     uiName: "Marketing UI",
-    path: "./image/faq.webp",
+    path: "/image/faq.webp",
     link: "/categories/faq"
   },
   {
@@ -44,7 +44,7 @@ export const data2 = [
     componentName: "Footers",
     componentCount: "10 components",
     uiName: "Marketing UI",
-    path: "./image/footers.webp",
+    path: "/image/footers.webp",
     link: "/categories/footers"
   },
   {
@@ -52,7 +52,7 @@ export const data2 = [
     componentName: "Portfolio",
     componentCount: "5 components",
     uiName: "Marketing UI",
-    path: "./image/portfolio.webp",
+    path: "/image/portfolio.webp",
     link: "/categories/portfolio"
   },
   {
@@ -60,7 +60,7 @@ export const data2 = [
     componentName: "Pricing",
     componentCount: "7 components",
     uiName: "Marketing UI",
-    path: "./image/pricing.webp",
+    path: "/image/pricing.webp",
     link: "/categories/pricing"
   },
   {
@@ -68,7 +68,7 @@ export const data2 = [
     componentName: "Heros",
     componentCount: "11 components",
     uiName: "Marketing UI",
-    path: "./image/heros.webp",
+    path: "/image/heros.webp",
     link: "/categories/heros"
   },
   {
@@ -76,7 +76,7 @@ export const data2 = [
     componentName: "404 Pages",
     componentCount: "7 components",
     uiName: "Marketing UI",
-    path: "./image/404-pages.webp",
+    path: "/image/404-pages.webp",
     link: "/categories/pages404"
   },
   {
@@ -84,7 +84,7 @@ export const data2 = [
     componentName: "Teams",
     componentCount: "7 components",
     uiName: "Marketing UI",
-    path: "./image/teams.webp",
+    path: "/image/teams.webp",
     link: "/categories/teams"
   },
   {
@@ -92,7 +92,7 @@ export const data2 = [
     componentName: "Testimonials",
     componentCount: "8 components",
     uiName: "Marketing UI",
-    path: "./image/testimonials.webp",
+    path: "/image/testimonials.webp",
     link: "/categories/testimonials"
   },
   {
@@ -100,7 +100,7 @@ export const data2 = [
     componentName: "Features",
     componentCount: "7 components",
     uiName: "Marketing UI",
-    path: "./image/features.webp",
+    path: "/image/features.webp",
     link: "/categories/features"
   }
 ];
