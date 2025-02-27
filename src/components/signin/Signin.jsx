@@ -7,6 +7,10 @@ const Signin = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isForget, setIsForget] = useState(false);
+  const [resetStep, setResetStep] = useState(false); // New state for reset step
+  const [resetCode, setResetCode] = useState(""); // Store the reset code
+  const [newPassword, setNewPassword] = useState(""); // Store the new password
+  const [success, setSucces]=useState("");
   const [error, setError] = useState("");
   const handleSignIn = async () => {
     if (!isLoaded) return;
@@ -30,6 +34,52 @@ const Signin = () => {
     } catch (err) {
       setError(
         err.errors ? err.errors[0].message : "Invalid email or password."
+      );
+    }
+  };
+
+  // Forgot Password Handler - Step 1 (Send reset code)
+  const handleForgotPassword = async () => {
+    if (!isLoaded) return;
+
+    try {
+      await signIn.create({
+        strategy: "reset_password_email_code",
+        identifier: email,
+      });
+      setResetStep(true); // Move to the next step
+      setError("");
+      setSuccess("Password reset email sent. Enter the reset code below.");
+    } catch (err) {
+      setError(
+        err.errors
+          ? err.errors[0].message
+          : "Error sending password reset email."
+      );
+    }
+  };
+
+  // Reset Password - Step 2 (Verify code and set new password)
+  const handleResetPassword = async () => {
+    if (!isLoaded) return;
+
+    try {
+      const result = await signIn.attemptFirstFactor({
+        strategy: "reset_password_email_code",
+        code: resetCode,
+        password: newPassword,
+      });
+
+      if (result.status === "complete") {
+        setSuccess("Password successfully reset! You can now sign in.");
+        setIsForget(false);
+        setResetStep(false);
+      } else {
+        setError("Invalid reset code or password. Try again.");
+      }
+    } catch (err) {
+      setError(
+        err.errors ? err.errors[0].message : "Failed to reset password."
       );
     }
   };
@@ -69,8 +119,90 @@ const Signin = () => {
             </div>
           </div>
           {isForget ? (
-          // forget Password logic
-            <div></div>
+            // forget Password logic
+            resetStep ? (
+              // Step 2: Enter reset code and new password
+              <>
+                <p className="text-xl text-center font-semibold text-black">
+                  Reset Password
+                </p>
+                <div className="mt-4">
+                  <label className="block mb-2 text-sm font-medium text-black">
+                    Reset Code
+                  </label>
+                  <input
+                    value={resetCode}
+                    onChange={(e) => setResetCode(e.target.value)}
+                    className="block w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:outline-none"
+                    type="text"
+                    placeholder="Enter reset code"
+                  />
+                </div>
+                <div className="mt-4">
+                  <label className="block mb-2 text-sm font-medium text-black">
+                    New Password
+                  </label>
+                  <input
+                    value={newPassword}
+                    onChange={(e) => setNewPassword(e.target.value)}
+                    className="block w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:outline-none"
+                    type="password"
+                    placeholder="Enter new password"
+                  />
+                </div>
+                {error && <p className="text-red-500 mt-2">{error}</p>}
+                {success && <p className="text-green-500 mt-2">{success}</p>}
+                <div className="mt-6 bg-amber-400 rounded-lg">
+                  <button
+                    onClick={handleResetPassword}
+                    className="w-full px-6 py-3 text-black font-medium"
+                  >
+                    Reset Password
+                  </button>
+                </div>
+                <button
+                  className="mt-4 text-black underline"
+                  onClick={() => setIsForget(false)}
+                >
+                  Back to Login
+                </button>
+              </>
+            ) : (
+              // Step 1: Enter email to send reset code
+              <>
+                <p className="text-xl text-center font-semibold text-black">
+                  Forgot Password?
+                </p>
+                <div className="mt-4">
+                  <label className="block mb-2 text-sm font-medium text-black">
+                    Email Address
+                  </label>
+                  <input
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    className="block w-full px-4 py-2 text-black bg-white border rounded-lg focus:border-amber-400 focus:outline-none"
+                    type="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                {error && <p className="text-red-500 mt-2">{error}</p>}
+                {success && <p className="text-green-500 mt-2">{success}</p>}
+                <div className="mt-6 bg-amber-400 rounded-lg">
+                  <button
+                    onClick={handleForgotPassword}
+                    className="w-full px-6 py-3 text-black font-medium"
+                  >
+                    Send Reset Code
+                  </button>
+                </div>
+                <button
+                  className="mt-4 text-black underline"
+                  onClick={() => setIsForget(false)}
+                >
+                  Back to Login
+                </button>
+              </>
+            )
           ) : (
             <>
               <p className="text-xl text-center font-semibold text-black">
@@ -142,7 +274,10 @@ const Signin = () => {
                   >
                     Password
                   </label>
-                  <div onClick={()=>setIsForget(!isForget)} className="text-xs text-black hover:underline">
+                  <div
+                    onClick={() => setIsForget(!isForget)}
+                    className="text-xs text-black hover:underline"
+                  >
                     Forget Password?
                   </div>
                 </div>
